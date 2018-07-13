@@ -1,1 +1,17 @@
-{{ content }}
+<h1>{{ page.cat-name }}</h1>
+
+{% if page.cat-name != "all" %}
+<ul>
+{% for post in site.posts %} 
+{% if post.categories contains page.cat-name %}
+ <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+{% endif %}
+{% endfor %}
+</ul>
+{% else %}
+<ul>
+{% for post in site.posts %} 
+ <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+{% endfor %}
+</ul>
+{% endif %}
