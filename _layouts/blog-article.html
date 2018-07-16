@@ -63,13 +63,13 @@
 							
 							<p class="author-status">
 								<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
-								<span class="author-status-name">{{ site.data["authors"][page.author].display_name }} - {{ site.data["authors"][page.author].role }}</span>
+								<span class="author-status-name">{{ site.data["authors"][page.author].name }} - {{ site.data["authors"][page.author].role }}</span>
 								<span class="author-status-date">{{ site.data["strings"].the_date }} {{ page.date | date: "%d/%m/%Y" }}</span>
 							</p>
 							
 							<ul class="article-categories">
 								{% for cat in page.categories %}
-								<li class="article-categories-item"><a href="{{ baseurl }}/blog/{{ cat }}/">{{ site.data["strings"].categories[cat].display_name }}</a></li>
+								<li class="article-categories-item {{ cat }}"><a href="{{ baseurl }}/blog/{{ cat }}/">{{ site.data["strings"].categories[cat].display_name }}</a></li>
 								{% endfor %}
 							</ul>
 							
