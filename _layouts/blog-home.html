@@ -1,17 +1,140 @@
-<h1>{{ page.cat-name }}</h1>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
 
-{% if page.cat-name != "all" %}
-<ul>
-{% for post in site.posts %} 
-{% if post.categories contains page.cat-name %}
- <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
-{% endif %}
-{% endfor %}
-</ul>
-{% else %}
-<ul>
-{% for post in site.posts %} 
- <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
-{% endfor %}
-</ul>
-{% endif %}
+	<head>
+   	<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+      <meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="default">
+      <link rel="stylesheet" type="text/css" href="{{ site.basurl }}/assets/css/showcase.css">
+      <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Lato:300,400,700,900" rel="stylesheet">
+   	<title>
+   		{% if page.title == "Home" %}
+				{{ site.title }} &middot; {{ site.tagline }}
+			{% else %}
+				{{ page.title }} &middot; {{ site.title }}
+		 	{% endif %}
+	   </title>
+   	
+   	<!-- Vue -->
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0"></script>
+
+		<!-- i18n -->
+		<script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+
+		<!-- Analytics -->
+		<script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-48957810-1']);
+            _gaq.push(['_setDomainName', 'zenbus.fr']);
+            _gaq.push(['_setAllowLinker', true]);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+            
+            
+       </script> 
+   </head>
+   
+   <body>
+   	{% assign lang = site.active_lang %}
+   	<div id="app">
+   		<button class="panel-hamburger" v-on:click="showPanel= !showPanel" v-bind:class="{'show-panel':showPanel}"></button>
+
+			{% include nav.html %}
+			<section class="blog">
+				<header class="blog-header">
+					<form class="blog-header-search">
+						<input type="search" class="blog-header-search-input" placeholder="{{ site.data['strings'].search_placeholder }}">
+					</form>
+					<nav class="blog-header-categories">
+						<ul>
+							{% assign pages_list = site.pages %}
+							{% for node in pages_list %}
+								{% if node.cat-name %}
+									<li class="categories-item{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ site.data["strings"].categories[node.cat-name].display_name }}</a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+					</nav>
+				</header>
+				<div class="blog-articles">
+					{% if page.cat-name != "all" %}
+					{% for post in site.posts %}
+					{% if post.categories contains page.cat-name %}
+					<article class="blog-articles-card">
+						<header class="card-header" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ post.image }}')">
+							<a href="{{ post.url }}"></a>
+						</header>
+						<div class="card-infos">
+							<img src="{{ baseurl }}/assets/img/authors/{{ site.data['authors'][post.author].photo }}" alt="" class="card-infos-img">
+							<div class="card-infos-author">
+								<p class="author-status">
+									<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
+									<span class="author-status-name">{{ site.data["authors"][post.author].display_name }} - {{ site.data["authors"][post.author].role }}</span>
+									<span class="author-status-date">{{ site.data["strings"].the_date }} {{ post.date | date: "%d/%m/%Y" }}</span>
+								</p>
+							</div>
+							<a href="{{ post.url }}" class="card-content">
+								<h1 class="card-content-title">{{ post.title }}</h1>
+								<p class="card-content-text">
+									{{ post.excerpt }}
+								</p>
+							</a>
+							<ul class="card-categories">
+								{% assign pages_list = site.pages %}
+								{% for node in pages_list %}
+									{% if node.cat-name and post.categories contains node.cat-name %}
+										<li class="categories-item{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ site.data["strings"].categories[node.cat-name].display_name }}</a></li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						</div>
+					</article>
+					{% endif %}
+					{% endfor %}
+					{% else %}
+					{% for post in site.posts %}
+					<article class="blog-articles-card">
+						<header class="card-header" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ post.image }}')">
+							<a href="{{ post.url }}"></a>
+						</header>
+						<div class="card-infos">
+							<img src="{{ baseurl }}/assets/img/authors/{{ site.data['authors'][post.author].photo }}" alt="" class="card-infos-img">
+							<div class="card-infos-author">
+								<p class="author-status">
+									<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
+									<span class="author-status-name">{{ site.data["authors"][post.author].display_name }} - {{ site.data["authors"][post.author].role }}</span>
+									<span class="author-status-date">{{ site.data["strings"].the_date }} {{ post.date | date: "%d/%m/%Y" }}</span>
+								</p>
+							</div>
+							<a href="{{ post.url }}" class="card-content">
+								<h1 class="card-content-title">{{ post.title }}</h1>
+								<p class="card-content-text">
+									{{ post.excerpt }}
+								</p>
+							</a>
+							<ul class="card-categories">
+								{% assign pages_list = site.pages %}
+								{% for node in pages_list %}
+									{% if node.cat-name and post.categories contains node.cat-name %}
+										<li class="categories-item{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ site.data["strings"].categories[node.cat-name].display_name }}</a></li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						</div>
+					</article>
+					{% endfor %}
+					{% endif %}
+				</div>
+			</section>
+   	</div>
+   	
+   </body>
+   
+</html>

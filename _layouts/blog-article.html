@@ -50,7 +50,7 @@
 			
 			<div class="article-container">
 				<header>
-					<a href="{{ baseurl }}/blog/">{{ site.back_to_articles[lang]}}</a>
+					<a href="{{ baseurl }}/blog/">{{ site.data["strings"].back_to_articles }}</a>
 				</header>
 				
 				<article class="article">
@@ -59,17 +59,17 @@
 						<h1 class="article-infos-title">{{ page.title }}</h1>
 						
 						<div class="article-infos-author">
-							<img src="" alt="" class="author-picture">
+							<img src="{{ baseurl }}/assets/img/authors/{{ site.data['authors'][page.author].photo }}" alt="" class="author-picture">
 							
 							<p class="author-status">
-								<span class="author-status-prefix">{{ site.written_by[lang]}} </span>
-								<span class="author-status-name">{{ page.author }}</span>
-								<span class="author-status-date">{{ page.date | date_to_string }}</span>
+								<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
+								<span class="author-status-name">{{ site.data["authors"][page.author].display_name }} - {{ site.data["authors"][page.author].role }}</span>
+								<span class="author-status-date">{{ site.data["strings"].the_date }} {{ page.date | date: "%d/%m/%Y" }}</span>
 							</p>
 							
 							<ul class="article-categories">
 								{% for cat in page.categories %}
-								<li class="article-categories-item"><a href="{{ baseurl }}/blog/{{ cat }}/">{{ cat }}</a></li>
+								<li class="article-categories-item"><a href="{{ baseurl }}/blog/{{ cat }}/">{{ site.data["strings"].categories[cat].display_name }}</a></li>
 								{% endfor %}
 							</ul>
 							
@@ -78,7 +78,7 @@
 					</div>
 
 					<div class="article-content">
-						<header class="article-content-banner"></header>
+						<header class="article-content-banner" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ page.image }}')"></header>
 						
 						<div class="article-content-text">
 							{{ content }}
