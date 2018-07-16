@@ -1,3 +1,13 @@
+# ----------- NAV ------------
+nav:
+  home: "home"
+  collectivity: "local authorities"
+  operators: "transport operators"
+  passengers: "passengers"
+  blog: "blog"
+  team: "team"
+  contact: "contact"
+
 # ----------- BLOG ------------
 # ----- Template Article
 written_by: "By"
