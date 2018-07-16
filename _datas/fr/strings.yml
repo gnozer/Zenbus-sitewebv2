@@ -1,3 +1,13 @@
+# ----------- NAV ------------
+nav:
+  home: "home"
+  collectivity: "collectivités"
+  operators: "exploitants"
+  passengers: "voyageurs"
+  blog: "blog"
+  team: "équipe"
+  contact: "contact"
+
 # ----------- BLOG ------------
 # ----- Template Article
 written_by: "Par"

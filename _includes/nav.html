@@ -6,25 +6,25 @@
       		
       		<menu class="panel-menu">
       			<li class="panel-menu-item home{% if page.url == '/' %} active{% endif %}">
-      				<a href=" /" class="panel-menu-item-text">home</a>
+      				<a href=" /" class="panel-menu-item-text">{{ site.data["strings"].nav.home }}</a>
       			</li>
       			<li class="panel-menu-item collectivity">
-      				<a href="" class="panel-menu-item-text">collectivités</a>
+      				<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.collectivity }}</a>
       			</li>
       			<li class="panel-menu-item operators">
-      				<a href="" class="panel-menu-item-text">exploitants</a>
+      				<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.operators }}</a>
       			</li>
       			<li class="panel-menu-item passenger">
-      				<a href="" class="panel-menu-item-text">voyageurs</a>
+      				<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.passenger }}</a>
       			</li>
       			<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
-      				<a href="" class="panel-menu-item-text">blog</a>
+      				<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.blog }}</a>
       			</li>
       			<li class="panel-menu-item team">
-      				<a href="" class="panel-menu-item-text">équipe</a>
+      				<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.team }}</a>
       			</li>
       			<li class="panel-menu-item contact">
-      				<a href="contact.html" class="panel-menu-item-text">contact</a>
+      				<a href="contact.html" class="panel-menu-item-text">{{ site.data["strings"].nav.contact }}</a>
       			</li>
       		</menu>
       		
