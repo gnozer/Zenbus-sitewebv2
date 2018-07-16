@@ -24,6 +24,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 destination: 
+source: .
+data_dir: _datas
 
 permalink: /blog/:year/:month/:day/:title/
 
@@ -38,17 +40,6 @@ languages: ["fr", "en", "es"]
 default_lang: "fr"
 exclude_from_localization: ["assets"]
 parallel_localization: true
-
-#data in layout article
-written_by:
- fr: Par
- en: By
- es: Por
-
-back_to_articles:
- fr: Retour aux articles
- en: Back to articles
- es: Volver a los artículos
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

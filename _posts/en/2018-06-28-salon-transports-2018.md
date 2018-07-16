@@ -1,10 +1,11 @@
 ---
 layout: blog-article
-title:  Transports publics 2018
-date:   2018-06-28 13:51:22 +0200
-categories: [evenements, viedeboite]
+title: Transports publics 2018
+date: 2018-06-28 13:51:22 +0200
+image: salon.jpg
+categories: [life,events]
 tags: [salon, STP, vin, communication]
-author: Simon Vergnaud - Chef de Projet
+author: simon
 lang: en
 ---
 Zenbus était présent au Salon des Transports Publics qui se tenait porte de Versailles. Bénéficiant cette année d'un ballon gonflé à l'hélium du plu sbel effet, il était évident que nous n'étions pas là pour faire de la figuration. Armés d'une équipe quasi au complet et d'une D-Vine à la pointe de la techno(eno)logique, il n'en fallait pas plus détonner dans le monde figé du transport.

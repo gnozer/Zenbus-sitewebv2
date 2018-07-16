@@ -1,2 +1,19 @@
-1: "Por "
-2: "Volver a los artículos"
+# ----------- BLOG ------------
+# ----- Template Article
+written_by: "Por"
+back_to_articles: "Todos los artículos"
+the_date: "El "
+
+# ----- Home Blog
+search_placeholder: "Buscar"
+categories:
+  all:
+    display_name: "Todos"
+  life:
+    display_name: "Vida de la compañía"
+  technical:
+    display_name: "Técnico"
+  commercial:
+    display_name: "Comercial"
+  events:
+    display_name: "Eventos"

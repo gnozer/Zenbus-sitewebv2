@@ -1,2 +1,19 @@
-1: "Par "
-2: "Retour aux articles"
+# ----------- BLOG ------------
+# ----- Template Article
+written_by: "Par"
+back_to_articles: "Tous les articles"
+the_date: "Le "
+
+# ----- Home Blog
+search_placeholder: "Rechercher"
+categories:
+  all:
+    display_name: "Tous"
+  life:
+    display_name: "Vie de boîte"
+  technical:
+    display_name: "Technique"
+  commercial:
+    display_name: "Commercial"
+  events:
+    display_name: "Evénements"

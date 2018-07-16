@@ -1,12 +1,12 @@
 <nav class="panel">
       	  
       		<header class="panel-logo">
-      			<img src="../assets/img/zenbus_logo.png" alt="" class="panel-logo-img">
+      			<img src="{{ site.baseurl }}/assets/img/zenbus_logo.png" alt="" class="panel-logo-img">
       		</header>
       		
       		<menu class="panel-menu">
-      			<li class="panel-menu-item home active">
-      				<a href="index.html" class="panel-menu-item-text">home</a>
+      			<li class="panel-menu-item home{% if page.url == '/' %} active{% endif %}">
+      				<a href=" /" class="panel-menu-item-text">home</a>
       			</li>
       			<li class="panel-menu-item collectivity">
       				<a href="" class="panel-menu-item-text">collectivités</a>
@@ -17,7 +17,7 @@
       			<li class="panel-menu-item passenger">
       				<a href="" class="panel-menu-item-text">voyageurs</a>
       			</li>
-      			<li class="panel-menu-item blog">
+      			<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
       				<a href="" class="panel-menu-item-text">blog</a>
       			</li>
       			<li class="panel-menu-item team">

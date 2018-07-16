@@ -1,2 +1,19 @@
-1: "By "
-2: "Back to articles"
+# ----------- BLOG ------------
+# ----- Template Article
+written_by: "By"
+back_to_articles: "All the articles"
+the_date: "The "
+
+# ----- Home Blog
+search_placeholder: "Search"
+categories:
+  all:
+    display_name: "All"
+  life:
+    display_name: "Company's life"
+  technical:
+    display_name: "Technical"
+  commercial:
+    display_name: "Commercial"
+  events:
+    display_name: "Events"
