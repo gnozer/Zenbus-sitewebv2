@@ -27,3 +27,16 @@ categories:
     display_name: "Commercial"
   events:
     display_name: "Events"
+
+# ---------- FOOTER -----------
+footer:
+  follow_us: "Follow us"
+  keep_in_touch: "Stay informed"
+  error_email: "A valid email address is required."
+  policy: 'By entering your email address, you agree to receive the latest news by email and accept our <a href="/mentions.html#donnees" class="footer-part-text-link">Confidentiality policy</a>'
+  contact: "Contact"
+  mentions: "Legals"
+  cgu: "General Terms and Conditions of Use"
+  faq: "FAQ"
+  datas: "Zenbus Data"
+  copyrights: "© Zenbus 2018, all rights reserved"

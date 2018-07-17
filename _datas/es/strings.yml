@@ -27,3 +27,16 @@ categories:
     display_name: "Comercial"
   events:
     display_name: "Eventos"
+
+# ---------- FOOTER -----------
+footer:
+  follow_us: "Síguenos"
+  keep_in_touch: "Mantenerme informado"
+  error_email: "Es necesario un email válido."
+  policy: 'Al introducir tu dirección de email, aceptas recibir nuestras noticias y novedades por correo electrónico y tomas conocimiento de nuestra <a href="/mentions.html#donnees" class="footer-part-text-link">política de privacidad</a>'
+  contact: "Contacto"
+  mentions: "Contratación"
+  cgu: "CGU"
+  faq: "FAQ"
+  datas: "Datos Zenbus"
+  copyrights: "© Zenbus 2018, todos los derechos reservados"
