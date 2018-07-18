@@ -4,3 +4,9 @@ simon:
   email: simon.vergnaud@zenbus.fr
   role: Chef de projet
   photo: simon.jpeg
+marie:
+  name: Marie Stoffel
+  display_name: Marie
+  email: marie.stoffel@zenbus.fr
+  role: Responsable Marketing & Communication
+  photo: marie.png

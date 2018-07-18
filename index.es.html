@@ -171,7 +171,7 @@ lang: es
    					<ul class="vision-container-personas">
    						<li class="persona collectivity">
    							<header class="persona-header">
-   								<img src="/img/collectivity.png" alt="Collectivité" class="persona-header-img">
+   								<img src="{{ site.baseurl }}/assets/img/collectivity.png" alt="Collectivité" class="persona-header-img">
    							</header>
    							<div class="persona-content">
    								<h3 class="persona-content-title">Colectividad</h3>
@@ -185,7 +185,7 @@ lang: es
    						</li>
    						<li class="persona operator">
    							<header class="persona-header">
-   								<img src="/img/operator.png" alt="Operador" class="persona-header-img">
+   								<img src="{{ site.baseurl }}/assets/img/operator.png" alt="Operador" class="persona-header-img">
    							</header>
    							<div class="persona-content">
    								<h3 class="persona-content-title">Operador</h3>
@@ -199,7 +199,7 @@ lang: es
    						</li>
    						<li class="persona passenger">
    							<header class="persona-header">
-   								<img src="/img/passenger.png" alt="Viajero" class="persona-header-img">
+   								<img src="{{ site.baseurl }}/assets/img/passenger.png" alt="Viajero" class="persona-header-img">
    							</header>
    							<div class="persona-content">
    								<h3 class="persona-content-title">Viajero</h3>
@@ -213,7 +213,7 @@ lang: es
    						</li>
    						<li class="persona driver">
    							<header class="persona-header">
-   								<img src="/img/driver.png" alt="Conductor" class="persona-header-img">
+   								<img src="{{ site.baseurl }}/assets/img/driver.png" alt="Conductor" class="persona-header-img">
    							</header>
    							<div class="persona-content">
    								<h3 class="persona-content-title">Conductor</h3>
@@ -294,22 +294,22 @@ lang: es
       				</header>
    					<ul class="statistics-content-others">
    						<li class="stat">
-   							<img src="/img/stat_flag.png" alt="stat icon" class="stat-img">
+   							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
    							<span class="stat-metric">[%accounts.length%]</span>
    							<span class="stat-description">redes mostradas</span>
    						</li>
    						<li class="stat">
-   							<img src="/img/stat_flag.png" alt="stat icon" class="stat-img">
+   							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
    							<span class="stat-metric">5811</span>
    							<span class="stat-description">paradas con servicio de transporte</span>
    						</li>
    						<li class="stat">
-   							<img src="/img/stat_flag.png" alt="stat icon" class="stat-img">
+   							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
    							<span class="stat-metric">-42<small>%</small></span>
    							<span class="stat-description">problemas evitados</span>
    						</li>
    						<li class="stat">
-   							<img src="/img/stat_flag.png" alt="stat icon" class="stat-img">
+   							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
    							<span class="stat-metric">12</span>
    							<span class="stat-description">citas perdidas</span>
    						</li>
@@ -352,62 +352,5 @@ lang: es
                   <button type="submit" class="classic-form-submit" :disabled="contactSent">Enviar</button>
                </form>
             </section>
-      		
-      		<footer class="footer">
-
-               <div class="footer-part social">
-                  <h4 class="footer-part-title">Síguenos</h4>
-                  <div class="footer-part-text">
-                     <a href="https://www.facebook.com/ZenBusApp/" target="_blank" class="social-img fb"></a>
-                     <a href="https://twitter.com/zenbus" target="_blank" class="social-img tw"></a>
-                     <a href="https://www.linkedin.com/company/zenbus/" target="_blank" class="social-img in"></a>
-                  </div>
-               </div>
-
-   				<div class="footer-part subscribe">
-   					<h4 class="footer-part-title">Mantenerme informado</h4>
-   					<form class="subscribe-form" name="newsletter_form" :class="{'email-sent': newsletterSent, 'form-error': errors.newsletter.length != 0}" v-on:submit.prevent="sendDatasToSheet('newsletter')" method="post" action="">
-   						<span v-if="errors.newsletter.length" class="subscribe-form-error">Es necesario un email válido.</span>
-   						<input type="email" class="subscribe-form-input" placeholder="Email" name="email" v-model="dataFromForms.newsletter.email" v-on:blur="newsletterSent = false">
-   						<button type="submit" class="subscribe-form-submit" :disabled="newsletterSent"></button>
-   					</form>
-						<p class="footer-part-text">Al introducir tu dirección de email, aceptas recibir nuestras noticias y novedades por correo electrónico y tomas conocimiento de nuestra <a href="/mentions.html#donnees" class="footer-part-text-link">política de privacidad</a></p>
-   				</div>
-
-   				<div class="footer-part contact">
-   					<h4 class="footer-part-title">Contacto</h4>
-   					<p class="footer-part-text">
-                     <a v-on:click="mailto" class="footer-part-text-link">contact@zenbus.fr</a>
-                     <a href="https://www.google.com/maps/place/10+Rue+Coquilli%C3%A8re,+75001+Paris/@48.8636194,2.3413656,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e225fca0495:0x195c385c2ca51f6a!8m2!3d48.8636194!4d2.3435543" target="_blank" class="footer-part-text-link">10, rue Coquillère - 75001 Paris</a>
-                     <a href="https://www.google.com/maps/place/92+Quai+de+la+Fosse,+44100+Nantes/@47.2081266,-1.5727794,17z/data=!4m13!1m7!3m6!1s0x4805ec08ac19a1d9:0x72814c3217221e2e!2s92+Quai+de+la+Fosse,+44100+Nantes!3b1!8m2!3d47.208123!4d-1.5705907!3m4!1s0x4805ec08ac19a1d9:0x72814c3217221e2e!8m2!3d47.208123!4d-1.5705907" target="_blank" class="footer-part-text-link">92, quai de la Fosse - 44000 Nantes</a>
-                     <a href="tel:+33987361246" class="footer-part-text-link">+33 9 87 36 12 46</a>
-                  </p>
-   				</div>
-
-   				<div class="footer-part links">
-   					<h4 class="footer-part-title">ZENBUS</h4>
-   					<p class="footer-part-text">
-   						<!-- <a href="" class="footer-part-text-link">Presse</a>
-   						<a href="" class="footer-part-text-link">Recrutement</a> -->
-   						<a href="/mentions.html" target="_blank" class="footer-part-text-link">Contratación</a>
-   						<a href="/mentions.html#cgu" target="_blank" class="footer-part-text-link">CGU</a>
-   						<a href="https://doc-dot-zenbussurvey.appspot.com/more/faq.html" target="_blank" class="footer-part-text-link">FAQ</a>
-   						<a href="/mentions.html#donnees" target="_blank" class="footer-part-text-link">Datos Zenbus</a>
-   					</p>
-   				</div>
-
-   				<div class="footer-part download">
-   					<a href="https://itunes.apple.com/fr/app/zenbus/id808231328" target="_blank" class="download-link appstore"></a>
-   					<a href="https://play.google.com/store/apps/details?id=com.byjoul.code.zenbus.android" target="_blank" class="download-link playstore"></a>
-   				</div>
-      			
-      			<div class="footer-sub">
-                  <div class="footer-sub-language">
-                     <a class="language-item" href=" /">Français</a>
-                     <a class="language-item" href="{{ site.baseurl }}/en/" >English</a>
-                     <a class="language-item active" >Español</a>
-                  </div>
-                  <span class="footer-sub-copyright">© Zenbus 2018, tous droits réservés</span>
-               </div>
-      		</footer>
+      		{% include footer.html %}
       	</div>
