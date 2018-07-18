@@ -71,7 +71,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-polyglot
   minima (~> 2.0)
-  tzinfo-data
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
