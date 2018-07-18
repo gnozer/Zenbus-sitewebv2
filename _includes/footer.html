@@ -9,10 +9,10 @@
                </div>
    				<div class="footer-part subscribe">
    					<h4 class="footer-part-title">{{ site.data["strings"].footer.keep_in_touch }}</h4>
-   					<form class="subscribe-form" name="newsletter_form" :class="{'email-sent': newsletterSent, 'form-error': errors.newsletter.length != 0}" v-on:submit.prevent="sendDatasToSheet('newsletter')" method="post" action="">
-   						<span v-if="errors.newsletter.length" class="subscribe-form-error">{{ site.data["strings"].footer.error_email }}</span>
-   						<input type="email" class="subscribe-form-input" placeholder="Email" name="email" v-model="dataFromForms.newsletter.email" v-on:blur="newsletterSent = false">
-   						<button type="submit" class="subscribe-form-submit" :disabled="newsletterSent"></button>
+   					<form id="newsletterForm" class="subscribe-form" >
+   						<span class="subscribe-form-error">{{ site.data["strings"].footer.error_email }}</span>
+   						<input type="email" class="subscribe-form-input" placeholder="Email" name="email">
+   						<button type="submit" class="subscribe-form-submit"></button>
    					</form>
 						<p class="footer-part-text">{{ site.data["strings"].footer.policy }}</p>
    				</div>
