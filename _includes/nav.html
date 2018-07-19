@@ -1,7 +1,7 @@
 <nav class="panel">
       	  
       		<header class="panel-logo">
-      			<img src="{{ site.baseurl }}/assets/img/zenbus_logo.png" alt="" class="panel-logo-img">
+      			<img src="{{ site.baseurl }}/assets/img/zenbus_logo.png" alt="logo zenbus" class="panel-logo-img">
       		</header>
       		
       		<menu class="panel-menu">
@@ -18,7 +18,7 @@
       				<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.passengers }}</a>
       			</li>
       			<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
-      				<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.blog }}</a>
+      				<a href="{{ site.baseurl }}/blog/" class="panel-menu-item-text">{{ site.data["strings"].nav.blog }}</a>
       			</li>
       			<li class="panel-menu-item team{% if page.title == 'Equipe' %} active{% endif %}">
       				<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.team }}</a>
