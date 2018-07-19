@@ -9,7 +9,7 @@
    		<button class="panel-hamburger" v-on:click="showPanel= !showPanel" v-bind:class="{'show-panel':showPanel}"></button>
 
 			{% include nav.html %}
-			<section class="blog">
+			<section class="blog-container">
 				<header class="blog-header">
 					<form class="blog-header-search">
 						<input type="search" class="blog-header-search-input" placeholder="{{ site.data['strings'].search_placeholder }}">
@@ -98,7 +98,7 @@
 			{% include footer.html %}
    	</div>
    	{% include loader.html %}
-   	<script src="{{ site.baseurl }}/assets/js/index.min.js"></script>
+   	<script src="{{ site.baseurl }}/assets/js/footer.js"></script>
    </body>
    
 </html>
