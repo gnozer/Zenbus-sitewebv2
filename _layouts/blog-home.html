@@ -44,9 +44,7 @@
 							</div>
 							<a href="{{ post.url }}" class="card-content">
 								<h1 class="card-content-title">{{ post.title }}</h1>
-								<p class="card-content-text">
-									{{ post.excerpt }}
-								</p>
+								{{ post.excerpt }}
 							</a>
 							<ul class="card-categories">
 								{% assign pages_list = site.pages %}
@@ -84,15 +82,13 @@
 							</div>
 							<a href="{{ post.url }}" class="card-content">
 								<h1 class="card-content-title">{{ post.title }}</h1>
-								<p class="card-content-text">
-									{{ post.excerpt }}
-								</p>
+								{{ post.excerpt }}
 							</a>
 							<ul class="card-categories">
 								{% assign pages_list = site.pages %}
 								{% for node in pages_list %}
 									{% if node.cat-name and post.categories contains node.cat-name %}
-										<li class="categories-item {{ node.cat-name }}{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ site.data["strings"].categories[node.cat-name].display_name }}</a></li>
+										<li class="card-categories-item {{ node.cat-name }}{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ site.data["strings"].categories[node.cat-name].display_name }}</a></li>
 									{% endif %}
 								{% endfor %}
 							</ul>
