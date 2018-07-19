@@ -1,0 +1,29 @@
+<article class="blog-articles-card">
+	<header class="card-header" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ include.image }}')">
+		<a href="{{ include.url }}"></a>
+	</header>
+	<div class="card-infos">
+		<img src="{{ baseurl }}/assets/img/authors/{{ site.data['authors'][post.author].photo }}" alt="" class="card-infos-img">
+		<div class="card-infos-author">
+			<p class="author-status">
+				<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
+				<span class="author-status-name">{{ site.data["authors"][include.author].name }} - {{ site.data["authors"][include.author].role }}</span>
+				<span class="author-status-date">{{ site.data["strings"].the_date }} {{ include.date | date: "%d/%m/%Y" }}</span>
+			</p>
+		</div>
+		<a href="{{ include.url }}" class="card-content">
+			<h1 class="card-content-title">{{ include.title }}</h1>
+			<p class="card-content-text">
+				{{ include.excerpt }}
+			</p>
+		</a>
+		<ul class="card-categories">
+			{% assign pages_list = site.pages %}
+			{% for node in pages_list %}
+				{% if node.cat-name and include.categories contains node.cat-name %}
+					<li class="categories-item {{ node.cat-name }}{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ site.data["strings"].categories[node.cat-name].display_name }}</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</article>

@@ -29,7 +29,7 @@
 					{% if page.cat-name != "all" %}
 					{% for post in site.posts %}
 					{% if post.categories contains page.cat-name %}
-					<article class="blog-articles-card">
+					<!--<article class="blog-articles-card">
 						<header class="card-header" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ post.image }}')">
 							<a href="{{ post.url }}"></a>
 						</header>
@@ -57,7 +57,14 @@
 								{% endfor %}
 							</ul>
 						</div>
-					</article>
+					</article>-->
+						{% include components/post-card.html
+									  categories=post.categories
+									  image=post.image
+									  title=post.title
+									  author=post.author
+									  date=post.date
+									  url=post.url %}
 					{% endif %}
 					{% endfor %}
 					{% else %}
