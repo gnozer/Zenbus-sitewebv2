@@ -1,4 +1,4 @@
----
+﻿---
 layout: blog-article
 title: Jekyll - les bonnes pratiques
 date: 2018-07-18
