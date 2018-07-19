@@ -1,3 +1,6 @@
+# --------- HOMEPAGE ----------
+homepage: 
+  title: "Mobility transformed"
 # ----------- NAV ------------
 nav:
   home: "home"
