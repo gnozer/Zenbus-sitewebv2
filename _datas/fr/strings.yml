@@ -1,3 +1,7 @@
+# --------- HOMEPAGE ----------
+homepage: 
+  title: "Transformer la mobilité"
+
 # ----------- NAV ------------
 nav:
   home: "home"

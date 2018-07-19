@@ -29,64 +29,24 @@
 					{% if page.cat-name != "all" %}
 					{% for post in site.posts %}
 					{% if post.categories contains page.cat-name %}
-					<article class="blog-articles-card">
-						<header class="card-header" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ post.image }}')">
-							<a href="{{ post.url }}"></a>
-						</header>
-						<div class="card-infos">
-							<img src="{{ baseurl }}/assets/img/authors/{{ site.data['authors'][post.author].photo }}" alt="" class="card-infos-img">
-							<div class="card-infos-author">
-								<p class="author-status">
-									<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
-									<span class="author-status-name">{{ site.data["authors"][post.author].name }} - {{ site.data["authors"][post.author].role }}</span>
-									<span class="author-status-date">{{ site.data["strings"].the_date }} {{ post.date | date: "%d/%m/%Y" }}</span>
-								</p>
-							</div>
-							<a href="{{ post.url }}" class="card-content">
-								<h1 class="card-content-title">{{ post.title }}</h1>
-								{{ post.excerpt }}
-							</a>
-							<ul class="card-categories">
-								{% assign pages_list = site.pages %}
-								{% for node in pages_list %}
-									{% if node.cat-name and post.categories contains node.cat-name %}
-										<li class="categories-item {{ node.cat-name }}{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ site.data["strings"].categories[node.cat-name].display_name }}</a></li>
-									{% endif %}
-								{% endfor %}
-							</ul>
-						</div>
-					</article>
+						{% include components/post-card.html
+									  categories=post.categories
+									  image=post.image
+									  title=post.title
+									  author=post.author
+									  date=post.date
+									  url=post.url %}
 					{% endif %}
 					{% endfor %}
 					{% else %}
 					{% for post in site.posts %}
-					<article class="blog-articles-card">
-						<header class="card-header" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ post.image }}')">
-							<a href="{{ post.url }}"></a>
-						</header>
-						<div class="card-infos">
-							<img src="{{ baseurl }}/assets/img/authors/{{ site.data['authors'][post.author].photo }}" alt="" class="card-infos-img">
-							<div class="card-infos-author">
-								<p class="author-status">
-									<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
-									<span class="author-status-name">{{ site.data["authors"][post.author].name }} - {{ site.data["authors"][post.author].role }}</span>
-									<span class="author-status-date">{{ site.data["strings"].the_date }} {{ post.date | date: "%d/%m/%Y" }}</span>
-								</p>
-							</div>
-							<a href="{{ post.url }}" class="card-content">
-								<h1 class="card-content-title">{{ post.title }}</h1>
-								{{ post.excerpt }}
-							</a>
-							<ul class="card-categories">
-								{% assign pages_list = site.pages %}
-								{% for node in pages_list %}
-									{% if node.cat-name and post.categories contains node.cat-name %}
-										<li class="card-categories-item {{ node.cat-name }}{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ site.data["strings"].categories[node.cat-name].display_name }}</a></li>
-									{% endif %}
-								{% endfor %}
-							</ul>
-						</div>
-					</article>
+						{% include components/post-card.html
+									  categories=post.categories
+									  image=post.image
+									  title=post.title
+									  author=post.author
+									  date=post.date
+									  url=post.url %}
 					{% endfor %}
 					{% endif %}
 				</div>
