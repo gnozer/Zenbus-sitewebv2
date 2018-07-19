@@ -10,3 +10,13 @@ marie:
   email: marie.stoffel@zenbus.fr
   role: Responsable Marketing & Communication
   photo: marie.png
+quentin:
+  name: Quentin Deniaud
+  display_name: Quentin
+  role: Business Developer
+  photo: quentin.jpg
+lionel:
+  name: Lionel Delourme
+  display_name: Lionel
+  role: CTO
+  photo: lionel.png
