@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
 end
 
+# Internationalization
 group :jekyll_plugins do
    gem "jekyll-polyglot"
 end
