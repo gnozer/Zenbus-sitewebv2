@@ -22,14 +22,16 @@ search_placeholder: "Search"
 categories:
   all:
     display_name: "All"
-  life:
-    display_name: "Company's life"
+  team:
+    display_name: "Zenbus Team"
   technical:
     display_name: "Technical"
-  commercial:
-    display_name: "Business"
+  business:
+    display_name: "Business & Mobility"
   events:
     display_name: "Events"
+  news:
+    display_name: "Our News"
 
 # ---------- FOOTER -----------
 footer:
