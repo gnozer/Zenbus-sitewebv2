@@ -3,7 +3,7 @@ layout: blog-article
 title: Transports publics 2018
 date: 2018-06-28 13:51:22 +0200
 image: salon.jpg
-categories: [life,events]
+categories: [team,events]
 tags: [salon, STP, vin, communication]
 author: simon
 lang: en
