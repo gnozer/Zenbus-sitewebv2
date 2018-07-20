@@ -6,10 +6,7 @@
    <body>
    	{% assign lang = site.active_lang %}
    	<div id="app">
-   		<button class="panel-hamburger" v-on:click="showPanel= !showPanel" v-bind:class="{'show-panel':showPanel}"></button>
-
 			{% include nav.html %}
-			
 			<div class="article-container">
 				<header class="article-back">
 					<a class="article-back-link" href="{{ baseurl }}/blog/">{{ site.data["strings"].back_to_articles }}</a>
@@ -54,7 +51,8 @@
 			{% include footer.html %}
    	</div>
    	{% include loader.html %}
-   	<script src="{{ site.baseurl }}/assets/js/index.min.js"></script>
+   	<script src="{{ site.baseurl }}/assets/js/footer.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/menu.min.js"></script>
    </body>
    
 </html>
