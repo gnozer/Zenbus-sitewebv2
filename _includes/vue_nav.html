@@ -1,0 +1,39 @@
+<button class="panel-hamburger" v-on:click="showPanel= !showPanel" v-bind:class="{'show-panel':showPanel}"></button>
+<nav id="panel" class="panel">
+	<header class="panel-logo">
+		<img src="{{ site.baseurl }}/assets/img/zenbus_logo.png" alt="logo zenbus" class="panel-logo-img">
+	</header>
+	<menu class="panel-menu">
+		<li class="panel-menu-item home{% if page.title == 'Homepage' %} active{% endif %} inactive">
+			<a href="{{ site.baseurl }}/" class="panel-menu-item-text">{{ site.data["strings"].nav.home }}</a>
+		</li>
+		<li class="panel-menu-item collectivity{% if page.title == 'Collectivités' %} active{% endif %} inactive">
+			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.collectivity }}</a>
+		</li>
+		<li class="panel-menu-item operators{% if page.title == 'Exploitants' %} active{% endif %} inactive">
+			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.operators }}</a>
+		</li>
+		<li class="panel-menu-item passenger{% if page.title == 'Voyageurs' %} active{% endif %} inactive">
+			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.passengers }}</a>
+		</li>
+		<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
+			<a href="{{ site.baseurl }}/blog/" class="panel-menu-item-text">{{ site.data["strings"].nav.blog }}</a>
+		</li>
+		<li class="panel-menu-item team{% if page.title == 'Equipe' %} active{% endif %} inactive">
+			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.team }}</a>
+		</li>
+		<li class="panel-menu-item contact{% if page.title == 'Contact' %} active{% endif %} inactive">
+			<a href="" class="panel-menu-item-text">
+				{{ site.data["strings"].nav.contact }}
+			</a>
+		</li>
+	</menu>
+	<footer class="panel-social">
+			<h4 class="panel-social-title">{{ site.data["strings"].footer.follow_us }}</h4>
+			<div class="panel-social-text">
+				<a href="https://www.facebook.com/ZenBusApp/" target="_blank" class="social-img fb"></a>
+				<a href="https://twitter.com/zenbus" target="_blank" class="social-img tw"></a>
+				<a href="https://www.linkedin.com/company/zenbus/" target="_blank" class="social-img in"></a>
+			</div>
+	</footer>
+</nav>
