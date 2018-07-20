@@ -3,7 +3,7 @@ layout: blog-article
 title: Zenbus à la conquête Niçoise !
 date: 2018-07-18
 image: nice_conquete.jpg
-categories: [commercial]
+categories: [business]
 tags: nice azur ligne63
 author: marie
 lang: fr
