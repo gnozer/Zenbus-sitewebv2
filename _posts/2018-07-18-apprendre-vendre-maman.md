@@ -3,7 +3,7 @@ layout: blog-article
 title: Apprendre à vendre sa maman
 date: 2018-07-18
 image: nice_conquete.jpg
-categories: [commercial]
+categories: [business]
 tags: vendre maman tutoriel
 author: quentin
 lang: fr
