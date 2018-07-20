@@ -1,7 +1,6 @@
 # --------- HOMEPAGE ----------
 homepage: 
   title: "Transformer la mobilité"
-
 # ----------- NAV ------------
 nav:
   home: "home"
@@ -23,14 +22,16 @@ search_placeholder: "Rechercher"
 categories:
   all:
     display_name: "Tous"
-  life:
-    display_name: "Vie de boîte"
+  team:
+    display_name: "Team Zenbus"
   technical:
     display_name: "Technique"
-  commercial:
-    display_name: "Commercial"
+  business:
+    display_name: "Business & Mobilité"
   events:
     display_name: "Evénements"
+  news:
+    display_name: "Notre Actu"
 
 # ---------- FOOTER -----------
 footer:

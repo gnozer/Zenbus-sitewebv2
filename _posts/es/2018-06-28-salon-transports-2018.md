@@ -3,7 +3,7 @@ layout: blog-article
 title:  Transports Publics 2018, Feria europea de la movilidad
 date:   2018-06-28 13:51:22 +0200
 image: salon.jpg
-categories: [life,events]
+categories: [team,events]
 tags: [salon, STP, vin, communication]
 author: simon
 lang: es
