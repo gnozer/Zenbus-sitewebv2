@@ -4,7 +4,7 @@
 		<img src="{{ site.baseurl }}/assets/img/zenbus_logo.png" alt="logo zenbus" class="panel-logo-img">
 	</header>
 	<menu class="panel-menu">
-		<li class="panel-menu-item home{% if page.title == 'Homepage' %} active{% endif %} inactive">
+		<li class="panel-menu-item home{% if page.title == 'Homepage' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/" class="panel-menu-item-text">{{ site.data["strings"].nav.home }}</a>
 		</li>
 		<li class="panel-menu-item collectivity{% if page.title == 'Collectivités' %} active{% endif %} inactive">
@@ -28,12 +28,4 @@
 			</a>
 		</li>
 	</menu>
-	<footer class="panel-social">
-			<h4 class="panel-social-title">{{ site.data["strings"].footer.follow_us }}</h4>
-			<div class="panel-social-text">
-				<a href="https://www.facebook.com/ZenBusApp/" target="_blank" class="social-img fb"></a>
-				<a href="https://twitter.com/zenbus" target="_blank" class="social-img tw"></a>
-				<a href="https://www.linkedin.com/company/zenbus/" target="_blank" class="social-img in"></a>
-			</div>
-	</footer>
 </nav>
