@@ -39,8 +39,6 @@ parallel_localization: true
 
 keep_files: ['WEB-INF/appengine-web.xml', 'WEB-INF/web.xml', 'META-INF/MANIFEST.MF']
 
-destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp
-
 # ----------- FOOTER -----------
 languages_display:
   fr: "Français"
