@@ -2,7 +2,7 @@
 layout: blog-article
 title: Qui sommes-nous ?
 date: 2018-07-23
-image: nice_conquete.jpg
+image: escape_hunt_joul.jpg
 categories: [team]
 tags: qui sommes nous
 author: marie
