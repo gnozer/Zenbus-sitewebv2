@@ -36,6 +36,7 @@ default_lang: "fr"
 exclude_from_localization: ["assets"]
 parallel_localization: true
 
+destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp 
 
 keep_files: ['WEB-INF/appengine-web.xml', 'WEB-INF/web.xml', 'META-INF/MANIFEST.MF']
 

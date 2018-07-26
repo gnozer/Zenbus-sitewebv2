@@ -96,7 +96,7 @@ lang: es
                         		<li v-for="acc in focusedCity.namespaces" v-if="filteredAccounts.indexOf(acc) > -1" class="popup-networks-item">
                         			<span class="network-name">[%acc.pageTitle%]</span>
                         			<ul class="network-types">
-                        				<li v-if="acc.pRivate"class="network-types-badge private" :title="Privé"></li>
+                        				<li v-if="acc.pRivate"class="network-types-badge private" title="Privado"></li>
                         				<li v-for="type in networkTypes" v-if="(type.value & acc.types) > 0" class="network-types-badge" v-bind:class="type.cssClass" v-bind:title="filterLabel(type.value)"></li>
                         			</ul>
                         			<aside class="network-redir">
