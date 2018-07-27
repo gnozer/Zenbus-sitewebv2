@@ -38,7 +38,7 @@ parallel_localization: true
 
 destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp 
 
-keep_files: ['WEB-INF/appengine-web.xml', 'WEB-INF/web.xml', 'META-INF/MANIFEST.MF']
+keep_files: ['WEB-INF/appengine-web.xml', 'WEB-INF/web.xml', 'META-INF/MANIFEST.MF', 'about.html']
 
 # ----------- FOOTER -----------
 languages_display:

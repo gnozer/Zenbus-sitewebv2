@@ -52,7 +52,7 @@ Zenbus couvre déjà plus **d’une centaine de réseaux** et ce sont chaque moi
 
 ### 5) Avec qui travaillez-vous ? 
 <br>
-Aujourd’hui Zenbus travaille avec de nombreux acteurs du marché des transports : grands exploitants, indépendants, collectivités **(communautés urbaines, régions, ... )** ou mais aussi entreprises( en mettant en place des navettes privés pour leurs salariés),et organisateurs d'événements. Zenbus développe également des partenariats avec des systèmes tiers pour permettre à ses clients d’avoir une offre de service optimisée : WIFI on board, Billettique légère, SIV embarqué, mobilier urbain. mais aussi avec l’UGAP. 
+Aujourd’hui Zenbus travaille avec de nombreux acteurs du marché des transports : grands exploitants, indépendants, collectivités **(communautés urbaines, régions, ... )** ou mais aussi entreprises( en mettant en place des navettes privés pour leurs salariés), et organisateurs d'événements. Zenbus développe également des partenariats avec des systèmes tiers pour permettre à ses clients d’avoir une offre de service optimisée : WIFI on board, Billettique légère, SIV embarqué, mobilier urbain, mais aussi avec l’UGAP. 
 
 {: style="text-align: center; color: #00bfa5;"}
 **Restez Zen... adoptez Zenbus !** 
