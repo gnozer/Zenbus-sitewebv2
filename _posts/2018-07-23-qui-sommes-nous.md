@@ -33,4 +33,4 @@ L’essentiel de l’équipe est divisé entre :
 * **Une équipe de chefs de projets** qui s’occupent de gérer le suivi et le développement des réseaux. Ils sont les interlocuteurs attentifs de nos clients pour veiller à une mise en place facilitée et rapide, ainsi qu’au maintien permanent du service en condition opérationnelle.
 
 {: style="text-align: center"}
-Pour le détail, rendez-vous très prochainement sur **notre page équipe** présente sur le site zenbus.fr !  
+Pour le détail, rendez-vous très prochainement sur **notre page équipe** présente sur le site zenbus.fr !
