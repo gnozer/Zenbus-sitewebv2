@@ -1,1 +1,3 @@
-ZB_SHOWCASE_JEKYLL
+ZenbusShowCase is a static website built by Jekyll.
+
+Static website is the future. 
