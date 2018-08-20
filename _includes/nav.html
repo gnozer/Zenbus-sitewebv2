@@ -24,10 +24,8 @@
 		<li class="panel-menu-item team">
 			<a href="/files/Offre-dev-08-2018.pdf" class="panel-menu-item-text" target="_blank">{{ site.data["strings"].nav.recruit }}</a>
 		</li>
-		<li class="panel-menu-item contact{% if page.title == 'Contact' %} active{% endif %} inactive">
-			<a href="" class="panel-menu-item-text">
-				{{ site.data["strings"].nav.contact }}
-			</a>
+		<li class="panel-menu-item contact{% if page.title == 'Contact' %} active{% endif %}">
+			<a href="{{ site.baseurl }}/contact/" class="panel-menu-item-text">{{ site.data["strings"].nav.contact }}</a>
 		</li>
 	</menu>
 </nav>
