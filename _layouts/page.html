@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+	{% include head.html %}
+   
+   <body>
+   	{% assign lang = site.active_lang %}
+   	<div>
+			{% include nav.html %}
+			{{ content }}
+			{% include footer.html %}
+   	</div>
+   	{% include loader.html %}
+   	<script src="{{ site.baseurl }}/assets/js/footer.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/menu.min.js"></script>
+		{% if page.title == "Contact" %}
+			<script src="{{ site.baseurl }}/assets/js/contact.js"></script>
+		{% endif %}
+   </body>
+</html>

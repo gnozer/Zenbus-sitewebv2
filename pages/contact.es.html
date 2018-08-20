@@ -1,0 +1,37 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+lang: es
+---
+<section class="classic">
+               <div class="classic-tile tile">
+                  <h2 class="tile-title">¡Escríbenos!</h2>
+                  <p class="tile-text">Estamos aquí para responder a todos tus mensajes, ya sean técnicos, funcionales o informativos. Aceptamos también declaraciones apasionadas^^</p>
+               </div>
+               <form class="classic-form" id="contactForm" name="contact_form" novalidate>
+                 	<span class="classic-email-error">Es necesario un email válido.</span>
+                 	<span class="classic-form-error">Para enviar el formulario, debe marcar la casilla de arriba.</span>
+                 	<span class="classic-form-text">Buenos días, me llamo</span>
+                  <input type="text" autocomplete="given-name" placeholder="Don" class="classic-form-input firstname" id="classicInputFirstname" name="prenom" required>
+                  <input type="text" autocomplete="family-name" placeholder="Quijote" class="classic-form-input lastname" id="classicInputLastname" name="nom" required>
+                  <span class="classic-form-text">y soy</span>
+                  <select class="classic-form-select" name="type" id="classicSelectIAm">
+                     <option value="curieux" selected="selected">curioso</option>
+                     <option value="voyageur">viajero</option>
+                     <option value="AO">colectividad</option>
+                     <option value="exploitant">operador</option>
+                  </select>
+                  <span class="classic-form-text">.</span>
+                  <span class="classic-form-text">Os escribo porque</span>
+                  <textarea class="classic-form-textarea message" placeholder="¿Dónde está las palleras ?" name="message" id="classicTextareaMessage" cols="30" rows="10" required></textarea>
+                  <span class="classic-form-text">Espero vuestra respuesta en la dirección</span>
+                  <input type="email" autocomplete="email" placeholder="don.quijote@zenbus.fr" class="classic-form-input email" id="classicInputEmail" name="email" required>
+                  <span class="classic-form-text">?</span>
+                  <div class="classic-form-rgpd">
+                     <input type="checkbox" class="classic-form-checkbox" name="rgpd" id="classicCheckboxRGPD">
+                     <label class="classic-form-label checkbox" for="classicCheckboxRGPD">Al introducir tu dirección de email, aceptas recibir nuestras noticias y novedades por correo electrónico y tomas conocimiento de nuestra política de privacidad.</label>
+                  </div>
+                  <button type="submit" class="classic-form-submit">Enviar</button>
+               </form>
+            </section>
