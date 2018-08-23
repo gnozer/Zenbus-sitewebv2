@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
-
 	<head>
    	<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
       <meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
@@ -10,22 +9,22 @@
       <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Lato:300,400,700,900" rel="stylesheet">
    	<title>{{site.title}} - {{ site.data["strings"].homepage.title }}</title>
    	 <!-- Leaflet map -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
-	<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+		<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
 	
-	<!-- Leaflet marker clusterer plugin -->
-	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" />
-	<script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js"></script>
-	
-	<!-- Vue -->
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0"></script>
-	
-	<!-- i18n -->
-	<script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
-	
-	<!-- Analytics -->
-	<script type="text/javascript">
+		<!-- Leaflet marker clusterer plugin -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" />
+		<script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js"></script>
+
+		<!-- Vue -->
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0"></script>
+
+		<!-- i18n -->
+		<script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+
+		<!-- Analytics -->
+		<script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-48957810-1']);
             _gaq.push(['_setDomainName', 'zenbus.fr']);
@@ -37,20 +36,17 @@
                 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
-            
-            
        </script> 
-	
    </head>
    
 	<body class="homepage">
    	<div id="app" v-bind:class="{'show-loader':showLoader, 'map-noscroll': isActiveMap}" class="homepage-wrapper" v-cloak>
 		<button class="panel-hamburger" v-on:click="showPanel= !showPanel" v-bind:class="{'show-panel':showPanel}"></button>
 
-    	{% include nav.html %}
+    	{% include vue_nav.html %}
     
     	{{ content }}
-      {% include footer_vue.html %}
+      {% include vue_footer.html %}
     </div>
     {% include loader.html %}
   <script src="{{ site.baseurl }}/assets/js/index.min.js"></script>

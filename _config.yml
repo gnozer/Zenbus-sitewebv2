@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Zenbus
 email: contact@zenbus.fr
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zenbus.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 destination: 
@@ -35,6 +35,10 @@ languages: ["fr", "en", "es"]
 default_lang: "fr"
 exclude_from_localization: ["assets"]
 parallel_localization: true
+
+#destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp 
+destination: /home/simon/Documents/ZENBUS_DEV/ZB-SC-DEPLOYED/src/main/webapp
+keep_files: ['WEB-INF/appengine-web.xml', 'WEB-INF/web.xml', 'META-INF/MANIFEST.MF', 'about.html']
 
 # ----------- FOOTER -----------
 languages_display:

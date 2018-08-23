@@ -1,0 +1,37 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+lang: en
+---
+<section class="classic">
+               <div class="classic-tile tile">
+                  <h2 class="tile-title">Write to us!</h2>
+                  <p class="tile-text">We are available to answer all of your queries, whether you are looking for technical assistance, functional solutions or further information. We will even accept your declarations of undying love^^</p>
+               </div>
+               <form class="classic-form" id="contactForm" name="contact_form" novalidate>
+                 	<span class="classic-email-error">A valid email address is required.</span>
+                 	<span class="classic-form-error">To submit the form, you must check the box above.</span>
+                 	<span class="classic-form-text">Hello, my name is</span>
+                  <input type="text" autocomplete="given-name" placeholder="King" class="classic-form-input firstname" id="classicInputFirstname" name="prenom" required>
+                  <input type="text" autocomplete="family-name" placeholder="Arthur" class="classic-form-input lastname" id="classicInputLastname" name="nom" required>
+                  <span class="classic-form-text">and I am</span>
+                  <select class="classic-form-select" name="type" id="classicSelectIAm">
+                     <option value="curieux" selected="selected">curious</option>
+                     <option value="voyageur">a traveller</option>
+                     <option value="AO">a local authority</option>
+                     <option value="exploitant">a transport operador</option>
+                  </select>
+                  <span class="classic-form-text">.</span>
+                  <span class="classic-form-text">I am contacting you because </span>
+                  <textarea class="classic-form-textarea message" placeholder="What is the airspeed velocity of an unladen swallow ?" name="message" id="classicTextareaMessage" cols="30" rows="10" required></textarea>
+                  <span class="classic-form-text">Please reply to </span>
+                  <input type="email" autocomplete="email" placeholder="king.arthur@zenbus.fr" class="classic-form-input email" id="classicInputEmail" name="email" required>
+                  <span class="classic-form-text">?</span>
+                  <div class="classic-form-rgpd">
+                     <input type="checkbox" class="classic-form-checkbox" name="rgpd" id="classicCheckboxRGPD">
+                     <label class="classic-form-label checkbox" for="classicCheckboxRGPD">By submitting this form, you agree to the information provided being used to satisfy your request.</label>
+                  </div>
+                  <button type="submit" class="classic-form-submit">Send</button>
+               </form>
+            </section>
