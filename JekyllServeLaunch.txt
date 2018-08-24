@@ -1,0 +1,7 @@
+Depuis la commande UBUNTU :
+
+source ~/.bashrc
+
+PUIS :
+
+bundle exec jekyll serve
