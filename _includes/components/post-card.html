@@ -1,13 +1,15 @@
+{% assign auth = site.data["authors"] | where: "id", include.author %}
 <article class="blog-articles-card">
 	<header class="card-header" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ include.image }}')">
 		<a href="{{ include.url }}"></a>
 	</header>
 	<div class="card-infos">
-		<img src="{{ baseurl }}/assets/img/authors/{{ site.data['authors'][post.author].photo }}" alt="" class="card-infos-img">
+		{% for a in auth %}
+		<img src="{{ baseurl }}/assets/img/authors/{{ a.photo }}" alt="" class="card-infos-img">
 		<div class="card-infos-author">
 			<p class="author-status">
 				<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
-				<span class="author-status-name">{{ site.data["authors"][include.author].name }} - {{ site.data["authors"][include.author].role }}</span>
+				<span class="author-status-name">{{ a.name }} - {{ a.role }}</span>
 				<span class="author-status-date">{{ site.data["strings"].the_date }} {{ include.date | date: "%d/%m/%Y" }}</span>
 			</p>
 		</div>
@@ -23,5 +25,6 @@
 				{% endif %}
 			{% endfor %}
 		</ul>
+		{% endfor %}
 	</div>
 </article>
