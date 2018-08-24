@@ -1,22 +1,228 @@
-simon:
-  name: Simon Vergnaud
-  display_name: Simon
-  email: simon.vergnaud@zenbus.fr
-  role: Chef de projet
-  photo: simon.jpeg
-marie:
-  name: Marie Stoffel
-  display_name: Marie
-  email: marie.stoffel@zenbus.fr
-  role: Responsable Marketing & Communication
-  photo: marie.png
-quentin:
-  name: Quentin Deniaud
-  display_name: Quentin
-  role: Business Developer
-  photo: quentin.jpg
-lionel:
+- id: julien
+  name: Julien Devade
+  firstname: Julien
+  lastname: Devade
+  arrival_date: 
+  role: Président
+  localization: Nantes
+  presentation: 
+  linkedin: https://www.linkedin.com/in/julien-devade-980502/
+  mantra: "C'est immooooonde !"
+  photo: 
+  photo_fun: 
+- id: olivier
+  name: Olivier Deschaseaux
+  firstname: Olivier
+  lastname: Deschaseaux
+  arrival_date: 
+  role: Directeur Commercial
+  localization: Paris
+  presentation: 
+  linkedin: https://www.linkedin.com/in/olivier-deschaseaux-6a170931/
+  mantra: "A minima, ASAP"
+  photo: 
+  photo_fun: 
+- id: ulric
+  name: Ulric Le Grand
+  firstname: Ulric
+  lastname: Le Grand
+  arrival_date: 
+  role: Directeur administratif & financier
+  localization: Nantes
+  presentation: 
+  linkedin: https://www.linkedin.com/in/ulric-le-grand-aa9a2b9/
+  mantra: "Heuu, ça vous dit des burgers, en phase ?"
+  photo: 
+  photo_fun: 
+- id: lionel
   name: Lionel Delourme
-  display_name: Lionel
-  role: CTO
-  photo: lionel.png
+  firstname: Lionel
+  lastname: Delourme
+  arrival_date: 
+  role: Directeur Technique
+  localization: Paris
+  presentation: 
+  linkedin: 
+  mantra: "Fondamentalement, on l’a déjà."
+  photo: 
+  photo_fun: 
+- id: romain
+  name: Romain Lebastard
+  firstname: Romain
+  lastname: Lebastard
+  arrival_date: 2011-09-01
+  role: Designer
+  localization: Nantes
+  presentation: 
+  linkedin: https://www.linkedin.com/in/romain-lebastard-32678742/
+  mantra: "J’ai pas le temps, j’ai une affiche à faire."
+  photo: 
+  photo_fun: 
+- id: benoit
+  name: Benoît Heslouin
+  firstname: Benoît
+  lastname: Heslouin
+  arrival_date: 
+  role: Ingénieur R&D
+  localization: Paris
+  presentation: 
+  linkedin: 
+  mantra: "Mouais... Non."
+  photo: 
+  photo_fun: 
+- id: maxence
+  name: Maxence Lin
+  firstname: Maxence
+  lastname: Lin
+  arrival_date: 
+  role: Ingénieur R&D
+  localization: Paris
+  presentation: 
+  linkedin: https://www.linkedin.com/in/lin-maxence-3b38aa7a/
+  mantra: "Un jour... C’est à dire jamais."
+  photo: 
+  photo_fun:
+- id: boris
+  name: Boris Raimbault
+  firstname: Boris
+  lastname: Raimbault
+  arrival_date: 
+  role: Ingénieur R&D
+  localization: Nantes
+  presentation: 
+  linkedin: https://www.linkedin.com/in/boris-raimbault-77aaa175/
+  mantra: "On a beaucoup à apprendre des animaux"
+  photo: 
+  photo_fun: 
+- id: corentin
+  name: Corentin Philippe
+  firstname: Corentin
+  lastname: Philippe
+  arrival_date: 
+  role: Ingénieur R&D
+  localization: Paris
+  presentation: 
+  linkedin: 
+  mantra: "Vannes ou Lourdes ? Décidez-vous !"
+  photo: 
+  photo_fun: 
+- id: quentin
+  name: Quentin Deniaud
+  firstname: Quentin
+  lastname: Deniaud
+  arrival_date: 
+  role: Business Developer
+  localization: Nantes
+  presentation: 
+  linkedin: https://www.linkedin.com/in/quentin-deniaud-25797032/
+  mantra: "Nan, mais c’est juste sublime, magnifique, extraordinaire, incroyable, magique, somptueux, splendide, éblouissant, munificent... aboule le fric"
+  photo: 
+  photo_fun: 
+- id: simon
+  name: Simon Vergnaud
+  firstname: Simon
+  lastname: Vergnaud
+  arrival_date: 2017-02-27
+  role: Ingénieur R&D
+  localization: Nantes
+  presentation: 
+  linkedin: https://www.linkedin.com/in/simon-vergnaud/
+  mantra: "Oeuuuh d’accooooord !"
+  photo: 
+  photo_fun: 
+- id: victoria
+  name: Victoria Marin
+  firstname: Victoria
+  lastname: Marin
+  arrival_date: 
+  role: Assistante de direction
+  localization: Nantes
+  presentation: 
+  linkedin: https://www.linkedin.com/in/victoria-marin-996574142/
+  mantra: "Y n’en reste"
+  photo: 
+  photo_fun: 
+- id: vincent
+  name: Vincent Poulet
+  firstname: Vincent
+  lastname: Poulet
+  arrival_date: 
+  role: Business Developer
+  localization: Paris
+  presentation: 
+  linkedin: https://www.linkedin.com/in/vincent-poulet-28ab066a/
+  mantra: "J’ai appelé il y a 5 minutes, faut que je rappelle"
+  photo: 
+  photo_fun: 
+- id: chantal
+  name: Chantal Oberson Ausoni
+  firstname: Chantal
+  lastname: Oberson Ausoni
+  arrival_date: 2017-09-18
+  role: Ingénieur R&D
+  localization: Paris
+  presentation: 
+  linkedin: https://www.linkedin.com/in/chantal-oberson-ausoni-852045113/
+  mantra: "Bon week-ente"
+  photo: 
+  photo_fun: 
+- id: christine
+  name: Christine Salotti
+  firstname: Christine
+  lastname: Salotti
+  arrival_date: 
+  role: Ingénieur R&D
+  localization: Nantes
+  presentation: 
+  linkedin: https://www.linkedin.com/in/christine-salotti-245955/
+  mantra: "oai, m'enfin bon.."
+  photo: 
+  photo_fun: 
+- id: djenaba
+  name: Djenaba Bah
+  firstname: Djenaba
+  lastname: Bah
+  arrival_date: 
+  role: Ingénieur R&D
+  localization: Paris
+  presentation: 
+  linkedin: https://www.linkedin.com/in/djenaba-bah-3b4266121/
+  mantra: 
+  photo: 
+  photo_fun: 
+- id: marie
+  name: Marie Stoffel
+  firstname: Marie
+  lastname: Stoffel
+  arrival_date: 2018-06-22
+  role: Chargée de Marketing & Communication
+  localization: Paris
+  presentation: 
+  linkedin: https://www.linkedin.com/in/marie-stoffel-85569b68/
+  mantra: 
+  photo: marie.png
+  photo_fun: 
+- id: florian
+  name: Florian Liscoët
+  firstname: Florian
+  lastname: Liscoët
+  arrival_date: 
+  role: Business Developer
+  localization: Montreal
+  presentation: 
+  linkedin: https://www.linkedin.com/in/florian-lisco%C3%ABt-85327562/
+  mantra: 
+  photo: 
+  photo_fun: 
+- id: kevin
+  name: Kevin Terranova
+  firstname: Kevin
+  lastname: Terranova
+  arrival_date: 2018-09-03
+  role: Cadre commercial
+  localization: Paris
+  presentation: 
+  linkedin: https://www.linkedin.com/in/kevin-terranova-0278b6b3/
+  mantra: 
+  photo: 
+  photo_fun: 

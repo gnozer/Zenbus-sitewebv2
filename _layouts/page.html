@@ -7,7 +7,9 @@
    	{% assign lang = site.active_lang %}
    	<div>
 			{% include nav.html %}
-			{{ content }}
+			<div class="content-container">
+				{{ content }}
+			</div>
 			{% include footer.html %}
    	</div>
    	{% include loader.html %}
