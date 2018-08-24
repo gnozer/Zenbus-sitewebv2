@@ -7,7 +7,7 @@
    	{% assign auth = site.data["authors"] | where: "id", page.author %}
    	<div id="app">
 			{% include nav.html %}
-			<div class="content-container">
+			<div class="content-container blog">
 				<header class="article-back">
 					<a class="article-back-link" href="{{ baseurl }}/blog/">{{ site.data["strings"].back_to_articles }}</a>
 				</header>
