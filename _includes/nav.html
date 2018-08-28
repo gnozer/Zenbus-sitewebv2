@@ -18,8 +18,8 @@
 		<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/blog/" class="panel-menu-item-text">{{ site.data["strings"].nav.blog }}</a>
 		</li>
-		<li class="panel-menu-item team{% if page.title == 'Equipe' %} active{% endif %} inactive">
-			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.team }}</a>
+		<li class="panel-menu-item team{% if page.permalink == '/team/' %} active{% endif %}">
+			<a href="{{ site.baseurl }}/team/" class="panel-menu-item-text">{{ site.data["strings"].nav.team }}</a>
 		</li>
 		<li class="panel-menu-item team">
 			<a href="/files/Offre-dev-08-2018.pdf" class="panel-menu-item-text" target="_blank">{{ site.data["strings"].nav.recruit }}</a>
