@@ -1,0 +1,14 @@
+---
+layout: page
+title: Team
+permalink: /team/
+lang: en
+---
+<div class="content-container team">
+	{% for author in site.data["authors"] %}
+	{% include components/polaroid.html
+				  name=author.name
+				  role=author.role
+				  photo=author.photo %}
+	{% endfor %}
+</div>

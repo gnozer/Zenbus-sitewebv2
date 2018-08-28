@@ -4,25 +4,26 @@
 	{% include head.html %}
    
    <body>
-   	{% assign lang = site.active_lang %}
+   	{% assign auth = site.data["authors"] | where: "id", page.author %}
    	<div id="app">
 			{% include nav.html %}
-			<div class="article-container">
+			<div class="content-container blog">
 				<header class="article-back">
 					<a class="article-back-link" href="{{ baseurl }}/blog/">{{ site.data["strings"].back_to_articles }}</a>
 				</header>
 				
 				<article class="article">
+					{% for a in auth %}
 					<div class="article-infos">
 						
 						<h1 class="article-infos-title">{{ page.title }}</h1>
 						
 						<div class="article-infos-author">
-							<img src="{{ baseurl }}/assets/img/authors/{{ site.data['authors'][page.author].photo }}" alt="" class="author-picture">
+							<img src="{{ baseurl }}/assets/img/authors/{{ a.photo }}" alt="" class="author-picture">
 							
 							<p class="author-status">
 								<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
-								<span class="author-status-name">{{ site.data["authors"][page.author].name }} - {{ site.data["authors"][page.author].role }}</span>
+								<span class="author-status-name">{{ a.name }} - {{ a.role }}</span>
 								<span class="author-status-date">{{ site.data["strings"].the_date }} {{ page.date | date: "%d/%m/%Y" }}</span>
 							</p>
 							
@@ -44,7 +45,7 @@
 						</div>
 						
 					</div>
-					
+					{% endfor %}
 				</article>
 				
 			</div>
