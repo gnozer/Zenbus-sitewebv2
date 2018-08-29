@@ -22,7 +22,7 @@ Au programme:  échanges entre professionnels et exposants, soirée de convivial
 
 Cette année le thème du salon est  autour de la mobilité et de la numérisations des services du secteur.  Dans cette ère de numérisation des services, on cherche à comprendre  comment les acteurs historiques du secteur des transports publics et  les nouveaux entrants adaptent ou créer leurs offres, mais aussi comment  ils réussissent à apporter  une véritable valeur ajoutée à l’offre de transport.
 
-Les conférences lors des journées Agir traiteront  de sujets divers pour comprendre les nouveaux enjeux et les objectifs nécessaires aux acteurs du secteur;qu’il s’agisse de transport public, de vélo, de voiture partagée etc . 
+Les conférences lors des journées Agir traiteront  de sujets divers pour comprendre les nouveaux enjeux et les objectifs nécessaires aux acteurs du secteur; qu’il s’agisse de transport public, de vélo, de voiture partagée etc. 
 
 + Ci-dessous la liste des thématiques abordées lors des journées Agir 2018 :<br>
 		&rarr; Nouvelles mobilités : coopération entre autorités publiques et initiatives privées <br>
@@ -31,14 +31,13 @@ Les conférences lors des journées Agir traiteront  de sujets divers pour compr
 		&rarr; Intermodalité : comment créer un pôle d’échanges facilitateur de mobilité ?<br>
 		&rarr; Comment la mobilité 2.0 peut-elle être l’avenir des zones peu denses ?<br>
 		&rarr; Véhicules autonomes : quelles perspectives pour le transport collectif ?<br>
-		&rarr; LOM : nouvelles compétences pour une nouvelle mobilité ?
+		&rarr; LOM : nouvelles compétences pour une nouvelle mobilité ? <br> <br>
 
-<br>	
-+ **Où retrouver Zenbus ?**
++ **Où retrouver Zenbus ?** <br>
 
 	L’équipe Zenbus sera présente lors de l’événement au Stand n°1 !
 
-
+{: style="text-align: center"}
 Nous vous attendons donc le **7 & 8 Novembre à Chartres !**
 
 {: style="text-align: center"}
