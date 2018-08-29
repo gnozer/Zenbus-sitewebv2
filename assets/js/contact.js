@@ -5,7 +5,11 @@ var CONTACT_FORM; //DOM element
  */
 function areDatasValid(email) {
 	var rgpd_checkbox = document.querySelector('#classicCheckboxRGPD');
-	
+	if(CONTACT_FORM.classList.contains("rgpd-error")) {
+		CONTACT_FORM.classList.remove("rgpd-error");
+	} else if(CONTACT_FORM.classList.contains("email-error")) {
+		CONTACT_FORM.classList.remove("email-error");
+	}
 	if(!rgpd_checkbox.checked) {
 		CONTACT_FORM.classList.add("rgpd-error");
 	}

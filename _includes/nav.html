@@ -1,7 +1,8 @@
 <button id="burgerButton" class="panel-hamburger"></button>
 <nav id="panel" class="panel">
-	<header class="panel-logo"><img src="{{ site.baseurl }}/assets/img/zenbus_logo@2x.png" alt="logo zenbus" class="panel-logo-img">
-</header>
+	<header class="panel-logo">
+		<img src="{{ site.baseurl }}/assets/img/zenbus_logo@2x.png" alt="logo zenbus" class="panel-logo-img">
+	</header>
 	<menu class="panel-menu">
 		<li class="panel-menu-item home{% if page.title == 'Homepage' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/" class="panel-menu-item-text">{{ site.data["strings"].nav.home }}</a>
@@ -18,11 +19,8 @@
 		<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/blog/" class="panel-menu-item-text">{{ site.data["strings"].nav.blog }}</a>
 		</li>
-		<li class="panel-menu-item team{% if page.permalink == '/team/' %} active{% endif %}">
-			<a href="{{ site.baseurl }}/team/" class="panel-menu-item-text">{{ site.data["strings"].nav.team }}</a>
-		</li>
-		<li class="panel-menu-item team">
-			<a href="/files/Offre-dev-08-2018.pdf" class="panel-menu-item-text" target="_blank">{{ site.data["strings"].nav.recruit }}</a>
+		<li class="panel-menu-item team{% if page.permalink == '/team/' %} active{% endif %} inactive">
+			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.team }}</a>
 		</li>
 		<li class="panel-menu-item contact{% if page.title == 'Contact' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/contact/" class="panel-menu-item-text">{{ site.data["strings"].nav.contact }}</a>
