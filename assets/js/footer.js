@@ -58,6 +58,6 @@ function get(url){
 		NL_FORM = document.getElementById('newsletterForm');
 		NL_FORM.addEventListener("submit", function(evt){
 			evt.preventDefault();
-			sendEmailToSheet(document.getElementsByName("email")[0].value);
+			sendEmailToSheet(document.getElementById("inputEmail").value);
 		});
 })();
