@@ -6,7 +6,6 @@ burgerButton;
  * @param {[[Type]]} evt [[Description]]
  */
 function managePanel(evt){
-	console.log(this);
 	if(this.classList.contains("show-panel")){
 		this.classList.remove("show-panel")
 	}else{

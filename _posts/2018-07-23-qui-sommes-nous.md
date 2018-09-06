@@ -8,8 +8,8 @@ tags: qui sommes nous
 author: marie
 lang: fr
 ---
-Qui se cache derrière Zenbus ? Derrière le site, l’application ?
-Et que font-ils ? Voici l’article qui **répondra à toutes vos questions sur nous !**
+Qui se cache derrière Zenbus ? Derrière le site, l’application&nbsp;?
+Et que font-ils&nbsp;? Voici l’article qui **répondra à toutes vos questions sur nous&nbsp;!**
 
 L’histoire Zenbus commence par quatre fondateurs qui sont à l'origine du projet : **Julien, Olivier, Ulric et Lionel** et qui se **réunissent en 2011 pour développer le concept.**
 
@@ -29,4 +29,4 @@ L’essentiel de l’équipe est divisé entre :
 * **Une équipe de chefs de projets** qui s’occupent de gérer le suivi et le développement des réseaux. Ils sont les interlocuteurs attentifs de nos clients pour veiller à une mise en place facilitée et rapide, ainsi qu’au maintien permanent du service en condition opérationnelle.
 
 {: style="text-align: center"}
-Pour le détail, rendez-vous très prochainement sur **notre page équipe** présente sur le site zenbus.fr !
+Pour le détail, rendez-vous très prochainement sur **notre page équipe** présente sur le site zenbus.fr&nbsp;!
