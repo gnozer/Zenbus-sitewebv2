@@ -1,13 +1,7 @@
-﻿/**
- * Utils to test if email address is well formed
- */
-function isEmailValid(email) {
+﻿function isEmailValid(email) {
 	var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
    return re.test(email);
 }
-/**
- * [[Description]]
- */
 function areDatasValid(sheet) {
 	this.errors[sheet] = []; //TODO refactor
 	
@@ -19,16 +13,12 @@ function areDatasValid(sheet) {
 		if(!this.dataFromForms[sheet].rgpd) {
 			this.errors[sheet].push('rgpd');
 		}
-		
 		if(!isEmailValid(this.dataFromForms[sheet].email)){
 			this.errors[sheet].push('email');
 		}
 	}
 	if(!this.errors[sheet].length) return true;
 }
-/**
- * [[Description]]
- */
 function sendDatasToSheet(sheet) {
 	if(this.areDatasValid(sheet)) {
 		var args = "form="+sheet+"&";
@@ -49,9 +39,6 @@ function sendDatasToSheet(sheet) {
 		})
 	}
 }
-/**
- * [[Description]]
- */
 function privateFormBehaviour(){
 	if(this.currentPassword){
 		this.errors.map = []; //TODO refactor
@@ -73,7 +60,6 @@ function privateFormBehaviour(){
 		this.errors.map.push("account");
 	}
 }
-
 function mailto(){
 	window.location = "mailto:contact@zenbus.fr";
 }

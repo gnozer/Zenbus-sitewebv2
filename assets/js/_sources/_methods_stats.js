@@ -1,21 +1,9 @@
 ﻿function numberWithSpaces(number) {
 	return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
-/**
- * Returns the value of a number rounded to the nearest integer
- * @param   {number}   number [[Description]]
- * @returns {number}   [[Description]]
- */
 function round(number) {
 	return Math.round(number);
 }
-/**
- * [[Description]]
- * @param {[[Type]]} start    [[Description]]
- * @param {[[Type]]} end      [[Description]]
- * @param {[[Type]]} duration [[Description]]
- * @param {[[Type]]} data     [[Description]]
- */
 function animateValue(start, end, duration, callback) {
 	
     var range = end - start;
@@ -31,9 +19,6 @@ function animateValue(start, end, duration, callback) {
         }
     }.bind(this), stepTime);
 }
-/**
- * [[Description]]
- */
 function runStat(){
 	
 	var 

@@ -8,9 +8,9 @@ tags: journées agir 2018
 author: marie
 lang: fr
 ---
-**Evénement:**  Cette année Zenbus sera présent aux journées Agir qui se dérouleront le 7 & 8 Novembre à Chartres  sur la thématique “ Un nouvel ordre de la mobilité” ! 
+**Evénement:**  Cette année Zenbus sera présent aux journées Agir qui se dérouleront le 7 & 8 Novembre à Chartres  sur la thématique “ Un nouvel ordre de la mobilité”&nbsp;! 
 
-+ **Tout d’abord les journées Agir c’est quoi ?**
++ **Tout d’abord les journées Agir c’est quoi&nbsp;?**
 
 **Les journées Agir** c’est un salon qui existe depuis 2006, qui est ouvert à tous les professionnels du secteur des transports publics et qui valorise les innovations en présentant des entreprises (allant des grands groupes internationaux jusqu’aux Starts-up) innovantes dans le secteur. 
 
@@ -18,7 +18,7 @@ Chaque année c’est plus de **600 professionnels** qui participent aux journé
 
 Au programme:  échanges entre professionnels et exposants, soirée de convivialité,  gala, mais surtout des conférences d’experts pour échanger sur l’actualité & l’avenir du secteur des transports publics et répondre aux problématiques actuelles des opérateurs et des collectivités. 
 
-+ **Quelles sont les thématiques abordées cette année  ?**
++ **Quelles sont les thématiques abordées cette année&nbsp;?**
 
 Cette année le thème du salon est  autour de la mobilité et de la numérisations des services du secteur.  Dans cette ère de numérisation des services, on cherche à comprendre  comment les acteurs historiques du secteur des transports publics et  les nouveaux entrants adaptent ou créer leurs offres, mais aussi comment  ils réussissent à apporter  une véritable valeur ajoutée à l’offre de transport.
 
@@ -33,12 +33,12 @@ Les conférences lors des journées Agir traiteront  de sujets divers pour compr
 		&rarr; Véhicules autonomes : quelles perspectives pour le transport collectif ?<br>
 		&rarr; LOM : nouvelles compétences pour une nouvelle mobilité ? <br> <br>
 
-+ **Où retrouver Zenbus ?** <br>
++ **Où retrouver Zenbus&nbsp;?** <br>
 
-	L’équipe Zenbus sera présente lors de l’événement au Stand n°1 !
+	L’équipe Zenbus sera présente lors de l’événement au Stand n°1&nbsp;!
 
 {: style="text-align: center"}
-Nous vous attendons donc le **7 & 8 Novembre à Chartres !**
+Nous vous attendons donc le **7 & 8 Novembre à Chartres&nbsp;!**
 
 {: style="text-align: center"}
 ![Journées AGIR 2018](/assets/img/blog/agir_2018_2.jpg)

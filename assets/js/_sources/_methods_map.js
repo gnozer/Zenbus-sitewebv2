@@ -1,8 +1,4 @@
-﻿/**
- * Name speaks to itself...
- * @returns {[[Type]]} [[Description]]
- */
-function initMap(){
+﻿function initMap(){
     this.map = L.map('mapContainer');
     L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>', maxZoom: 15}).addTo(this.map); 
@@ -26,9 +22,6 @@ function initMap(){
 	/*this.handleLinkedCities();
 	this.polylines.display(this.map);*/
 }
-/**
- * Name speaks to itself...
- */
 function updateMap(){
     var 
     filter = this.currentFilter;
@@ -49,19 +42,11 @@ function updateMap(){
 	
     fitBounds.call(this);
 }
-/**
- * Compute current filter
- * @param   {[[Type]]} checkedTypes [[Description]]
- * @returns {[[Type]]} [[Description]]
- */
 function currentFilter(){
     return (this.checkedTypes.length > 0 ? this.checkedTypes.reduce(function(acc, val){
          return acc + val;
      }) :  0);
 }
-/**
- * Init cities and associated marker
- */
 function handleCities(){
     this.cities.forEach(function(city){
         //Compute city types
@@ -88,10 +73,6 @@ function handleCities(){
         city.marker.on('click', onMarkerClickClosure.call(this, city));
     }.bind(this));
 }
-
-/**
- * [[Description]]
- */
 function handleLinkedCities(){
     for(var i = 0 ; i < this.cities.length; i++){
         var 
@@ -105,18 +86,10 @@ function handleLinkedCities(){
 }
 /**
  * Closure to set marker behaviour
- * @param   {object}   self [[Description]]
- * @param   {object}   city [[Description]]
- * @returns {[[Type]]} [[Description]]
  */
 function onMarkerClickClosure(city){
     return markerBehaviour.bind(this, city);
 }
-/**
- * [[Description]]
- * @param {object}   city [[Description]]
- * @param {[[Type]]} self [[Description]]
- */
 function markerBehaviour(city){
 	this.map.fitBounds(city.bounds);
 	this.focusedCity = city;
@@ -128,10 +101,6 @@ function markerBehaviour(city){
 		city.marker.stopBouncing();
 	}.bind(this, city), 1000);
 }
-/**
- * [[Description]]
- * @param {[[Type]]} acc [[Description]]
- */
 function searchItemBehaviour(acc){
     this.cities.forEach(function(city){
         city.namespaces.forEach(function(a){
@@ -143,19 +112,11 @@ function searchItemBehaviour(acc){
     
     this.showSearchResults = false;
 }
-/**
- * Fetch types object of an account
- * @param   {[[Type]]} types [[Description]]
- * @returns {[[Type]]} Returns types object array
- */
 function fetchAccTypes(types){
     return this.networkTypes.filter(function(type){
         return (types & type.value) == type.value;
     }.bind(this));
 }
-/**
- * [[Description]]
- */
 function mapBehaviours(){
 	 this.focusedCity = null;
 	 this.showSearchResults = false;
@@ -173,9 +134,6 @@ function fitBounds(){
 }
 /**
  * Utils to test if acc is belong to current filter
- * @param   {[[Type]]} a      [[Description]]
- * @param   {[[Type]]} filter [[Description]]
- * @returns {[[Type]]} [[Description]]
  */
 function belongTo(a){
 	//all
@@ -192,10 +150,6 @@ function belongTo(a){
 }
 /**
  * Utils to test if acc is belong to current filter
- * @param   {object}   city     [[Description]]
- * @param   {[[Type]]} accounts [[Description]]
- * @param   {[[Type]]} filter   [[Description]]
- * @returns {boolean}  [[Description]]
  */
 function isFilteredCity(city, accounts, filter){
     for(var i = 0 ; i < city.namespaces.length ; i++){
@@ -205,10 +159,6 @@ function isFilteredCity(city, accounts, filter){
     }
     return false;
 }
-/**
- * [[Description]]
- * @returns {[[Type]]} [[Description]]
- */
 function filteredCities(){
     var fc = [];
     
@@ -224,7 +174,6 @@ function filteredCities(){
 }
 /**
  * Computed method to keep update current "active" accounts (belong to current filter)
- * @returns {[[Type]]} [[Description]]
  */
 function filteredAccounts(){
     var 
@@ -238,18 +187,11 @@ function filteredAccounts(){
     
     return accounts;
 }
-/**
- * [[Description]]
- * @returns {[[Type]]} [[Description]]
- */
 function searchedAccounts(){
     return this.filteredAccounts.sort(compare).filter(function(account){
         return account.pageTitle.toLowerCase().includes(this.search.toLowerCase());
     }.bind(this));
 }
-/**
- * [[Description]]
- */
 function displayUserPosition(){
      if(!this.user && navigator.geolocation){
             navigator.geolocation.getCurrentPosition(function(user){
@@ -265,9 +207,6 @@ function displayUserPosition(){
             }.bind(this));
     }
 }
-/**
- * [[Description]]
- */
 function locateUser(){
     if(this.user){
         this.focusedCity = null; //TODO refactor
@@ -282,12 +221,6 @@ function locateUser(){
         this.fitBounds();
     }
 }
-/**
- * [[Description]]
- * @param   {object}   a [[Description]]
- * @param   {object}   b [[Description]]
- * @returns {[[Type]]} [[Description]]
- */
 function compare(a, b) {
     if (a.name < b.name){
         return -1;
@@ -297,9 +230,6 @@ function compare(a, b) {
     }
     return 0;
 }
-/**
- * [[Description]]
- */
 function activeFiltersLabel(){
 	var result = [];
 			
@@ -314,11 +244,6 @@ function activeFiltersLabel(){
 
 	return result.join();
 }
-/**
- * [[Description]]
- * @param   {[[Type]]} typeV [[Description]]
- * @returns {[[Type]]} [[Description]]
- */
 function filterLabel(typeV){
 	return messages[this.getLang()].homepage.map.mapexpand.types[typeV];
 }

@@ -47,7 +47,7 @@ grunt.loadNpmTasks('grunt-contrib-concat');
 grunt.registerTask('test', ['jshint', 'qunit']);
 
 // when deploying to prod, this can be run just by typing "grunt prod" on the command line
-grunt.registerTask('prod', ['watch']);
+grunt.registerTask('prod', ['watch', 'concat', 'uglify']);
 
 // when developing the default task can be run just by typing "grunt" on the command line
 grunt.registerTask('default', ['watch']);
