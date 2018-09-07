@@ -14,8 +14,14 @@
 		<script src="{{ site.baseurl }}/assets/js/dev-harpoon.js"></script>
    	<script src="{{ site.baseurl }}/assets/js/footer.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/menu.min.js"></script>
-		{% if page.title == "Contact" %}
+		{% if page.permalink == "/contact/" %}
 			<script src="{{ site.baseurl }}/assets/js/contact.min.js"></script>
 		{% endif %}
+		
+		{% if page.permalink == "/team/" %}
+			<script src="{{ site.baseurl }}/assets/js/team.min.js"></script>
+		{% endif %}
+		
+		
    </body>
 </html>
