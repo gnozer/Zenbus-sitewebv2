@@ -6,7 +6,9 @@ lang: fr
 ---
 <div class="content-container team">
 	<div class="team-members">
-		{% for author in site.data["authors"] %}
+	
+		{% assign authors = site.data["authors"] | sort: 'arrival_date' %}
+		{% for author in authors %}
 		{% include components/polaroid.html
 					  name=author.name
 					  role=author.role
