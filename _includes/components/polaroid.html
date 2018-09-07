@@ -13,7 +13,10 @@
 	</div>
 	<div class="member-description">
 		<p class="member-description-text">
-			Breton expatrié à Montréal. Représentant pour Zenbus en Amerique du Nord. Business development et support. Anciennement responsable d'études dans un réseau de transport interurbain
+			{{ include.presentation }}
 		</p>
+		{% if include.linkedin != null %}
+		<a href="{{ include.linkedin }}" target="_blank"></a>
+		{% endif %}
 	</div>
 </div>
