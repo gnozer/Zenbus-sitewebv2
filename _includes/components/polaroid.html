@@ -1,4 +1,7 @@
 <div class="team-members-member">
+	{% if include.linkedin != null %}
+	<a href="{{ include.linkedin }}" target="_blank" class="member-description-link"></a>
+	{% endif %}
 	<div class="member-polaroid">
 		<div class="member-polaroid-img">
 			<img src="{{ baseurl }}/assets/img/authors/{{ include.photo }}" alt="" class="serious">
@@ -15,8 +18,5 @@
 		<p class="member-description-text">
 			{{ include.presentation }}
 		</p>
-		{% if include.linkedin != null %}
-		<a href="{{ include.linkedin }}" target="_blank"></a>
-		{% endif %}
 	</div>
 </div>
