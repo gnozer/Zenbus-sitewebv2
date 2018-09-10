@@ -3,7 +3,7 @@
   firstname: Julien
   lastname: Devade
   arrival_date: 2011-01-01
-  role: Président
+  role: CEO
   localization: Nantes
   presentation: "Diplomé de l'X et ancien n°2 de la DSI SNCF, il est le Président de Zenbus et au centre de toutes les décisions . Il est imbattable au jeu des 1000 euros et oenologue accompli, pour le plus grand plaisir de la boîte lors des repas de Noel"
   linkedin: https://www.linkedin.com/in/julien-devade-980502/
@@ -14,7 +14,7 @@
   firstname: Lionel
   lastname: Delourme
   arrival_date: 2011-02-01
-  role: Directeur Technique
+  role: CTO
   localization: Paris
   presentation: "De ses deux amours initiales, la physique (DEA de mécanique quantique et 1 an ½ dans les labos de l’X ), et l’algorithmique (simulation, intelligence artificielle et aide à la décision), il a finalement choisi l’ingénierie informatique ! Co-inventeur d’un brevet dans le domaine du dédoublonnage et du clustering d’enregistrements, amateur de joutes verbales enflammées sur à peu près tous les sujets et féru d'arts martiaux, il est le CTO de Zenbus."
   linkedin: null
@@ -25,7 +25,7 @@
   firstname: Olivier
   lastname: Deschaseaux
   arrival_date: 2011-03-01
-  role: Directeur Commercial
+  role: VP Sales & Marketing
   localization: Paris
   presentation: 
   linkedin: https://www.linkedin.com/in/olivier-deschaseaux-6a170931/
@@ -36,66 +36,33 @@
   firstname: Ulric
   lastname: Le Grand
   arrival_date: 2011-04-01
-  role: Directeur administratif & financier
+  role: CFO
   localization: Nantes
   presentation: 
   linkedin: https://www.linkedin.com/in/ulric-le-grand-aa9a2b9/
   photo: ulric.jpg
   photo_fun: 
-- id: benoit
-  name: Benoît Heslouin
-  firstname: Benoît
-  lastname: Heslouin
-  arrival_date: 2011-06-01
-  role: Ingénieur R&D
+- id: djenaba
+  name: Djenaba Bah
+  firstname: Djenaba
+  lastname: Bah
+  arrival_date: 2018-05-14
+  role: Développeur
   localization: Paris
-  presentation: 
-  linkedin: null
-  photo: benoit.jpg
+  presentation: "Djenaba est développeuse chez Zenbus. Ses Hobbies & passions sont les mangas, la musique (et plus particulièrement la K-POP : fan inconditionnelle de BTS), la danse mais également les rats. D'un naturel plutôt calme et gentille elle est toujours disponible pour aider ses collègues . "
+  linkedin: https://www.linkedin.com/in/djenaba-bah-3b4266121/
+  photo: djenaba.jpg
   photo_fun: 
-- id: maxence
-  name: Maxence Lin
-  firstname: Maxence
-  lastname: Lin
-  arrival_date: 2011-07-18
-  role: Ingénieur R&D
+- id: abdelkader
+  name: Abdelkader Bakouche
+  firstname: Abdelkader
+  lastname: Bakouche
+  arrival_date: 2016-01-15
+  role: Consultant Support & Business
   localization: Paris
-  presentation: "Adepte de jeux vidéos, de bonne bouffe et de cyclisme, je brille surtout dans le photo montage. Expert en maniement de Paint et autres outils de qualités, je partage (ou j'impose) volontiers mon don auprès de mes camardes. Mes compétences s'améliorent à chaque instant et j'en ferais un jour mon futur métier. Un jour c'est à dire jamais... Sinon à mes heures perdues, je code..."
-  linkedin: https://www.linkedin.com/in/lin-maxence-3b38aa7a/
-  photo: maxence.jpg
-  photo_fun:
-- id: romain
-  name: Romain Lebastard
-  firstname: Romain
-  lastname: Lebastard
-  arrival_date: 2011-09-01
-  role: Designer
-  localization: Nantes
-  presentation: "Designer de la première heure, aussi à l'aise avec la pâte à modeler qu'avec Illustrator, spécialiste des crayons de couleurs et du SASS, donnez-lui n'importe quel projet et il lui fait prendre vie, de la conception à l'intégration. Si le design est son métier, l'écriture est sa passion. Mantra : Less is more, mais c'est bien aussi si ça sautille."
-  linkedin: https://www.linkedin.com/in/romain-lebastard-32678742/
-  photo: romain.jpg
-  photo_fun: 
-- id: corentin
-  name: Corentin Philippe
-  firstname: Corentin
-  lastname: Philippe
-  arrival_date: 2013-07-15
-  role: Ingénieur R&D
-  localization: Paris
-  photo: corentin.jpg
-  linkedin: null
-  presentation: "Développeur et cycliste émérite, il avale autant les kilomètres de code que de bitume. Féru de blagues sans queue ni tête il est la caution humour de Zenbus."
-  photo_fun: 
-- id: boris
-  name: Boris Raimbault
-  firstname: Boris
-  lastname: Raimbault
-  arrival_date: 2013-09-16
-  role: Ingénieur R&D
-  localization: Nantes
-  presentation: "Chez zenbus, Boris est l'expert en polyvalence et polyvalent dans l'expertise. Le week-end, il marche sur les pas des Rolling Stones avec son groupe de rock Volfoni."
-  linkedin: https://www.linkedin.com/in/boris-raimbault-77aaa175/
-  photo: boris.jpg
+  presentation: "DG (doué en général) Belka c'est la pile électrique belge de rue de Coquillière. Il fait partie de l'équipe commerciale et s'occupe de prendre les RDV auprès de clients. Toujours au téléphone et de caractère jovial, il aura toujours une annecdote à raconter. Hobbies & passions  : manger des crêpes & le foot. "
+  linkedin: https://www.linkedin.com/in/abdelkader-bakouche-65421ba6/
+  photo: abdelkader.jpg
   photo_fun: 
 - id: quentin
   name: Quentin Deniaud
@@ -108,17 +75,50 @@
   linkedin: https://www.linkedin.com/in/quentin-deniaud-25797032/
   photo: quentin.jpg
   photo_fun: 
-- id: simon
-  name: Simon Vergnaud
-  firstname: Simon
-  lastname: Vergnaud
-  arrival_date: 2017-02-27
-  role: Ingénieur R&D
-  localization: Nantes
-  presentation: "Chef de projet, Simon arrive à alterner festivals débridés le weekend et clients la semaine avec professionnalisme. Mordu de NBA et heureux possesseur de 513 paires de lunettes de soleil, il essaie tant bien que mal de convertir l'équipe à la techno."
-  linkedin: https://www.linkedin.com/in/simon-vergnaud/
-  photo: simon.jpg
+- id: benoit
+  name: Benoît Heslouin
+  firstname: Benoît
+  lastname: Heslouin
+  arrival_date: 2011-06-01
+  role: Ingénieur Projets & Clients
+  localization: Paris
+  presentation: 
+  linkedin: null
+  photo: benoit.jpg
   photo_fun: 
+- id: romain
+  name: Romain Lebastard
+  firstname: Romain
+  lastname: Lebastard
+  arrival_date: 2011-09-01
+  role: Designer
+  localization: Nantes
+  presentation: "Designer de la première heure, aussi à l'aise avec la pâte à modeler qu'avec Illustrator, spécialiste des crayons de couleurs et du SASS, donnez-lui n'importe quel projet et il lui fait prendre vie, de la conception à l'intégration. Si le design est son métier, l'écriture est sa passion. Mantra : Less is more, mais c'est bien aussi si ça sautille."
+  linkedin: https://www.linkedin.com/in/romain-lebastard-32678742/
+  photo: romain.jpg
+  photo_fun: 
+- id: maxence
+  name: Maxence Lin
+  firstname: Maxence
+  lastname: Lin
+  arrival_date: 2011-07-18
+  role: Lead Developer
+  localization: Paris
+  presentation: "Adepte de jeux vidéos, de bonne bouffe et de cyclisme, je brille surtout dans le photo montage. Expert en maniement de Paint et autres outils de qualités, je partage (ou j'impose) volontiers mon don auprès de mes camardes. Mes compétences s'améliorent à chaque instant et j'en ferais un jour mon futur métier. Un jour c'est à dire jamais... Sinon à mes heures perdues, je code..."
+  linkedin: https://www.linkedin.com/in/lin-maxence-3b38aa7a/
+  photo: maxence.jpg
+  photo_fun:
+- id: florian
+  name: Florian Liscoët
+  firstname: Florian
+  lastname: Liscoët
+  arrival_date: 2018-07-01
+  role: Consultant Business Canada
+  localization: Montreal
+  presentation: "Breton expatrié à Montréal. Représentant pour Zenbus en Amerique du Nord. Business development et support. Anciennement responsable d'études dans un réseau de transport interurbain"
+  linkedin: https://www.linkedin.com/in/florian-lisco%C3%ABt-85327562/
+  photo: florian.jpg
+  photo_fun: florian_fun.jpg
 - id: victoria
   name: Victoria Marin
   firstname: Victoria
@@ -135,44 +135,55 @@
   firstname: Chantal
   lastname: Oberson Ausoni
   arrival_date: 2017-09-18
-  role: Ingénieur R&D
+  role: Docteur R&D
   localization: Paris
   presentation: 
   linkedin: https://www.linkedin.com/in/chantal-oberson-ausoni-852045113/
   photo: chantal.jpg
+  photo_fun: 
+- id: corentin
+  name: Corentin Philippe
+  firstname: Corentin
+  lastname: Philippe
+  arrival_date: 2013-07-15
+  role: Développeur
+  localization: Paris
+  photo: corentin.jpg
+  linkedin: null
+  presentation: "Développeur et cycliste émérite, il avale autant les kilomètres de code que de bitume. Féru de blagues sans queue ni tête il est la caution humour de Zenbus."
   photo_fun: 
 - id: vincent
   name: Vincent Poulet
   firstname: Vincent
   lastname: Poulet
   arrival_date: 2017-10-02
-  role: Business Developer
+  role: Cadre commercial
   localization: Paris
   presentation: "Tout droit sorti de l'ENR, l'Ecole Nationale de Rotisserie, Vincent est le fruit de l'union illégitime entre Thomas N'Gijol et Fabrice Eboué. Heureusement plus doué dans son métier qu'en blagues, il est le pince-sans-rire de Zenbus. Hobbies : le pélerinage de Loué et le standup"
   linkedin: https://www.linkedin.com/in/vincent-poulet-28ab066a/
   photo: vincent.jpg
+  photo_fun: 
+- id: boris
+  name: Boris Raimbault
+  firstname: Boris
+  lastname: Raimbault
+  arrival_date: 2013-09-16
+  role: Ingénieur Projets & Clients
+  localization: Nantes
+  presentation: "Chez zenbus, Boris est l'expert en polyvalence et polyvalent dans l'expertise. Le week-end, il marche sur les pas des Rolling Stones avec son groupe de rock Volfoni."
+  linkedin: https://www.linkedin.com/in/boris-raimbault-77aaa175/
+  photo: boris.jpg
   photo_fun: 
 - id: christine
   name: Christine Salotti
   firstname: Christine
   lastname: Salotti
   arrival_date: 2017-12-04
-  role: Ingénieur R&D
+  role: Ingénieur Projets & Clients
   localization: Nantes
   presentation: "En quoi consiste votre rôle chez Zenbus ? Le suivi des clients et des réseaux Zenbus lors de leurs mises en place et de leur utilisation, la gestion et la conception de projets interne et s'assurer du bon respect des données personnelles de tous (DPO). Quels sont vos hobbies/ passions ? L'élevage de petits pois et la Capoeira. Quels sont vos traits de caractère ?* Calme et determinée"
   linkedin: https://www.linkedin.com/in/christine-salotti-245955/
   photo: christine.jpg
-  photo_fun: 
-- id: djenaba
-  name: Djenaba Bah
-  firstname: Djenaba
-  lastname: Bah
-  arrival_date: 2018-05-14
-  role: Ingénieur R&D
-  localization: Paris
-  presentation: "Djenaba est développeuse chez Zenbus. Ses Hobbies & passions sont les mangas, la musique (et plus particulièrement la K-POP : fan inconditionnelle de BTS), la danse mais également les rats. D'un naturel plutôt calme et gentille elle est toujours disponible pour aider ses collègues . "
-  linkedin: https://www.linkedin.com/in/djenaba-bah-3b4266121/
-  photo: djenaba.jpg
   photo_fun: 
 - id: marie
   name: Marie Stoffel
@@ -185,36 +196,25 @@
   linkedin: https://www.linkedin.com/in/marie-stoffel-85569b68/
   photo: marie.jpg
   photo_fun: 
-- id: florian
-  name: Florian Liscoët
-  firstname: Florian
-  lastname: Liscoët
-  arrival_date: 2018-07-01
-  role: Business Developer
-  localization: Montreal
-  presentation: "Breton expatrié à Montréal. Représentant pour Zenbus en Amerique du Nord. Business development et support. Anciennement responsable d'études dans un réseau de transport interurbain"
-  linkedin: https://www.linkedin.com/in/florian-lisco%C3%ABt-85327562/
-  photo: florian.jpg
-  photo_fun: florian_fun.jpg
 - id: kevin
   name: Kevin Terranova
   firstname: Kevin
   lastname: Terranova
   arrival_date: 2018-09-03
-  role: Cadre commercial
+  role: Business Developer
   localization: Paris
   presentation: "Tout juste arrivé chez Zenbus, Kevin est un parisien originaire de paris. Très souvient habillé en noir,  et peur de rien, il développera sans aucun le chiffre d'affaires sur le compte Transdev :) Passionné  de cirque avec animaux, et des pays de lEst, Kevin  pratique l'équitation depuis toujours :)"
   linkedin: https://www.linkedin.com/in/kevin-terranova-0278b6b3/
   photo: kevin.jpg
   photo_fun: 
-- id: abdelkader
-  name: Abdelkader Bakouche
-  firstname: Abdelkader
-  lastname: Bakouche
-  arrival_date: 2016-01-15
-  role: Commercial Exté
-  localization: Paris
-  presentation: "DG (doué en général) Belka c'est la pile électrique belge de rue de Coquillière. Il fait partie de l'équipe commerciale et s'occupe de prendre les RDV auprès de clients. Toujours au téléphone et de caractère jovial, il aura toujours une annecdote à raconter. Hobbies & passions  : manger des crêpes & le foot. "
-  linkedin: null
-  photo: abdelkader.jpg
+- id: simon
+  name: Simon Vergnaud
+  firstname: Simon
+  lastname: Vergnaud
+  arrival_date: 2017-02-27
+  role: Ingénieur Projets & Clients
+  localization: Nantes
+  presentation: "Chef de projet, Simon arrive à alterner festivals débridés le weekend et clients la semaine avec professionnalisme. Mordu de NBA et heureux possesseur de 513 paires de lunettes de soleil, il essaie tant bien que mal de convertir l'équipe à la techno."
+  linkedin: https://www.linkedin.com/in/simon-vergnaud/
+  photo: simon.jpg
   photo_fun: 
