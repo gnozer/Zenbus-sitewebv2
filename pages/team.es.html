@@ -6,7 +6,8 @@ lang: es
 ---
 <div class="content-container team">
 	<div class="team-members">
-		{% for author in site.data["authors"] %}
+		{% assign authors = site.data["authors"] %}
+		{% for author in authors %}
 		{% include components/polaroid.html
 					  name=author.name
 					  role=author.role
@@ -15,5 +16,25 @@ lang: es
 					  presentation=author.presentation
 					  linkedin=author.linkedin %}
 		{% endfor %}
+		
+		<div class="team-members-member">
+			<div class="member-polaroid">
+				<div class="member-polaroid-img">
+					<img src="{{ baseurl }}/assets/img/authors/you.jpg" alt="" class="serious">
+					<img src="{{ baseurl }}/assets/img/authors/you_fun.jpg" alt="" class="fun">
+				</div>
+				<div class="member-polaroid-infos">
+					<p class="infos-member">
+						<span class="infos-member-name">Toi ?</span>
+						<span class="infos-member-role">Zenbus Recrute !</span>
+					</p>
+				</div>
+			</div>
+			<div class="member-description">
+				<p class="member-description-text">
+					
+				</p>
+			</div>
+		</div>
 	</div>
 </div>

@@ -3,11 +3,13 @@ members,
 KLASS = {
 	a : "clic",
 	b : "clic2",
-	element: "team-members-member"
+	element: "team-members-member",
+	element2: "member-description-link"
 };
 
 (function(){
 	members = document.getElementsByClassName(KLASS.element);
+	linkedinMembers = document.getElementsByClassName(KLASS.element2);
 	
 	for(var i = 0 ; i < members.length ; i ++){
 		members[i].onclick = function(){
@@ -19,5 +21,11 @@ KLASS = {
 					this.classList.add(KLASS.a);
 				}
 			}
+	}
+	
+	for(var i = 0 ; i < linkedinMembers.length ; i ++){
+		linkedinMembers[i].onclick = function(e){
+			e.stopPropagation();
+		}
 	}
 })();

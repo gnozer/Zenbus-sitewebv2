@@ -16,6 +16,7 @@
 title: Zenbus
 email: contact@zenbus.fr
 url: "https://zenbus.fr" # the base hostname & protocol for your site, e.g. http://example.com
+base_url: "https://zenbus.fr"
 twitter_username: jekyllrb
 github_username:  jekyll
 destination: 
