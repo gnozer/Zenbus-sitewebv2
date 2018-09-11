@@ -85,7 +85,7 @@
   presentation: "Colosse aux clavicules d'argile, Benoît est chef de projet Zenbus. C'est notre casque bleu, pivot de l'articulation entre l'équipe de dev et l'équipe commerciale. Amateur de whisky (tourbé, sinon c'est nul) et fan de rugby, ne lui demandez rien avant son 3ème café du matin."
   linkedin: null
   photo: benoit.jpg
-  photo_fun: 
+  photo_fun:
 - id: romain
   name: Romain Lebastard
   firstname: Romain
@@ -93,7 +93,7 @@
   arrival_date: 2011-09-01
   role: Designer
   localization: Nantes
-  presentation: "Designer de la première heure, aussi à l'aise avec la pâte à modeler qu'avec Illustrator, spécialiste des crayons de couleurs et du SASS, donnez-lui n'importe quel projet et il lui fait prendre vie, de la conception à l'intégration. Pour Romain, "Less is More", mais parfois,quand ça sautille c'est bien aussi. Si le design est son métier, l'écriture est sa passion."
+  presentation: "Designer de la première heure, aussi à l'aise avec la pâte à modeler qu'avec Illustrator, spécialiste des crayons de couleurs et du SASS, donnez-lui n'importe quel projet et il lui fait prendre vie, de la conception à l'intégration. Pour Romain, \"Less is More\", mais parfois,quand ça sautille c'est bien aussi. Si le design est son métier, l'écriture est sa passion."
   linkedin: https://www.linkedin.com/in/romain-lebastard-32678742/
   photo: romain.jpg
   photo_fun: 
