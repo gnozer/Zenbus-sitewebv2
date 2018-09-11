@@ -5,8 +5,12 @@ permalink: /team/
 lang: en
 ---
 <div class="content-container team">
+	<div class="classic-tile tile">
+		<h2 class="tile-title">Aloha!</h2>
+		<p class="tile-text">The Zenbus Team consists of advanced engineers, extreme developers, seasoned salespeople, creative people, curious people, psycho-enthusiasts, disordered people, musicians, writers, sportsmen, Swiss, Belgians, Nantais, Parisians, ... but it is above all a dynamic and ambitious team that seeks to revolutionize mobility. Since its creation in 2011 and many pivots, the small team of valiant warriors today counts more than twenty people.</p>
+	</div>
 	<div class="team-members">
-		{% assign authors = site.data["authors"] %}
+		{% assign authors = site.data["authors"] | sort: 'arrival_date' %}
 		{% for author in authors %}
 		{% include components/polaroid.html
 					  name=author.name
