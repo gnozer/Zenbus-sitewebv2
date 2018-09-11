@@ -8,7 +8,7 @@
   presentation: "Diplomé de l'X et ancien DSI adjoint au sein de la SNCF, co-fondateur et Président de Zenbus, Julien est au centre de toutes les décisions. Imbattable au jeu des 1000 euros, c'est un oenologue accompli, pour notre plus grand plaisir lors des repas de Noël."
   linkedin: https://www.linkedin.com/in/julien-devade-980502/
   photo: julien.jpg
-  photo_fun: 
+  photo_fun: julien_fun.jpg
 - id: lionel
   name: Lionel Delourme
   firstname: Lionel
@@ -19,7 +19,7 @@
   presentation: "Polytechnicien et co-fondateur de Zenbus, Lionnel est également co-inventeur d’un brevet dans le domaine du dédoublonnage et du clustering d’enregistrements. Amateur de joutes verbales unilatérales et enflammées quel qu'en soit le sujet, il est notre CTO."
   linkedin: null
   photo: lionel.jpg
-  photo_fun: 
+  photo_fun: lionel_fun.jpg
 - id: olivier
   name: Olivier Deschaseaux
   firstname: Olivier
@@ -41,7 +41,7 @@
   presentation: "Serial entrepreneur et co-fondateur de Zenbus, Ulric est connu pour son franc-parler et ses idées avant-gardistes. Directeur administratif et financier de Zenbus, il est doté d'une passion inavouée pour la grande gastronomie, du moment qu'il y a des burgers."
   linkedin: https://www.linkedin.com/in/ulric-le-grand-aa9a2b9/
   photo: ulric.jpg
-  photo_fun: 
+  photo_fun: ulric_fun.jpg
 - id: djenaba
   name: Djenaba Bah
   firstname: Djenaba
@@ -52,7 +52,7 @@
   presentation: "Djenaba est développeuse chez Zenbus. Fan de mangas et de K-POP (en particulier BTS), elle aime la particulièrement la danse. D'un naturel calme et gentil, elle est toujours disponible pour aider ses collègues."
   linkedin: https://www.linkedin.com/in/djenaba-bah-3b4266121/
   photo: djenaba.jpg
-  photo_fun: 
+  photo_fun: djenaba_fun.jpg
 - id: abdelkader
   name: Abdelkader Bakouche
   firstname: Abdelkader
@@ -63,7 +63,7 @@
   presentation: "Belka c'est notre pile électrique belge. Il fait partie de l'équipe commerciale et s'occupe notamment de prendre contacts auprès de clients. Toujours au téléphone et de caractère jovial, il aura toujours une anecdote à raconter. Quand il n'est pas figurant dans OSS117, il adore manger des crêpes et regarder le foot."
   linkedin: https://www.linkedin.com/in/abdelkader-bakouche-65421ba6/
   photo: abdelkader.jpg
-  photo_fun: 
+  photo_fun: abdelkader_fun.jpg
 - id: quentin
   name: Quentin Deniaud
   firstname: Quentin
@@ -74,7 +74,7 @@
   presentation: "Business developer tout-terrain, à l'aise en toutes circonstances, disponible à toute heure du jour et de la nuit, ce passionné de musique est aussi le fournisseur officiel de pata negra de Zenbus. Trilingue, épicurien, Quentin vit sa vie à 200 à l'heure."
   linkedin: https://www.linkedin.com/in/quentin-deniaud-25797032/
   photo: quentin.jpg
-  photo_fun: 
+  photo_fun: quentin_fun.jpg
 - id: benoit
   name: Benoît Heslouin
   firstname: Benoît
@@ -82,10 +82,10 @@
   arrival_date: 2011-06-01
   role: Ingénieur Projets & Clients
   localization: Paris
-  presentation: "Colosse aux clavicules d'argile, Benoît est chef de projet Zenbus. C'est notre casque bleu, pivot de l'articulation entre l'équipe de dev et l'équipe commerciale. Amateur de whisky (tourbé, sinon c'est nul) et fan de rugby, ne lui demandez rien avant son 3ème café du matin."
+  presentation: "Colosse aux clavicules d'argile, Benoît est chef de projet Zenbus. C'est notre casque bleu, pivot de l'articulation entre l'équipe de dev et l'équipe commerciale. Amateur de whisky (tourbé, sinon c'est nul) et fan de rugby, ne lui demandez rien avant son 3ème café de l'après-midi."
   linkedin: null
   photo: benoit.jpg
-  photo_fun:
+  photo_fun: benoit_fun.jpg
 - id: romain
   name: Romain Lebastard
   firstname: Romain
@@ -96,7 +96,7 @@
   presentation: "Designer de la première heure, aussi à l'aise avec la pâte à modeler qu'avec Illustrator, spécialiste des crayons de couleurs et du SASS, donnez-lui n'importe quel projet et il lui fait prendre vie, de la conception à l'intégration. Pour Romain, \"Less is More\", mais parfois,quand ça sautille c'est bien aussi. Si le design est son métier, l'écriture est sa passion."
   linkedin: https://www.linkedin.com/in/romain-lebastard-32678742/
   photo: romain.jpg
-  photo_fun: 
+  photo_fun: romain_fun.jpg
 - id: maxence
   name: Maxence Lin
   firstname: Maxence
@@ -107,7 +107,7 @@
   presentation: "Cuistot hors-pair et cycliste averti, Maxence est notre roadmap master et notre spécialiste du code propre. Egalement expert en maniement de Paint, il partage (impose) volontiers son don auprès de ses camarades et reste persuadé d'en faire son métier un jour..."
   linkedin: https://www.linkedin.com/in/lin-maxence-3b38aa7a/
   photo: maxence.jpg
-  photo_fun:
+  photo_fun: maxence_fun.jpg
 - id: florian
   name: Florian Liscoët
   firstname: Florian
@@ -129,7 +129,7 @@
   presentation: "C'est notre assistante multi-fonctions, multi-tâches, multi-sites: sans elle nous serions depuis longtemps au désespoir... Inconditionnelle de Gilbert Montagné, de séries et de cinéma, Victoria est pleine d'énergie et peut partir au quart de tour !"
   linkedin: https://www.linkedin.com/in/victoria-marin-996574142/
   photo: victoria.jpg
-  photo_fun: 
+  photo_fun: victoria_fun.jpg
 - id: chantal
   name: Chantal Oberson Ausoni
   firstname: Chantal
@@ -140,7 +140,7 @@
   presentation: "Tous les matins, Chantal chausse ses lunettes de mathématicienne et nourrit ses algorithmes de réseaux de transports. Toujours attentive à nos petits malheurs, elle est l'ennemie jurée du désordre. Cruciverbiste obstinée et grande amatrice de chocolat (suisse évidemment)"
   linkedin: https://www.linkedin.com/in/chantal-oberson-ausoni-852045113/
   photo: chantal.jpg
-  photo_fun: 
+  photo_fun: chantal_fun.jpg
 - id: corentin
   name: Corentin Philippe
   firstname: Corentin
@@ -148,10 +148,10 @@
   arrival_date: 2013-07-15
   role: Développeur
   localization: Paris
-  photo: corentin.jpg
   linkedin: null
   presentation: "Développeur génial et cycliste émérite, Corentin avale autant les kilomètres de code que de bitume. Féru de blagues sans queue ni tête, il est à l'origine de plus de 50% des posts absurdes sur Slack. Ne lui donnez pas à manger après 12h12 !"
-  photo_fun: 
+  photo: corentin.jpg
+  photo_fun: corentin_fun.jpg
 - id: vincent
   name: Vincent Poulet
   firstname: Vincent
@@ -162,7 +162,7 @@
   presentation: "Tout droit sorti de l'ENR, l'Ecole Nationale de Rotisserie, Vincent est le fruit de l'union illégitime entre Thomas N'Gijol et Fabrice Eboué. Heureusement plus doué dans le business development qu'en blagues, il est le pince-sans-rire de Zenbus."
   linkedin: https://www.linkedin.com/in/vincent-poulet-28ab066a/
   photo: vincent.jpg
-  photo_fun: 
+  photo_fun: vincent_fun.jpg
 - id: boris
   name: Boris Raimbault
   firstname: Boris
@@ -184,7 +184,7 @@
   presentation: "Grande connaisseuse des transports en commun, calme et déterminée, Christine consacre sa vie à l'optimisation des process et au bonheur de nos clients. Entre deux déploiements, elle cultive petits pois et tomates. Méfiez-vous car elle est (future) championne de Capoeira !"
   linkedin: https://www.linkedin.com/in/christine-salotti-245955/
   photo: christine.jpg
-  photo_fun: 
+  photo_fun: christine_fun.jpg
 - id: marie
   name: Marie Stoffel
   firstname: Marie
@@ -195,7 +195,7 @@
   presentation: "Même dans les pires épreuves, Marie garde son éternel sourire. En charge du marketing et de la communication, c'est une grande fanatique de snowboard,  de poulet, des Red Hot et de tennis. Toujours à l'écoute, énergique (la légende raconte que c'est à cause de la caféine) et bienveillante."
   linkedin: https://www.linkedin.com/in/marie-stoffel-85569b68/
   photo: marie.jpg
-  photo_fun: 
+  photo_fun: marie_fun.jpg
 - id: kevin
   name: Kevin Terranova
   firstname: Kevin
@@ -206,7 +206,7 @@
   presentation: "Résolument commercial depuis sa prime jeunesse, il n'a peur de rien et en particulier de développer le chiffre d'affaires de Zenbus. Passionné par les animaux et les débats radiodiffusés, Kevin  pratique l'équitation depuis toujours."
   linkedin: https://www.linkedin.com/in/kevin-terranova-0278b6b3/
   photo: kevin.jpg
-  photo_fun: 
+  photo_fun: kevin_fun.jpg
 - id: simon
   name: Simon Vergnaud
   firstname: Simon
@@ -217,4 +217,4 @@
   presentation: "Chef de projets Zenbus, Simon alterne avec brio les déploiements clients, les projets techniques et les festivals débridés le weekend. Mordu de NBA et heureux possesseur de 513 paires de lunettes de soleil, il essaie tant bien que mal de convertir l'équipe à la techno."
   linkedin: https://www.linkedin.com/in/simon-vergnaud/
   photo: simon.jpg
-  photo_fun: 
+  photo_fun: simon_fun.jpg
