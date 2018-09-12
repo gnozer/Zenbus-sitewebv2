@@ -41,7 +41,7 @@
   presentation: "Serial entrepreneur et co-fondateur de Zenbus, Ulric est connu pour son franc-parler et ses idées avant-gardistes. Directeur administratif et financier de Zenbus, il est doté d'une passion inavouée pour la grande gastronomie, du moment qu'il y a des burgers."
   linkedin: https://www.linkedin.com/in/ulric-le-grand-aa9a2b9/
   photo: ulric.jpg
-  photo_fun: ulric_fun.jpg
+  photo_fun: ulric.jpg
 - id: djenaba
   name: Djenaba Bah
   firstname: Djenaba
@@ -74,7 +74,7 @@
   presentation: "Business developer tout-terrain, à l'aise en toutes circonstances, disponible à toute heure du jour et de la nuit, ce passionné de musique est aussi le fournisseur officiel de pata negra de Zenbus. Trilingue, épicurien, Quentin vit sa vie à 200 à l'heure."
   linkedin: https://www.linkedin.com/in/quentin-deniaud-25797032/
   photo: quentin.jpg
-  photo_fun: quentin_fun.jpg
+  photo_fun: quentin.jpg
 - id: benoit
   name: Benoît Heslouin
   firstname: Benoît
