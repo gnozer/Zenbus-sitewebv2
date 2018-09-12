@@ -16,7 +16,7 @@
   arrival_date: 2011-02-01
   role: CTO
   localization: Paris
-  presentation: "Polytechnicien et co-fondateur de Zenbus, Lionnel est également co-inventeur d’un brevet dans le domaine du dédoublonnage et du clustering d’enregistrements. Amateur de joutes verbales unilatérales et enflammées quel qu'en soit le sujet, il est notre CTO."
+  presentation: "Polytechnicien et co-fondateur de Zenbus, Lionel est également co-inventeur d’un brevet dans le domaine du dédoublonnage et du clustering d’enregistrements. Amateur de joutes verbales unilatérales et enflammées quel qu'en soit le sujet, il est notre CTO."
   linkedin: null
   photo: lionel.jpg
   photo_fun: lionel_fun.jpg
@@ -27,7 +27,7 @@
   arrival_date: 2011-03-01
   role: VP Sales & Marketing
   localization: Paris
-  presentation: "Associé co-fondateur de Zenbus et issu du monde du conseil en ingénierie, Olivier est en charge du marketing et les ventes de l'entreprise. Incollable sur les questions d'Histoire & Géographie, il ne pose son téléphone que pour dormir (et encore...)."
+  presentation: "Associé co-fondateur de Zenbus et issu du monde du conseil en ingénierie, Olivier est en charge du marketing et des ventes de l'entreprise. Incollable sur les questions d'Histoire & Géographie, il ne pose son téléphone que pour dormir (et encore...)."
   linkedin: https://www.linkedin.com/in/olivier-deschaseaux-6a170931/
   photo: olivier.jpg
   photo_fun: olivier_fun.jpg
@@ -49,7 +49,7 @@
   arrival_date: 2018-05-14
   role: Développeur
   localization: Paris
-  presentation: "Djenaba est développeuse chez Zenbus. Fan de mangas et de K-POP (en particulier BTS), elle aime la particulièrement la danse. D'un naturel calme et gentil, elle est toujours disponible pour aider ses collègues."
+  presentation: "Djenaba est développeuse chez Zenbus. Fan de mangas et de K-POP (en particulier BTS), elle aime particulièrement la danse. D'un naturel calme et gentil, elle est toujours disponible pour aider ses collègues."
   linkedin: https://www.linkedin.com/in/djenaba-bah-3b4266121/
   photo: djenaba.jpg
   photo_fun: djenaba_fun.jpg
@@ -137,7 +137,7 @@
   arrival_date: 2017-09-18
   role: Docteur R&D
   localization: Paris
-  presentation: "Tous les matins, Chantal chausse ses lunettes de mathématicienne et nourrit ses algorithmes de réseaux de transports. Toujours attentive à nos petits malheurs, elle est l'ennemie jurée du désordre. Cruciverbiste obstinée et grande amatrice de chocolat (suisse évidemment)"
+  presentation: "Tous les matins, Chantal chausse ses lunettes de mathématicienne et nourrit ses algorithmes de réseaux de transports. Toujours attentive à nos petits malheurs, elle est l'ennemie jurée du désordre. Cruciverbiste obstinée et grande amatrice de chocolat (suisse évidemment)."
   linkedin: https://www.linkedin.com/in/chantal-oberson-ausoni-852045113/
   photo: chantal.jpg
   photo_fun: chantal_fun.jpg
@@ -173,7 +173,7 @@
   presentation: "Chef de projets Zenbus, Boris est l'expert en polyvalence et polyvalent dans l'expertise. Le week-end, il marche sur les pas des Stooges, tente d'égaler la technique de John Bonham et la notoriété d'ABBA avec son groupe de rock Volfoni."
   linkedin: https://www.linkedin.com/in/boris-raimbault-77aaa175/
   photo: boris.jpg
-  photo_fun: 
+  photo_fun: boris_fun.jpg
 - id: christine
   name: Christine Salotti
   firstname: Christine
