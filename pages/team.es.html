@@ -5,6 +5,10 @@ permalink: /team/
 lang: es
 ---
 <div class="content-container team">
+	<div class="team-tile">
+		<h2 class="team-tile-title">El Equipo</h2>
+		<p class="team-tile-text">El equipo de Zenbus se compone de ingenieros expertos, desarrolladores extremos, comerciales comprometidos, creativos, curiosos, testaduros, músicos, escritores, deportistas, jóvenes, belgas, de Nantes, parisinos ... es sobre todo un equipo dinámico y ambicioso que busca revolucionar la movilidad.</p>
+	</div>
 	<div class="team-members">
 		{% assign authors = site.data["authors"] | sort: 'arrival_date' %}
 		{% for author in authors %}
@@ -16,5 +20,26 @@ lang: es
 					  presentation=author.presentation
 					  linkedin=author.linkedin %}
 		{% endfor %}
+		
+		<div class="team-members-member">
+			<div class="member-polaroid">
+				<div class="member-polaroid-img">
+					<img src="https://media.giphy.com/media/1d7E5ogkVOdY4yiMPY/giphy.gif" alt="">
+				</div>
+				<div class="member-polaroid-infos">
+					<p class="infos-member">
+						<span class="infos-member-name">¿ Y sí fueras tu ?</span>
+						<span class="infos-member-role">¡ Contratamos !</span>
+					</p>
+				</div>
+			</div>
+			<div class="member-description you">
+				<p class="member-description-text">
+					¿ Quieres participar en la aventura ? ¡ Descubre las misiones que te proponemos !
+					<a href="https://storage.googleapis.com/zenbus-files/Fichedeposte-CommercialB2B.pdf" target="_blank" class="you-link">1 Commercial Junior</a>
+					<a href="http://storage.googleapis.com/zenbus-files/OffreEmploi-zenbus.pdf" target="_blank" class="you-link">2 Desarrollador</a>
+				</p>
+			</div>
+		</div>
 	</div>
 </div>
