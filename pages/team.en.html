@@ -13,7 +13,7 @@ lang: en
 		{% assign authors = site.data["authors"] | sort: 'arrival_date' %}
 		{% for author in authors %}
 		{% include components/polaroid.html
-					  name=author.name
+					  firstname=author.firstname
 					  role=author.role
 					  photo=author.photo
 					  photo_fun=author.photo_fun
