@@ -63,11 +63,13 @@ Array.prototype.forEach.call(gestureZones, function(gestureZone){
 	function handleGesture(el) {
 		 if (touchendX < touchstartX) {
 			 //Swipe Left
+			 el.getElementsByClassName('serious')[0].style.transform = "translate3d(-100%, 0, 0)";
 			 el.getElementsByClassName('fun')[0].style.transform = "translate3d(0, 0, 0)";
 		 }
 
 		 if (touchendX > touchstartX) {
 			 //Swipe Right
+			 el.getElementsByClassName('serious')[0].style.transform = "translate3d(0, 0, 0)";
 			 el.getElementsByClassName('fun')[0].style.transform = "translate3d(100%, 0, 0)";
 		 }
 	}
