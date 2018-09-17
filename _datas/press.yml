@@ -2,54 +2,189 @@
   published: 2018-09-05
   press: "Le Publicateur libre"
   link: https://actu.fr/pays-de-la-loire/mayenne_53147/transport-maybus-systeme-bus-plus-pratique-ete-mis-place-mayenne_18459534.html
-  image: null
+  image: lepublicateurlibre.png
 - title: "Travaux du tramway à Caen : les bons plans pour se déplacer"
   published: 2018-09-08
   press: "La liberté Caen"
   link: https://actu.fr/normandie/caen_14118/travaux-tramway-caen-bons-plans-se-deplacer_18487906.html
-  image: null
+  image: lalibertecaen.png
 - title: "Une application pour géolocaliser les bus dans cette ville de la Manche"
   published: 2018-09-04
   press: "La Manche libre"
   link: https://www.lamanchelibre.fr/actualite-577085-une-application-pour-geolocaliser-les-bus-dans-cette-ville-de-la-manche
-  image: null
+  image: lamanchelibre.jpg
 - title: "Granville améliore sa desserte en bus"
   published: 2018-08-31
   press: "Normandie Actu"
   link: https://actu.fr/normandie/granville_50218/granville-ameliore-desserte-bus_18375722.html
-  image: null
+  image: normandieactu.png
 - title: "Mayenne : Révolution autour du transport urbain collectif"
   published: 2018-08-31
   press: "Le courrier de la Mayenne"
   link: http://www.lecourrierdelamayenne.fr/actualite-28109-mayenne-revolution-autour-du-transport-urbain-collectif.html
-  image: null
+  image: lecourrierdelamayenne.png
 - title: "À Mayenne. La Ville lance son nouveau service de bus lundi 3 septembre"
   published: 2018-08-29
   press: "Ouest-france"
   link: https://www.ouest-france.fr/pays-de-la-loire/mayenne-53100/mayenne-la-ville-lance-son-nouveau-service-de-bus-lundi-3-septembre-5940859
-  image: null
+  image: ouestfrance.png
 - title: "La Ville de Mayenne se dote d'un véritable service de transport urbain"
   published: 2018-08-28
   press: "France-Bleu"
   link: https://www.francebleu.fr/infos/transports/video-et-photos-la-ville-de-mayenne-se-dote-d-un-veritable-service-de-transport-urbain-1535470864
-  image: null
+  image: francebleu.jpg
 - title: "Zenbus met les bus à la pointe de la géolocalisation"
   published: 2018-08-02
   press: "Nice-matin"
   link: http://www.nicematin.com/vie-locale/zenbus-met-les-bus-a-la-pointe-de-la-geolocalisation-243232
-  image: null
+  image: nicematin.jpg
 - title: "Marmande : Zenbus, l’appli pour suivre son bus en temps réel"
   published: 2018-06-05
   press: "Sud-Ouest"
   link: https://www.sudouest.fr/2018/06/05/zenbus-l-appli-pour-suivre-son-bus-en-temps-reel-5117571-3755.php
-  image: null
+  image: sudouest.jpg
+- title: "Dès ce lundi, deux nouveaux services pour les usagers des bus"
+  published: 2018-03-08
+  press: "La Rép des Pyrénées"
+  link: http://www.larepubliquedespyrenees.fr/2018/03/08/agglo-de-pau-des-lundi-deux-nouvelles-applis-pour-les-usagers-des-bus,2297048.php
+  image: larepdespyrenees.png
+- title: "Transport en commun. Tous en bus à compter du 1 septembre !"
+  published: 2018-08-29
+  press: "Le Ploermelais"
+  link: https://actu.fr/bretagne/ploermel_56165/transport-commun-tous-busa-compter-1-septembre_18282274.html
+  image: leploermelais.png
+- title: "Avec Zenbus, suivez la navette à la trace"
+  published: 2017-07-21
+  press: "La Dépêche.fr"
+  link: https://www.ladepeche.fr/article/2017/09/21/2649440-avec-zenbus-suivez-la-navette-a-la-trace.html
+  image: ladepeche.jpg
+- title: "Start-up. Zenbus, l'appli pour suivre son bus à la trace"
+  published: 2016-06-06
+  press: "Ouest-France (entreprises)"
+  link: https://www.ouest-france.fr/high-tech/start-zenbus-lappli-pour-suivre-son-bus-la-trace-4472081
+  image: ouestfrance.png
+- title: "Zenbus, 1 an d’innovation pour faciliter vos déplacements sur Grand Paris Seine Ouest"
+  published: 2016-10-05
+  press: "Le journal de l'éco.fr"
+  link: https://lejournaldeleco.fr/zenbus-1-an-dinnovation-pour-faciliter-vos-deplacements-sur-grand-paris-seine-ouest/#.W59jtugzaUk
+  image: lejournaldeleco.svg
+- title: "Une appli pour ne plus attendre le passage des bus"
+  published: 2018-01-23
+  press: "La Dépêche.fr"
+  link: https://www.ladepeche.fr/article/2018/01/23/2727255-une-appli-pour-ne-plus-attendre-le-passage-des-bus.html
+  image: ladepeche.jpg
 - title: "Une application pour suivre votre bus en temps réel"
   published: 2018-04-21
   press: "L'est Républicain"
   link: https://www.estrepublicain.fr/edition-de-verdun/2018/04/21/une-application-pour-suivre-votre-bus-en-temps-reel
-  image: null
+  image: lestrepublicain.jpg
 - title: "Nantes: Zenbus, l'appli pour géolocaliser son bus, bientôt étendue à une trentaine de lignes"
   published: 2016-01-20
   press: "20 minutes"
   link: https://www.20minutes.fr/nantes/1769859-20160120-nantes-zenbus-appli-geolocaliser-bus-bientot-etendue-trentaine-lignes
-  image: null
+  image: 20minutes.png
+- title: "Vous en avez marre d'attendre le bus? Une appli vous permet de le géolocaliser en temps réel"
+  published: 2018-06-04
+  press: "Nice-matin"
+  link: http://www.nicematin.com/vie-locale/vous-en-avez-marre-dattendre-le-bus-une-appli-vous-permet-de-le-geolocaliser-en-temps-reel-235573
+  image: nicematin.jpg
+- title: "A Honfleur, une application pour mobiles qui géolocalise votre bus en temps réel"
+  published: 2018-02-25
+  press: "Le pays d'Auge"
+  link: https://actu.fr/normandie/honfleur_14333/a-honfleur-une-application-mobiles-geolocalise-bus-temps-reel_15675292.html
+  image: lepaysdauge.png
+- title: "ALÈS Les transports urbains réorganisés"
+  published: 2018-03-03
+  press: "Objectif Gard"
+  link: http://www.objectifgard.com/2018/03/03/ales-les-transports-urbains-reorganises/
+  image: objectifgard.png
+- title: "Nantes : l’application Zenbus débarque sur 28 nouvelles lignes de la SEMITAN"
+  published: 2016-06-08
+  press: "Breizh-info.com"
+  link: https://www.breizh-info.com/2016/06/08/44661/nantes-lapplication-joul-debarque-28-nouvelles-lignes-de-semitan
+  image: breizhinfo.png
+- title: "Pays de Ploërmel. En septembre, 14 bus par jour entre Ploërmel et Mauron"
+  published: 2018-06-13
+  press: "Les infos du pays Gallo"
+  link: https://www.lesinfosdupaysgallo.com/2018/06/13/pays-de-ploermel-en-septembre-14-bus-par-jour-entre-ploermel-et-mauron/
+  image: lesinfosdupaysgallo.jpg
+- title: "Joul, la start-up française qui pousse"
+  published: 2014-11-06
+  press: "Mobilicités"
+  link: http://www.mobilicites.com/011-3198-Joul-la-start-up-francaise-qui-pousse.html
+  image: mobilicites.png
+- title: "ALÈS Une nouvelle navette gratuite Ales’Y arrive avec son appli !"
+  published: 2017-08-28
+  press: "Objectif Gard"
+  link: http://www.objectifgard.com/2017/08/28/ales-nouvelle-navette-gratuite-alesy-arrive-appli/
+  image: objectifgard.png
+- title: "Un nouveau bus « Zen » et gratuit à Bernay"
+  published: 2017-12-01
+  press: "L’éveil Normand"
+  link: https://actu.fr/normandie/bernay_27056/nouveau-bus-zen-gratuit-bernay_14061839.html
+  image: leveilnormand.png
+- title: "On a testé pour vous : la navette électrique dans le centre-ville de Caen"
+  published: 2018-01-10
+  press: "Tendance Ouest"
+  link: https://www.tendanceouest.com/actualite-258677-on-a-teste-pour-vous-la-navette-electrique-dans-le-centre-ville-de-caen.html
+  image: tendanceouest.svg
+- title: "Pour la Semaine de la mobilité c'est 18 voyages à la douzaine"
+  published: 2018-09-15
+  press: "La Dépêche.fr"
+  link: https://www.ladepeche.fr/article/2018/09/15/2869210-semaine-mobilite-est-18-voyages-douzaine.html
+  image: ladepeche.jpg
+- title: "Pau : deux applications qui vont changer le quotidien dans les transports"
+  published: 2018-03-08
+  press: "Sud Ouest"
+  link: https://www.sudouest.fr/2018/03/08/pau-deux-applications-qui-vont-changer-le-quotidien-dans-les-transports-4262454-4344.php
+  image: sudouest.jpg
+- title: "Les autobus de Saint-Jean maintenant sur Google Maps"
+  published: 2018-03-02
+  press: "Le canada Français"
+  link: https://www.canadafrancais.com/autobus-de-saint-jean-google-maps/
+  image: lecanadafrancais.png
+- title: "Les habitants de l'Artois impactés par des travaux jusqu’en 2019"
+  published: 2017-07-04
+  press: "Horizon"
+  link: http://www.horizonradio.fr/article-6801-les-habitants-de-artois-impactes-par-des-travaux-jusquen-2019.html
+  image: horizon.png
+- title: "Une application pour « pister » les bus et les cars"
+  published: 2017-06-02
+  press: "La Dépêche.fr"
+  link: https://www.ladepeche.fr/article/2017/06/02/2586560-une-application-pour-pister-les-bus-et-les-cars.html
+  image: ladepeche.jpg
+- title: "Une application pour suivre les autobus à la trace"
+  published: 2016-11-15
+  press: "Le canada Français"
+  link: https://www.canadafrancais.com/une-application-pour-suivre-les-autobus-a-la-trace/
+  image: lecanadafrancais.png
+- title: "Le palmarès des Trophées de l'innovation"
+  published: 2016-06-14
+  press: "Mobilicités"
+  link: http://www.mobilicites.com/011-5162-Le-palmares-de-Trophees-de-l-innovation.html
+  image: mobilicites.png
+- title: "Nantes La Tan lance la géolocalisation des bus"
+  published: 2016-06-05
+  press: "Presse Océan"
+  link: https://www.presseocean.fr/actualite/nantes-la-tan-lance-la-geolocalisation-des-bus-05-06-2016-194812s
+  image: presseocean.png
+- title: "Nantes : 30 lignes de bus géolocalisées dès le lundi 6 juin"
+  published: 2016-06-02
+  press: "France info"
+  link: https://france3-regions.francetvinfo.fr/pays-de-la-loire/loire-atlantique/nantes-metropole/nantes/nantes-30-lignes-bus-geolocalisees-lundi-6-juin-1013103.html
+  image: franceinfo.png
+- title: "Europ'Essonne : visualisez en temps réel la position de la navette"
+  published: 2015-05-03
+  press: "Le Parisien"
+  link: http://www.leparisien.fr/massy-91300/europ-essonne-visualisez-en-temps-reel-la-position-de-la-navette-03-05-2015-4742021.php
+  image: leparisien.png
+- title: "Nantes teste la localisation de bus par smartphone"
+  published: 2014-10-31
+  press: "Mobilicités"
+  link: http://www.mobilicites.com/011-3184-Nantes-teste-la-localisation-de-bus-par-smartphone.html
+  image: mobilicites.png
+- title: "Une appli pour savoir quand le bus va passer"
+  published: 2015-12-04
+  press: "Le Parisien"
+  link: http://www.leparisien.fr/espace-premium/hauts-de-seine-92/une-appli-pour-savoir-quand-le-bus-va-passer-04-12-2015-5337475.php
+  image: leparisien.png
