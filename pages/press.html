@@ -1,0 +1,19 @@
+---
+title: Presse
+layout: page
+permalink: /press/
+---
+<div class="content-container press">
+	
+	{% assign articles = site.data["press"] | sort: 'published' | reverse %}
+	{% for article in articles %}
+		{% include components/press-card.html
+			image=article.image
+			title=article.title
+			paper=article.press
+			published=article.published
+			link=article.link %}
+	
+	{% endfor %}
+	
+</div>
