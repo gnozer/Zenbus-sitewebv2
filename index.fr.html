@@ -303,13 +303,17 @@ lang: fr
                      <a href="" class="tile-text-link">Voir tous les articles</a>
                   </p>
                </div>
-               <div class="press-content">
-                  <ul class="press-content-list">
-                     <li class="press-content-list-item">caca</li>
-                     <li class="press-content-list-item">caca</li>
-                     <li class="press-content-list-item">caca</li>
-                     <li class="press-content-list-item">caca</li>
-                  </ul>
+               <div class="press-articles">
+                  {% assign articles = site.data["press"] | sort: 'published' | reverse %}
+                  {% for article in articles %}
+                     {% include components/press-card.html
+                        image=article.image
+                        title=article.title
+                        paper=article.press
+                        published=article.published
+                        link=article.link %}
+                  
+                  {% endfor %}
                </div>
             </section>
             
