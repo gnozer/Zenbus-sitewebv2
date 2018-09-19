@@ -1,8 +1,8 @@
 <article class="press-card">
 	<header class="card-header" style="background-image:url('{{ baseurl }}/assets/img/press/{{ include.image }}')">
-		<a href="{{ include.url }}"></a>
+		<a href="{{ include.link }}"></a>
 	</header>
-	<a href="{{ include.url }}" class="card-title">{{ include.title }}</a>
+	<a href="{{ include.link }}" class="card-title">{{ include.title }}</a>
 	<div class="card-paper">{{ include.paper }}</div>
-	<div class="card-published">{{ include.published }}</div>
+	<div class="card-published">{% include date.html date=include.published %}</div>
 </article>
