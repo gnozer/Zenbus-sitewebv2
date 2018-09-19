@@ -1,6 +1,7 @@
 # --------- HOMEPAGE ----------
 homepage: 
   title: "Mobility transformed"
+  back_to_home: "Home"
 # ----------- NAV ------------
 nav:
   home: "home"
@@ -11,6 +12,7 @@ nav:
   team: "team"
   contact: "contact"
   recruit: "Join us"
+  press: "Press"
 
 # ----------- BLOG ------------
 # ----- Template Article
