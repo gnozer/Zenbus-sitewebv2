@@ -3,8 +3,13 @@ title: Presse
 layout: page
 permalink: /press/
 ---
-<div class="content-container press">
+
+<section class="content-container presshistory">
+	<header class="presshistory-back">
+		<a class="presshistory-back-link" href="{{ baseurl }}/press/">{{ site.data["strings"].back_to_articles }}</a>
+	</header>
 	
+	<div class="presshistory-articles">
 	{% assign articles = site.data["press"] | sort: 'published' | reverse %}
 	{% for article in articles %}
 		{% include components/press-card.html
@@ -15,5 +20,5 @@ permalink: /press/
 			link=article.link %}
 	
 	{% endfor %}
-	
-</div>
+	</div>
+</section>
