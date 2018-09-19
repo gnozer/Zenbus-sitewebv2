@@ -1,6 +1,7 @@
 # --------- HOMEPAGE ----------
 homepage: 
   title: "Transformar la movilidad"
+  back_to_home: "Página de inicio"
 # ----------- NAV ------------
 nav:
   home: "home"
@@ -11,6 +12,7 @@ nav:
   team: "equipo"
   contact: "contacto"
   recruit: "Únete a nosotros"
+  press: "Prensa"
 
 # ----------- BLOG ------------
 # ----- Template Article
@@ -47,4 +49,20 @@ footer:
   datas: "Datos Zenbus"
   copyrights: "© Zenbus 2018, todos los derechos reservados"
 
-# ---------- PRESSE -----------
+# ---------- DATE -----------
+date:
+  first_of_month: "1"
+  second_of_month: "2"
+  third_of_month: "3"
+  january: "de enero de"
+  february: "de febrero de"
+  march: "de marzo de"
+  april: "de abril de"
+  may: "de mayo de"
+  june: "de junio de"
+  july: "de julio de"
+  august: "de agosto de"
+  september: "de septiembre de"
+  october: "de octubre de"
+  november: "de noviembre de"
+  december: "de diciembre de"
