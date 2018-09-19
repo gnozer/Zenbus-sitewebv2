@@ -311,4 +311,28 @@ lang: en
       			</div>
       			
       		</section>
-      	</div>
+
+            <!-- PRESS -->
+            <section class="press">
+               <div class="press-tile tile">
+                  <h2 class="tile-title">They talk about us</h2>
+                  <p class="tile-text">I swear, they talk about us. And for a long time, moreover.
+                     <a href="{{ site.baseurl }}/press/" class="tile-text-link">View all items</a>
+                  </p>
+               </div>
+               <div class="press-articles">
+                  {% assign articles = site.data["press"] | sort: 'published' | reverse %}
+                  {% for article in articles limit:6 %}
+                     {% include components/press-card.html
+                        image=article.image
+                        title=article.title
+                        paper=article.press
+                        published=article.published
+                        link=article.link %}
+                  
+                  {% endfor %}
+               </div>
+            </section>
+            
+    			
+				</div>

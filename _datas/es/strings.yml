@@ -1,6 +1,7 @@
 # --------- HOMEPAGE ----------
 homepage: 
   title: "Transformar la movilidad"
+  back_to_home: "Página de inicio"
 # ----------- NAV ------------
 nav:
   home: "home"
@@ -11,6 +12,7 @@ nav:
   team: "equipo"
   contact: "contacto"
   recruit: "Únete a nosotros"
+  press: "Prensa"
 
 # ----------- BLOG ------------
 # ----- Template Article
