@@ -1,0 +1,27 @@
+{% assign j = include.date | date: "%-d" %}
+{% assign m = include.date | date: "%-m" %}
+
+{% if j == '1' %}
+{{ site.data["strings"].date.first_of_month }}
+{% else if j == '2' %}
+{{ site.data["strings"].date.second_of_month }}
+{% else if j == '3' %}
+{{ site.data["strings"].date.third_of_month }}
+{% else %}
+{{j}}
+{% endif %}
+{% case m %}
+  {% when '1' %}{{ site.data["strings"].date.january }}
+  {% when '2' %}{{ site.data["strings"].date.february }}
+  {% when '3' %}{{ site.data["strings"].date.march }}
+  {% when '4' %}{{ site.data["strings"].date.april }}
+  {% when '5' %}{{ site.data["strings"].date.may }}
+  {% when '6' %}{{ site.data["strings"].date.june }}
+  {% when '7' %}{{ site.data["strings"].date.july }}
+  {% when '8' %}{{ site.data["strings"].date.august }}
+  {% when '9' %}{{ site.data["strings"].date.september }}
+  {% when '10' %}{{ site.data["strings"].date.october }}
+  {% when '11' %}{{ site.data["strings"].date.november }}
+  {% when '12' %}{{ site.data["strings"].date.december }}
+{% endcase %}
+{{ include.date | date: "%Y" }}

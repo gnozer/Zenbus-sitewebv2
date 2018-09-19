@@ -47,4 +47,20 @@ footer:
   datas: "Données Zenbus"
   copyrights: "© Zenbus 2018, tous droits réservés"
 
-# ---------- PRESSE -----------
+# ---------- DATE -----------
+date:
+  first_of_month: "1er"
+  second_of_month: "2"
+  third_of_month: "3"
+  january: "janvier"
+  february: "février"
+  march: "mars"
+  april: "avril"
+  may: "mai"
+  june: "juin"
+  july: "juillet"
+  august: "août"
+  september: "septembre"
+  october: "octobre"
+  november: "novembre"
+  december: "décembre"
