@@ -1,0 +1,38 @@
+---
+layout: page
+title: contact
+permalink: /contact/
+---
+<div class="content-container contact">
+	<section class="classic">
+		<div class="classic-tile">
+			<h2 class="classic-tile-title">{{ site.data["strings"].contact.tile_title }}</h2>
+			<p class="classic-tile-text">{{ site.data["strings"].contact.tile_text }}</p>
+		</div>
+		<form class="classic-form" id="contactForm" name="contact_form" novalidate>
+			<span class="classic-email-error">{{ site.data["strings"].contact.email_error }}</span>
+			<span class="classic-form-error">{{ site.data["strings"].contact.form_error }}</span>
+			<span class="classic-form-text">{{ site.data["strings"].contact.form_text1 }}</span>
+			<input type="text" autocomplete="given-name" placeholder="{{ site.data['strings'].contact.form_placeholder1 }}" class="classic-form-input firstname" id="classicInputFirstname" name="prenom" required>
+			<input type="text" autocomplete="family-name" placeholder="{{ site.data['strings'].contact.form_placeholder2 }}" class="classic-form-input lastname" id="classicInputLastname" name="nom" required>
+			<span class="classic-form-text">{{ site.data["strings"].contact.form_text2 }}</span>
+			<select class="classic-form-select" name="type" id="classicSelectIAm">
+				<option value="curieux" selected="selected">{{ site.data['strings'].contact.form_option1 }}</option>
+				<option value="voyageur">{{ site.data['strings'].contact.form_option2 }}</option>
+				<option value="AO">{{ site.data['strings'].contact.form_option3 }}</option>
+				<option value="exploitant">{{ site.data['strings'].contact.form_option4 }}</option>
+			</select>
+			<span class="classic-form-text">.</span>
+			<span class="classic-form-text">{{ site.data["strings"].contact.form_text3 }}</span>
+			<textarea class="classic-form-textarea message" placeholder="{{ site.data['strings'].contact.form_placeholder3 }}" name="message" id="classicTextareaMessage" cols="30" rows="10" required></textarea>
+			<span class="classic-form-text">{{ site.data["strings"].contact.form_text4 }}</span>
+			<input type="email" autocomplete="email" placeholder="{{ site.data['strings'].contact.form_placeholder4 }}" class="classic-form-input email" id="classicInputEmail" name="email" required>
+			<span class="classic-form-text">?</span>
+			<div class="classic-form-rgpd">
+				<input type="checkbox" class="classic-form-checkbox" name="rgpd" id="classicCheckboxRGPD">
+				<label class="classic-form-label checkbox" for="classicCheckboxRGPD">{{ site.data['strings'].contact.form_rgpd }}</label>
+			</div>
+			<button type="submit" class="classic-form-submit">{{ site.data['strings'].contact.form_submit }}</button>
+		</form>
+	</section>
+</div>

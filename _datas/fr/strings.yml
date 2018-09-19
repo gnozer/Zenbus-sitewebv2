@@ -4,13 +4,13 @@ homepage:
   back_to_home: "Page d'accueil"
 # ----------- NAV ------------
 nav:
-  home: "home"
-  collectivity: "collectivités"
-  operators: "exploitants"
-  passengers: "voyageurs"
-  blog: "blog"
-  team: "équipe"
-  contact: "contact"
+  home: "Home"
+  collectivity: "Collectivités"
+  operators: "Exploitants"
+  passengers: "Voyageurs"
+  blog: "Blog"
+  team: "Équipe"
+  contact: "Contact"
   recruit: "Rejoignez-nous"
   press: "Presse"
 
@@ -66,3 +66,34 @@ date:
   october: "octobre"
   november: "novembre"
   december: "décembre"
+  
+# ---------- TEAM -----------
+team:
+  tile_title: "L'équipe"
+  tile_text: "L'équipe Zenbus, ce sont des ingénieurs pointus, des développeurs extrêmes, des commerciaux aguerris, des créatifs, des curieux, des psychorigides, des désordonnés, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... mais c'est avant tout une équipe dynamique et ambitieuse qui cherche à révolutionner la mobilité."
+  what_if: "Et si c'était toi ?"
+  we_recruit: "On recrute !"
+  description_job: "Envie de participer à l’aventure ? Découvrez les missions que nous proposons !"
+  job1: "1 Commercial Junior"
+  job2: "2 développeurs"
+
+# ---------- CONTACT -----------
+contact:
+  tile_title: "Ecrivez-nous !"
+  tile_text: "Nous sommes là pour répondre à tous vos messages, qu'ils soient techniques, fonctionnels ou informatifs. On accepte même les déclarations enflammées !"
+  email_error: "Un email valide est requis."
+  form_error: "Pour soumettre le formulaire, vous devez cocher la case ci-dessus."
+  form_text1: "Bonjour, je m'appelle"
+  form_placeholder1: "Lucien"
+  form_placeholder2: "Bramard"
+  form_text2: "et je suis"
+  form_option1: "curieux"
+  form_option2: "un voyageur"
+  form_option3: "une AO"
+  form_option4: "un exploitant"
+  form_text3: "Je vous écris car"
+  form_placeholder3: "je souhaiterais savoir comment est votre blanquette ?"
+  form_text4: "Pouvez-vous me répondre à l'adresse"
+  form_placeholder4: "agent.117@zenbus.fr"
+  form_rgpd: "En soumettant ce formulaire, vous acceptez que les informations saisies soient utilisées pour répondre à votre demande."
+  form_submit: "Envoyer"

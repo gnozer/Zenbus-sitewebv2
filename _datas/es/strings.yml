@@ -4,13 +4,13 @@ homepage:
   back_to_home: "Página de inicio"
 # ----------- NAV ------------
 nav:
-  home: "home"
-  collectivity: "colectividades"
-  operators: "operadores"
-  passengers: "viajeros"
-  blog: "blog"
-  team: "equipo"
-  contact: "contacto"
+  home: "Home"
+  collectivity: "Colectividades"
+  operators: "Operadores"
+  passengers: "Viajeros"
+  blog: "Blog"
+  team: "Equipo"
+  contact: "Contacto"
   recruit: "Únete a nosotros"
   press: "Prensa"
 
@@ -66,3 +66,34 @@ date:
   october: "de octubre de"
   november: "de noviembre de"
   december: "de diciembre de"
+  
+# ---------- TEAM -----------
+team:
+  tile_title: "El Equipo"
+  tile_text: "El equipo de Zenbus se compone de ingenieros expertos, desarrolladores extremos, comerciales comprometidos, creativos, curiosos, testaduros, músicos, escritores, deportistas, jóvenes, belgas, de Nantes, parisinos ... es sobre todo un equipo dinámico y ambicioso que busca revolucionar la movilidad."
+  what_if: "¿ Y sí fueras tu ?"
+  we_recruit: "¡ Contratamos !"
+  description_job: "¿ Quieres participar en la aventura ? ¡ Descubre las misiones que te proponemos !"
+  job1: "1 Commercial Junior"
+  job2: "2 Desarrolladores"
+
+# ---------- CONTACT -----------
+contact:
+  tile_title: "¡Escríbenos!"
+  tile_text: "Estamos aquí para responder a todos tus mensajes, ya sean técnicos, funcionales o informativos. Aceptamos también declaraciones apasionadas."
+  email_error: "Es necesario un email válido."
+  form_error: "Para enviar el formulario, debe marcar la casilla de arriba."
+  form_text1: "Buenos días, me llamo"
+  form_placeholder1: "Don"
+  form_placeholder2: "Quijote"
+  form_text2: "y soy"
+  form_option1: "curioso"
+  form_option2: "viajero"
+  form_option3: "colectividad"
+  form_option4: "operador"
+  form_text3: "Os escribo porque"
+  form_placeholder3: "¿Dónde está las palleras ?"
+  form_text4: "Espero vuestra respuesta en la dirección"
+  form_placeholder4: "don.quijote@zenbus.fr"
+  form_rgpd: "Al introducir tu dirección de email, aceptas recibir nuestras noticias y novedades por correo electrónico y tomas conocimiento de nuestra política de privacidad."
+  form_submit: "Enviar"
