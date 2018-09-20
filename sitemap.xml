@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zenbus.fr</loc>
+    <xhtml:link 
+                 rel="alternate"
+                 hreflang="fr"
+                 href="https://zenbus.fr"
+                 />
+  </url>
+  <url>
     <loc>https://zenbus.fr/en/</loc>
     <xhtml:link 
                  rel="alternate"

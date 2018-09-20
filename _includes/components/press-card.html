@@ -1,0 +1,10 @@
+<article class="presshistory-articles-card">
+	<header class="presshistory-articles-card-header" style="background-image:url('{{ baseurl }}/assets/img/press/{{ include.image }}')">
+		<a href="{{ include.link }}" target="_blank"></a>
+	</header>
+	<div class="presshistory-articles-card-content">
+		<a href="{{ include.link }}" class="presshistory-title" target="_blank">{{ include.title }}</a>
+		<div class="presshistory-published">{% include date.html date=include.published %}</div>
+		<div class="presshistory-paper">{{ include.paper }}</div>
+	</div>
+</article>

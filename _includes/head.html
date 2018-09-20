@@ -11,6 +11,13 @@
 	<meta content="{{ site.base_url }}/assets/img/blog/{{ page.image }}" property="og:image">
 	<meta content="{{ site.base_url }}{{ page.url }}" property="og:url">
 	
+	{% else %}
+	
+	<meta content="{{ site.title }} &middot; {{ page.title }}" property="og:title">
+	<meta content="article" property="og:type">
+	<meta content="{{ site.base_url }}/assets/img/zenbus_logo.png" property="og:image">
+	<meta content="{{ site.base_url }}{{ page.url }}" property="og:url">
+	
 	{% endif %}
 	
 	<link rel="stylesheet" type="text/css" href="{{ site.basurl }}/assets/css/showcase.css">
@@ -19,7 +26,7 @@
 		{% if page.cat-name %}
 			{{ site.title }} &middot; Blog
 		{% else %}
-			{{ site.title }} &middot; {{ page.title }}
+			{{ site.title }} &middot; {{ site.data["strings"].nav[page.title] }}
 		{% endif %}
 	</title>
 	<!-- Analytics -->

@@ -44,3 +44,33 @@ function debounce(func, wait, immediate) {
 		if (callNow) func.apply(context, args);
 	};
 };
+
+var touchstartX = 0;
+var touchstartY = 0;
+
+var gestureZones = document.getElementsByClassName('member-polaroid-img');
+
+Array.prototype.forEach.call(gestureZones, function(gestureZone){
+	gestureZone.addEventListener('touchstart', function(event) {
+		 touchstartX = event.changedTouches[0].screenX;
+	}, false);
+
+	gestureZone.addEventListener('touchend', function(event) {
+		 touchendX = event.changedTouches[0].screenX;
+		 handleGesture(this);
+	}, false); 
+
+	function handleGesture(el) {
+		 if (touchendX < touchstartX) {
+			 //Swipe Left
+			 el.getElementsByClassName('serious')[0].style.transform = "translate3d(-100%, 0, 0)";
+			 el.getElementsByClassName('fun')[0].style.transform = "translate3d(0, 0, 0)";
+		 }
+
+		 if (touchendX > touchstartX) {
+			 //Swipe Right
+			 el.getElementsByClassName('serious')[0].style.transform = "translate3d(0, 0, 0)";
+			 el.getElementsByClassName('fun')[0].style.transform = "translate3d(100%, 0, 0)";
+		 }
+	}
+});

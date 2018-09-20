@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Homepage
+title: home
 permalink: /
 lang: es
 ---
@@ -317,4 +317,28 @@ lang: es
       			</div>
       			
       		</section>
-      	</div>
+
+            <!-- PRESS -->
+            <section class="press">
+               <div class="press-tile tile">
+                  <h2 class="tile-title">Se trata de nosotros</h2>
+                  <p class="tile-text">Le juro que se trata de nosotros. Y desde hace mucho tiempo además !
+                     <a href="{{ site.baseurl }}/press/" class="tile-text-link">Ver todos los artículos</a>
+                  </p>
+               </div>
+               <div class="press-articles">
+                  {% assign articles = site.data["press"] | sort: 'published' | reverse %}
+                  {% for article in articles limit:6 %}
+                     {% include components/press-card.html
+                        image=article.image
+                        title=article.title
+                        paper=article.press
+                        published=article.published
+                        link=article.link %}
+                  
+                  {% endfor %}
+               </div>
+            </section>
+            
+    			
+				</div>

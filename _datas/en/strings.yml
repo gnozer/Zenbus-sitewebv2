@@ -1,21 +1,23 @@
 # --------- HOMEPAGE ----------
 homepage: 
   title: "Mobility transformed"
+  back_to_home: "Home"
 # ----------- NAV ------------
 nav:
-  home: "home"
-  collectivity: "local authorities"
-  operators: "transport operators"
-  passengers: "passengers"
-  blog: "blog"
-  team: "team"
-  contact: "contact"
+  home: "Home"
+  collectivity: "Local authorities"
+  operators: "Transport operators"
+  passengers: "Passengers"
+  blog: "Blog"
+  team: "Team"
+  contact: "Contact"
   recruit: "Join us"
+  press: "Press"
 
 # ----------- BLOG ------------
 # ----- Template Article
 written_by: "By"
-back_to_articles: "All the articles"
+back_to_articles: "Back to the articles"
 the_date: "The "
 
 # ----- Home Blog
@@ -46,3 +48,52 @@ footer:
   faq: "FAQ"
   datas: "Zenbus Data"
   copyrights: "© Zenbus 2018, all rights reserved"
+
+# ---------- DATE -----------
+date:
+  first_of_month: "1st"
+  second_of_month: "2nd"
+  third_of_month: "3rd"
+  january: "january"
+  february: "february"
+  march: "march"
+  april: "april"
+  may: "may"
+  june: "june"
+  july: "july"
+  august: "august"
+  september: "september"
+  october: "october"
+  november: "november"
+  december: "december"
+  
+# ---------- TEAM -----------
+team:
+  tile_title: "Our Team"
+  tile_text: "The Zenbus Team consists of advanced engineers, extreme developers, seasoned salespeople, creative people, curious people, psycho-enthusiasts, disordered people, musicians, writers, sportsmen, Swiss, Belgians, Nantais, Parisians, ... but it is above all a dynamic and ambitious team that seeks to revolutionize mobility."
+  what_if: "Why not you ?"
+  we_recruit: "We recruit !"
+  description_job: "Want to join in the fun? Discover the missions that we propose!"
+  job1: "1 Junior Commercial"
+  job2: "2 Developers"
+
+# ---------- CONTACT -----------
+contact:
+  tile_title: "Write to us!"
+  tile_text: "We are available to answer all of your queries, whether you are looking for technical assistance, functional solutions or further information. We will even accept your declarations of undying love !"
+  email_error: "A valid email address is required."
+  form_error: "To submit the form, you must check the box above."
+  form_text1: "Hello, my name is"
+  form_placeholder1: "King"
+  form_placeholder2: "Arthur"
+  form_text2: "and I am"
+  form_option1: "curious"
+  form_option2: "a traveller"
+  form_option3: "a local authority"
+  form_option4: "a transport operador"
+  form_text3: "I am contacting you because "
+  form_placeholder3: "What is the airspeed velocity of an unladen swallow ?"
+  form_text4: "Please reply to "
+  form_placeholder4: "king.arthur@zenbus.fr"
+  form_rgpd: "By submitting this form, you agree to the information provided being used to satisfy your request."
+  form_submit: "Send"

@@ -74,7 +74,7 @@
   presentation: "Business developer tout-terrain, à l'aise en toutes circonstances, disponible à toute heure du jour et de la nuit, ce passionné de musique est aussi le fournisseur officiel de pata negra de Zenbus. Trilingue, épicurien, Quentin vit sa vie à 200 à l'heure."
   linkedin: https://www.linkedin.com/in/quentin-deniaud-25797032/
   photo: quentin.jpg
-  photo_fun: quentin.jpg
+  photo_fun: quentin_fun.jpg
 - id: benoit
   name: Benoît Heslouin
   firstname: Benoît
@@ -124,7 +124,7 @@
   firstname: Victoria
   lastname: Marin
   arrival_date: 2017-04-10
-  role: Assistante de direction
+  role: Office manager
   localization: Nantes
   presentation: "C'est notre assistante multi-fonctions, multi-tâches, multi-sites: sans elle nous serions depuis longtemps au désespoir... Inconditionnelle de Gilbert Montagné, de séries et de cinéma, Victoria est pleine d'énergie et peut partir au quart de tour !"
   linkedin: https://www.linkedin.com/in/victoria-marin-996574142/
