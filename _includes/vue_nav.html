@@ -4,16 +4,16 @@
 		<img src="{{ site.baseurl }}/assets/img/zenbus_logo@2x.png" alt="logo zenbus" class="panel-logo-img">
 	</header>
 	<menu class="panel-menu">
-		<li class="panel-menu-item home{% if page.title == 'Homepage' %} active{% endif %}">
+		<li class="panel-menu-item home{% if page.permalink == '/' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/" class="panel-menu-item-text">{{ site.data["strings"].nav.home }}</a>
 		</li>
-		<li class="panel-menu-item collectivity{% if page.title == 'Collectivités' %} active{% endif %} inactive">
+		<li class="panel-menu-item collectivity{% if page.permalink == '/collectivity/' %} active{% endif %} inactive">
 			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.collectivity }}</a>
 		</li>
-		<li class="panel-menu-item operators{% if page.title == 'Exploitants' %} active{% endif %} inactive">
+		<li class="panel-menu-item operators{% if page.permalink == '/operators/' %} active{% endif %} inactive">
 			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.operators }}</a>
 		</li>
-		<li class="panel-menu-item passenger{% if page.title == 'Voyageurs' %} active{% endif %} inactive">
+		<li class="panel-menu-item passenger{% if page.permalink == '/passengers/' %} active{% endif %} inactive">
 			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.passengers }}</a>
 		</li>
 		<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
@@ -22,7 +22,7 @@
 		<li class="panel-menu-item team{% if page.permalink == '/team/' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/team/" class="panel-menu-item-text">{{ site.data["strings"].nav.team }}</a>
 		</li>
-		<li class="panel-menu-item contact{% if page.title == 'Contact' %} active{% endif %}">
+		<li class="panel-menu-item contact{% if page.permalink == '/contact/' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/contact/" class="panel-menu-item-text">{{ site.data["strings"].nav.contact }}</a>
 		</li>
 	</menu>
