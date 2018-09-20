@@ -1,7 +1,7 @@
 # --------- HOMEPAGE ----------
 homepage: 
   title: "Transformer la mobilité"
-  back_to_home: "Page d'accueil"
+  back_to_home: "Retour à l'accueil"
 # ----------- NAV ------------
 nav:
   home: "Home"
@@ -17,7 +17,7 @@ nav:
 # ----------- BLOG ------------
 # ----- Template Article
 written_by: "Par"
-back_to_articles: "Tous les articles"
+back_to_articles: "Retour aux articles"
 the_date: "Le "
 
 # ----- Home Blog
