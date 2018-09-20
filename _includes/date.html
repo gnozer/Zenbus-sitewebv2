@@ -1,11 +1,10 @@
 {% assign j = include.date | date: "%-d" %}
 {% assign m = include.date | date: "%-m" %}
-
 {% if j == '1' %}
 {{ site.data["strings"].date.first_of_month }}
-{% else if j == '2' %}
+{% elsif j == '2' %}
 {{ site.data["strings"].date.second_of_month }}
-{% else if j == '3' %}
+{% elsif j == '3' %}
 {{ site.data["strings"].date.third_of_month }}
 {% else %}
 {{j}}
