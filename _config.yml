@@ -38,7 +38,7 @@ exclude_from_localization: ["assets"]
 parallel_localization: true
 
 #destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp 
-destination: /home/simon/Documents/ZENBUS_DEV/ZB-SC-DEPLOYED/src/main/webapp
+#destination: /home/simon/Documents/ZENBUS_DEV/ZB-SC-DEPLOYED/src/main/webapp
 keep_files: ['WEB-INF/appengine-web.xml', 'WEB-INF/web.xml', 'META-INF/MANIFEST.MF', 'about.html']
 
 exclude: ['assets/js/_source', 'YYYY-MM-DD-file-name.md' ]
