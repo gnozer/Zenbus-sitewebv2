@@ -1,24 +1,19 @@
 ---
 title: recruit
 layout: page
-permalink: /recruit/
+permalink: /job/
 ---
-
-<section class="content-container presshistory">
-	<header class="headerback">
-		<a class="headerback-link" href="{{ site.baseurl }}/#press"></a>
-	</header>
-	
-	<div class="presshistory-articles">
-	{% assign articles = site.data["press"] | sort: 'published' | reverse %}
-	{% for article in articles %}
-		{% include components/press-card.html
-			image=article.image
-			title=article.title
-			paper=article.press
-			published=article.published
-			link=article.link %}
-	
-	{% endfor %}
+<div class="content-container job">
+	<div class="job-tile">
+		<h2 class="job-tile-title">{{ site.data["strings"].job.tile_title }}</h2>
+		<p class="job-tile-text">{{ site.data["strings"].job.tile_text }}</p>
 	</div>
-</section>
+	
+	{% assign poles = site.data["jobs"] %}
+	{% for pole in poles %}
+	{% include components/job-section.html 
+					resp=pole.resp 
+					id=pole.id
+					jobs=pole.jobs%}
+	{% endfor %}
+</div>

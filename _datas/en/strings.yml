@@ -11,7 +11,7 @@ nav:
   blog: "Blog"
   team: "Team"
   contact: "Contact"
-  recruit: "Join us"
+  recruit: "Recruitment"
   press: "Press"
 
 # ----------- BLOG ------------
@@ -76,6 +76,20 @@ team:
   description_job: "Want to join in the fun? Discover the missions that we propose!"
   job1: "1 Junior Commercial"
   job2: "2 Developers"
+  
+# ---------- JOB -----------
+job:
+  tile_title: "On recrute !"
+  tile_text: "L'équipe Zenbus, ce sont des ingénieurs pointus, des développeurs extrêmes, des commerciaux aguerris, des créatifs, des curieux, des psychorigides, des désordonnés, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... mais c'est avant tout une équipe dynamique et ambitieuse qui cherche à révolutionner la mobilité."
+  technic:
+    team_title: "Nos devs ont besoin de vous !"
+    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! C'est dans la roadmap! "
+  sales:
+    team_title: "Nos commerciaux ont besoin de vous !"
+    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! VENDU! "
+  customer:
+    team_title: "Nos chefs de projet ont besoin de vous !"
+    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! Allo oui ? "
 
 # ---------- CONTACT -----------
 contact:
