@@ -10,6 +10,6 @@
   jobs: 
     - title: "Commercial Junior"
       url: https://storage.googleapis.com/zenbus-files/Fichedeposte-CommercialB2B.pdf
-- id: customer
-  resp: christine
-  jobs: null
+#- id: customer
+  #resp: christine
+  #jobs: null
