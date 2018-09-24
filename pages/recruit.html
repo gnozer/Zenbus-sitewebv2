@@ -1,0 +1,19 @@
+---
+title: recruit
+layout: page
+permalink: /job/
+---
+<div class="content-container job">
+	<div class="job-tile">
+		<h2 class="job-tile-title">{{ site.data["strings"].job.tile_title }}</h2>
+		<p class="job-tile-text">{{ site.data["strings"].job.tile_text }}</p>
+	</div>
+	
+	{% assign poles = site.data["jobs"] %}
+	{% for pole in poles %}
+	{% include components/job-section.html 
+					resp=pole.resp 
+					id=pole.id
+					jobs=pole.jobs%}
+	{% endfor %}
+</div>
