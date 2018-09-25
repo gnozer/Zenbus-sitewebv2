@@ -24,9 +24,9 @@ new Vue({
 		privateNs: "",
 		currentPassword: "",
 		showSearchResults: false,
-		
+		hasScrolled: false,
 		//dev
-		polylines: new Polylines(),
+		//polylines: new Polylines(),
 		
 		//Statistics
 		counterBase: 37000000,
@@ -118,6 +118,18 @@ new Vue({
 			edgeResistance:0,
 			dragResistance:0
 		});
+		
+		if(window.location.hash.substring(1) === "map"){
+			this.isActiveMap = true;
+		}
+		window.onscroll = function() {
+			if(document.documentElement.scrollTop != 0){
+				this.hasScrolled = true;
+			}else{
+				this.hasScrolled = false;
+			}
+		}.bind(this);
+		
 	},
 	watch: {
 		private: update,
