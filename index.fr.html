@@ -24,11 +24,10 @@ lang: fr
                   </p>
       			</div>
 
-               <div class="scroll-indicator">
+               <div class="scroll-indicator" v-bind:class="{ hide: hasScrolled }" >
 						<span class="scroll-indicator-animate"></span>
                </div>
       		</section>
-
             <!-- MAP -->
             <section id="map" class="map" :class="{'show-map':isActiveMap}">
       			 <div class="map-tile tile">
