@@ -1,0 +1,36 @@
+{% assign auth = site.data["authors"] | where: "id", include.resp %}
+{% for a in auth %}
+<section class="job-section {{ include.id }}">
+	<header class="job-section-header">
+		<h1>{{ site.data["strings"].job[include.id].team_title }}</h1>
+	</header>
+	<aside class="job-section-author">
+		<img src="{{ baseurl }}/assets/img/authors/{{ a.photo }}" alt="" class="job-section-author-img">
+	</aside>
+	<div class="job-section-content">
+		<p class="job-section-content-text">
+			{{ site.data["strings"].job[include.id].team_text }}
+			
+			{% if include.jobs != null %}
+			<span>Voici nos offres : 
+				{% for job in include.jobs %}
+					<a href="{{ job.url }}">{{ job.title }}</a>, 
+				{% endfor %}
+				et si jamais ça ne te correspond pas,
+			</span>
+			{% else %}
+			<span>Il n'y a pas d'offres pour le moment mais</span>
+			{% endif %}
+			
+			<span>tu peux envoyer 
+				<a href="/contact/">ta candidature</a>
+				, on ne sait jamais !
+			</span>
+		</p>
+		<div class="job-section-content-signature">
+			<span>{{ a.firstname }}</span>
+			<span>{{ a.role }}</span>
+		</div>
+	</div>
+</section>
+{% endfor %}

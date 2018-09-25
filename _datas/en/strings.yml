@@ -11,7 +11,7 @@ nav:
   blog: "Blog"
   team: "Team"
   contact: "Contact"
-  recruit: "Join us"
+  recruit: "Recruitment"
   press: "Press"
 
 # ----------- BLOG ------------
@@ -76,6 +76,29 @@ team:
   description_job: "Want to join in the fun? Discover the missions that we propose!"
   job1: "1 Junior Commercial"
   job2: "2 Developers"
+  
+# ---------- JOB -----------
+job:
+  tile_title: "On recrute !"
+  tile_text: "L'équipe Zenbus, ce sont des ingénieurs pointus, des développeurs extrêmes, des commerciaux aguerris, des créatifs, des curieux, des psychorigides, des désordonnés, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... mais c'est avant tout une équipe dynamique et ambitieuse qui cherche à révolutionner la mobilité."
+  technic:
+    team_title: "Nos devs ont besoin de vous !"
+    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! C'est dans la roadmap! "
+  sales:
+    team_title: "Nos commerciaux ont besoin de vous !"
+    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! VENDU! "
+  customer:
+    team_title: "Nos chefs de projet ont besoin de vous !"
+    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! Allo oui ? "
+  
+# ---------- PASSENGERS -----------
+passengers:
+  tile_title: "Simple. Efficace. Gratuit."
+  tile_text: "Zenbus est une solution simple vous permettant de voir précisément vos transports en temps réel. Pas de données erronées, tout part du bus. Et le meilleur ? C'est gratuit."
+  tile2_title: "Pas de smartphone ? On a pensé à vous"
+  tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé dans un fauteuil, il existe sa version web. Accédez facilement à une multitude de réseaux équipés."
+  tile3_title: "Pas encore convaincu ? Ecoutez les autres"
+  tile3_text: "Certains ont des c hoses à dire et nous les écoutons. C'est encore mieux quand on nous complimente, alors on ne se prive pas pour vous partager les commentaires les plus sympas."
 
 # ---------- CONTACT -----------
 contact:
