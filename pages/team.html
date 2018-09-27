@@ -4,9 +4,9 @@ title: team
 permalink: /team/
 ---
 <div class="content-container team">
-	<div class="team-tile">
-		<h2 class="team-tile-title">{{ site.data["strings"].team.tile_title }}</h2>
-		<p class="team-tile-text">{{ site.data["strings"].team.tile_text }}</p>
+	<div class="header-tile">
+		<h2 class="header-tile-title">{{ site.data["strings"].team.tile_title }}</h2>
+		<p class="header-tile-text">{{ site.data["strings"].team.tile_text }}</p>
 	</div>
 	<div class="team-members">
 		{% assign authors = site.data["authors"] | sort: 'arrival_date' %}
