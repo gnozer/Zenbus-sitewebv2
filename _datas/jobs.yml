@@ -1,14 +1,12 @@
 - id: technic
   resp: lionel
   jobs: 
-    - title: "Developpeur Java"
-      url: http://storage.googleapis.com/zenbus-files/OffreEmploi-zenbus.pdf
-    - title: "UX Designer (stagiaire)"
-      url: http://storage.googleapis.com/zenbus-files/OffreEmploi-zenbus.pdf
+    - title: "Développeur Java (Paris)"
+      url: https://storage.googleapis.com/zenbus-files/OffreEmploi-zenbus.pdf
 - id: sales
   resp: olivier
   jobs: 
-    - title: "Commercial Junior"
+    - title: "Commercial Junior (Nantes)"
       url: https://storage.googleapis.com/zenbus-files/Fichedeposte-CommercialB2B.pdf
 #- id: customer
   #resp: christine
