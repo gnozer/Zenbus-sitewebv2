@@ -16,15 +16,13 @@
 				{% for job in include.jobs %}
 					<a href="{{ job.url }}">{{ job.title }}</a>, 
 				{% endfor %}
-				et si jamais ça ne te correspond pas,
+				
 			</span>
 			{% else %}
-			<span>Il n'y a pas d'offres pour le moment mais</span>
+			<span>Il n'y a pas d'offres pour le moment mais toutefois si l'entreprise te ressemble et que travailler chez nous te motive, </span>
 			{% endif %}
 			
-			<span>tu peux envoyer 
-				<a href="/contact/">ta candidature</a>
-				, on ne sait jamais !
+			<span> n'hésite pas à nous transmettre <a onclick="mailto()">ta candidature</a> dès maintenant&nbsp;!
 			</span>
 		</p>
 		<div class="job-section-content-signature">
