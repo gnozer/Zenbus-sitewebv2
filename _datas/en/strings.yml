@@ -85,8 +85,8 @@ job:
     team_title: "Du côté des devs..."
     team_text: "Développeur passionné(e), très bon ou juste doué(e) et modeste. Avide d’apprendre au sein d’une petite équipe exigeante mais pas trop méchante ? Voué(e) à un amour inconditionnel pour l'algorithmique ? Prêt(e) à casser les codes ? Alors rejoins notre équipe ! "
   sales:
-    team_title: "Du côté des commerciaux..."
-    team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et touné(e) vers l'action ? Alors rejoins notre équipe ! "
+    team_title: "Du côté des bizdev..."
+    team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et touné(e) vers l'action ? Nous t'attendons ! "
   customer:
     team_title: "Nos chefs de projet ont besoin de vous !"
     team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! Allo oui ? "

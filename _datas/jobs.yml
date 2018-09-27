@@ -1,8 +1,8 @@
-- id: technic
-  resp: lionel
-  jobs: 
-    - title: "Développeur Java (Paris)"
-      url: https://storage.googleapis.com/zenbus-files/OffreEmploi-zenbus.pdf
+#- id: technic
+  #resp: lionel
+  #jobs: 
+    #- title: "Développeur Java (Paris)"
+      #url: https://storage.googleapis.com/zenbus-files/OffreEmploi-zenbus.pdf
 - id: sales
   resp: olivier
   jobs: 
