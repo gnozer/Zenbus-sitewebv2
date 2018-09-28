@@ -80,7 +80,7 @@ team:
 # ---------- JOB -----------
 job:
   tile_title: "On recrute !"
-  tile_text: "Zenbus s'est donnée pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, des curieux, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
+  tile_text: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, des curieux, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
   technic:
     team_title: "Du côté des bizdev..."
     team_text: "Développeur passionné(e), très bon ou juste doué(e) et modeste. Avide d’apprendre au sein d’une petite équipe exigeante mais pas trop méchante ? Voué(e) à un amour inconditionnel pour l'algorithmique ? Prêt(e) à casser les codes ? Alors rejoins notre équipe ! "
