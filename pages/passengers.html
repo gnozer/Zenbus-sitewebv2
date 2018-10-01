@@ -73,7 +73,31 @@ permalink: /passengers/
 			<p class="survey-tile-text">{{ site.data["strings"].passengers.tile4_text }}</p>
 		</div>
 		<form action="" class="suvey-form">
-			
+			<label>
+				{{ site.data["strings"].passengers.form_label1 }}
+				<input type="mail" placeholder="{{ site.data['strings'].passengers.form_placeholder1 }}">
+			</label>
+			<div>
+				<label>
+					{{ site.data["strings"].passengers.form_label2 }}
+					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder2 }}">
+				</label>
+				<input type="checkbox" id="allLines">
+				<label for="allLines">{{ site.data['strings'].passengers.form_label3 }}</label>
+			</div>
+			<div>
+				<label>
+					{{ site.data["strings"].passengers.form_label4 }}
+					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder4 }}">
+				</label>
+				<input type="checkbox" id="unknownNetworkName">
+				<label for="unknownNetworkName">{{ site.data['strings'].passengers.form_label5 }}</label>
+			</div>
+			<label>
+				{{ site.data["strings"].passengers.form_label6 }}
+				<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder6 }}">
+			</label>
+			<button type="submit">{{ site.data['strings'].passengers.form_submit }}</button>
 		</form>
 	</section>
 	<section class="results">
