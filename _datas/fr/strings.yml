@@ -107,7 +107,7 @@ passengers:
   form_placeholder2: "ex: Ligne 1, Ligne 2, A, B, Ligne bleue, etc..."
   form_label3: "Je souhaite avoir toutes les lignes possibles"
   form_label4: "De quel réseau de transport parlons-nous ?"
-  form_placeholder4: "ex: SEMITAN, ALes'y, RATP, TBM, etc..."
+  form_placeholder4: "ex: SEMITAN, Ales'y, RATP, TBM, etc..."
   form_label5: "Je ne connais pas précisément le nom de mon réseau"
   form_label6: "Et ça se situe dans quelle ville ?"
   form_placeholder6: "ex: Paris, New York, Moutiers les Maufaits, etc..."
