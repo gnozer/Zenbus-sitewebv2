@@ -1,5 +1,5 @@
 {% assign auth = site.data["authors"] | where: "id", include.resp %}
-{% for a in auth %}
+{% assign a = auth | first %}
 <section class="job-section {{ include.id }}">
 	<header class="job-section-header">
 		<h1>{{ site.data["strings"].job[include.id].team_title }}</h1>
@@ -31,4 +31,3 @@
 		</div>
 	</div>
 </section>
-{% endfor %}

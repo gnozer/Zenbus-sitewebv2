@@ -1,10 +1,10 @@
 {% assign auth = site.data["authors"] | where: "id", include.author %}
+{% assign a = auth | first %}
 <article class="blog-articles-card">
 	<header class="card-header" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ include.image }}')">
 		<a href="{{ include.url }}"></a>
 	</header>
 	<div class="card-infos">
-		{% for a in auth %}
 		<img src="{{ baseurl }}/assets/img/authors/{{ a.photo }}" alt="" class="card-infos-img">
 		<div class="card-infos-author">
 			<p class="author-status">
@@ -25,6 +25,5 @@
 				{% endif %}
 			{% endfor %}
 		</ul>
-		{% endfor %}
 	</div>
 </article>
