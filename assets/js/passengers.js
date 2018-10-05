@@ -99,7 +99,7 @@ function buildSurveyResults(datas){
 	for(var i = 0; i < datas.length; i++) {
 		totalRequests+= datas[i].surveyCount;
 	}
-	console.log(datas);
+	
 	for(var i = 0; i < datas.length; i++) {
 		var cityDetails = document.createElement("details"),
 			 citySummary = document.createElement("summary"),
@@ -109,11 +109,15 @@ function buildSurveyResults(datas){
 			 cityProgress = document.createElement("progress");
 		cityProgress.setAttribute("max", 100);
 		cityProgress.setAttribute("value", datas[i].surveyCount*100/totalRequests);
+		cityProgress.setAttribute("class", "results-tree-city-chart");
 		cityAside.appendChild(cityAsideContent);
+		cityAside.setAttribute("class", "results-tree-city-number");
 		citySummary.appendChild(citySummaryContent);
+		citySummary.setAttribute("class", "results-tree-city-title");
 		cityDetails.appendChild(citySummary);
 		cityDetails.appendChild(cityAside);
 		cityDetails.appendChild(cityProgress);
+		cityDetails.setAttribute("class", "results-tree-city");
 		
 		for(var j = 0; j < datas[i].accounts.length; j++){
 			var accDetails = document.createElement("details"),
@@ -128,7 +132,8 @@ function buildSurveyResults(datas){
 			if(datas[i].accounts[j].wantedRoutes.length > 3){
 				for(var k=0; k < 3; k++){
 					var accLi = document.createElement("li");
-					accLi.innerHTML = datas[i].accounts[j].wantedRoutes[k].name+' (<span class="caca">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
+					accLi.innerHTML = datas[i].accounts[j].wantedRoutes[k].name+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
+					accLi.setAttribute("class", "results-tree-network-lines-name");
 					accUl.appendChild(accLi);
 				}
 				
@@ -137,26 +142,33 @@ function buildSurveyResults(datas){
 					 textNode = "Autres : ";
 				
 				for(var k = 3; k < datas[i].accounts[j].wantedRoutes.length; k++){
-					textNode += datas[i].accounts[j].wantedRoutes[k].name+" (<span class=\"caca\">"+datas[i].accounts[j].wantedRoutes[k].surveyCount+"</span>) - "
+					textNode += datas[i].accounts[j].wantedRoutes[k].name+" (<span class=\"results-tree-lines-number\">"+datas[i].accounts[j].wantedRoutes[k].surveyCount+"</span>) - "
 				}
 				accLastLi.innerHTML = textNode.slice(0,-3);
+				accLastLi.setAttribute("class", "results-tree-network-lines-name");
 				accUl.appendChild(accLastLi);
 			} else {
 				for(var k = 0; k < datas[i].accounts[j].wantedRoutes.length; k++){
 					var accLi = document.createElement("li");
-					accLi.innerHTML = datas[i].accounts[j].wantedRoutes[k].name+' (<span class="caca">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
+					accLi.innerHTML = datas[i].accounts[j].wantedRoutes[k].name+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
+					accLi.setAttribute("class", "results-tree-network-lines-name");
 					accUl.appendChild(accLi);
 				}
 			}
-			
+
+			accUl.setAttribute("class", "results-tree-network-lines");
 			accProgress.setAttribute("max", 100);
 			accProgress.setAttribute("value", datas[i].accounts[j].surveyCount*100/datas[i].surveyCount);
+			accProgress.setAttribute("class", "results-tree-network-chart");
 			accAside.appendChild(accAsideContent);
+			accAside.setAttribute("class", "results-tree-network-number");
 			accSummary.appendChild(accSummaryContent);
+			accSummary.setAttribute("class", "results-tree-network-title");
 			accDetails.appendChild(accSummary);
 			accDetails.appendChild(accAside);
 			accDetails.appendChild(accProgress);
 			accDetails.appendChild(accUl);
+			accDetails.setAttribute("class", "results-tree-network");
 			
 			cityDetails.appendChild(accDetails);
 		}

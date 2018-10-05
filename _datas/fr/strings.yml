@@ -115,6 +115,8 @@ passengers:
   form_submit: "Envoyer"
   tile5_title: "Sachez que vous n'êtes pas seuls"
   tile5_text: "Un grand pouvoir implique de grandes responsabilités. Nous, c'est de recueillir vos besoins et d'en prendre compte afin de savoir vers où diriger nos efforts."
+  tile6_title: "Vous aussi, vous avez des responsabilités"
+  tile6_text: "Et oui, en tant qu'utilisateur de Zenbus, vous êtes mis à contribution : faire connaître, faire mieux fonctionner, faire de chaque jour qui passe un paradis sur Terre. Voici la charte du Zenbusseur reponsable"
 
 # ---------- CONTACT -----------
 contact:
