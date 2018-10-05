@@ -87,6 +87,7 @@ function initSurveyResults() {
 				citiesWithSurvey[i].surveyCount += citiesWithSurvey[i].accounts[j].surveyCount;
 			}
 		}
+		citiesWithSurvey.sort(compareSurveyCount);
 		resolve(citiesWithSurvey);
 	});
 }
@@ -132,7 +133,7 @@ function buildSurveyResults(datas){
 			if(datas[i].accounts[j].wantedRoutes.length > 3){
 				for(var k=0; k < 3; k++){
 					var accLi = document.createElement("li");
-					accLi.innerHTML = datas[i].accounts[j].wantedRoutes[k].name+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
+					accLi.innerHTML = (datas[i].accounts[j].wantedRoutes[k].name == 'All'?'Toutes':datas[i].accounts[j].wantedRoutes[k].name)+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
 					accLi.setAttribute("class", "results-tree-network-lines-name");
 					accUl.appendChild(accLi);
 				}
@@ -142,7 +143,7 @@ function buildSurveyResults(datas){
 					 textNode = "Autres : ";
 				
 				for(var k = 3; k < datas[i].accounts[j].wantedRoutes.length; k++){
-					textNode += datas[i].accounts[j].wantedRoutes[k].name+" (<span class=\"results-tree-lines-number\">"+datas[i].accounts[j].wantedRoutes[k].surveyCount+"</span>) - "
+					textNode += (datas[i].accounts[j].wantedRoutes[k].name == 'All'?'Toutes':datas[i].accounts[j].wantedRoutes[k].name)+" (<span class=\"results-tree-lines-number\">"+datas[i].accounts[j].wantedRoutes[k].surveyCount+"</span>) - "
 				}
 				accLastLi.innerHTML = textNode.slice(0,-3);
 				accLastLi.setAttribute("class", "results-tree-network-lines-name");
@@ -150,7 +151,7 @@ function buildSurveyResults(datas){
 			} else {
 				for(var k = 0; k < datas[i].accounts[j].wantedRoutes.length; k++){
 					var accLi = document.createElement("li");
-					accLi.innerHTML = datas[i].accounts[j].wantedRoutes[k].name+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
+					accLi.innerHTML = (datas[i].accounts[j].wantedRoutes[k].name == 'All'?'Toutes':datas[i].accounts[j].wantedRoutes[k].name)+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
 					accLi.setAttribute("class", "results-tree-network-lines-name");
 					accUl.appendChild(accLi);
 				}
