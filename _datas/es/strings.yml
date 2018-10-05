@@ -95,11 +95,28 @@ job:
 # ---------- PASSENGERS -----------
 passengers:
   tile_title: "Simple. Efficace. Gratuit."
-  tile_text: "Zenbus est une solution simple vous permettant de voir précisément vos transports en temps réel. Pas de données erronées, tout part du bus. Et le meilleur ? C'est gratuit."
+  tile_text: "Zenbus a pour mission de transformer votre mobilité en vous proposant une solution simple pour localiser les transports collectifs.<br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, des curieux, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... c'est notre diversité qui fait notre force.<br>Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors n'attendez plus pour venir consulter nos offres et rejoignez notre équipe !"
   tile2_title: "Pas de smartphone ? On a pensé à vous"
   tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé dans un fauteuil, il existe sa version web. Accédez facilement à une multitude de réseaux équipés."
   tile3_title: "Pas encore convaincu ? Ecoutez les autres"
-  tile3_text: "Certains ont des c hoses à dire et nous les écoutons. C'est encore mieux quand on nous complimente, alors on ne se prive pas pour vous partager les commentaires les plus sympas."
+  tile3_text: "Certains ont des choses à dire et nous les écoutons. C'est encore mieux quand on nous complimente, alors on ne se prive pas pour vous partager les commentaires les plus sympas."
+  tile4_title: "Ne dites rien... Il vous manque quelque chose ?"
+  tile4_text: "Il est possible que Zenbus n'équipe pas votre ville, votre réseau ou même simplement votre ligne. N'hésitez pas à nous le faire savoir avec ce petit questionnaire rapide."
+  form_label1: "Votre adresse mail"
+  form_placeholder1: "Votre adresse mail"
+  form_label2: "Quelles lignes souhaitez-vous ?"
+  form_placeholder2: "ex: Ligne 1, Ligne 2, A, B, Ligne bleue, etc..."
+  form_label3: "Je souhaite avoir toutes les lignes possibles"
+  form_label4: "De quel réseau de transport parlons-nous ?"
+  form_placeholder4: "ex: SEMITAN, Ales'y, RATP, TBM, etc..."
+  form_label5: "Je ne connais pas précisément le nom de mon réseau"
+  form_label6: "Et ça se situe dans quelle ville ?"
+  form_placeholder6: "ex: Paris, New York, Moutiers les Maufaits, etc..."
+  form_submit: "Envoyer"
+  tile5_title: "Sachez que vous n'êtes pas seuls"
+  tile5_text: "Un grand pouvoir implique de grandes responsabilités. Nous, c'est de recueillir vos besoins et d'en prendre compte afin de savoir vers où diriger nos efforts."
+  tile6_title: "Vous aussi, vous avez des responsabilités"
+  tile6_text: "Et oui, en tant qu'utilisateur de Zenbus, vous êtes mis à contribution : faire connaître, faire mieux fonctionner, faire de chaque jour qui passe un paradis sur Terre. Voici la charte du Zenbusseur reponsable"
 
 # ---------- CONTACT -----------
 contact:
