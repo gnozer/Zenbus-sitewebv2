@@ -10,8 +10,10 @@
     });
     this.currentBounds = L.latLngBounds();
     this.cities.forEach(function(city){
+		 if(!city.isSurvey){
         this.currentBounds.extend(city.bounds);
         this.cluster.addLayer(city.marker);
+		 }
     }.bind(this));
     
     this.map.on('click', mapBehaviours.bind(this));
@@ -49,6 +51,7 @@ function currentFilter(){
 }
 function handleCities(){
     this.cities.forEach(function(city){
+		 if(!city.isSurvey){
         //Compute city types
         city.types = 0; 
         city.bounds = L.latLngBounds();
@@ -56,7 +59,7 @@ function handleCities(){
         city.namespaces.forEach(function(ns, i){
             //set accounts ref
             this.accounts.forEach(function(acc){
-                if(acc.namespace == ns){
+                if(acc.namespace == ns && !acc.isSurvey){
                     city.namespaces[i] = acc; //set ref, will be easier to feach city accounts
                 }
             }.bind(this));
@@ -71,7 +74,7 @@ function handleCities(){
 		  
 		  //city.marker.bounce({duration: 500, height: 100});
         city.marker.on('click', onMarkerClickClosure.call(this, city));
-    }.bind(this));
+    }}.bind(this));
 }
 function handleLinkedCities(){
     for(var i = 0 ; i < this.cities.length; i++){
@@ -163,10 +166,12 @@ function filteredCities(){
     var fc = [];
     
     this.cities.forEach(function(city){
+		 if(!city.isSurvey){
         
         if(city.namespaces.some(function(acc){return (this.filteredAccounts.indexOf(acc) > -1);}.bind(this))){
             fc.push(city);
         }
+		 }
         
     }.bind(this));
     
@@ -180,9 +185,11 @@ function filteredAccounts(){
     accounts = [];
     
     this.accounts.forEach(function(acc){
+		 if(!acc.isSurvey){
         if(belongTo.call(this, acc)){
             accounts.push(acc);
         }
+		 }
     }.bind(this));
     
     return accounts;
