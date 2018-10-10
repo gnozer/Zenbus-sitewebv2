@@ -114,10 +114,10 @@ function buildSurveyResults(datas){
 		cityAside.appendChild(cityAsideContent);
 		cityAside.setAttribute("class", "results-tree-city-number");
 		citySummary.appendChild(citySummaryContent);
+		citySummary.appendChild(cityAside);
+		citySummary.appendChild(cityProgress);
 		citySummary.setAttribute("class", "results-tree-city-title");
 		cityDetails.appendChild(citySummary);
-		cityDetails.appendChild(cityAside);
-		cityDetails.appendChild(cityProgress);
 		cityDetails.setAttribute("class", "results-tree-city");
 		
 		for(var j = 0; j < datas[i].accounts.length; j++){
@@ -164,10 +164,10 @@ function buildSurveyResults(datas){
 			accAside.appendChild(accAsideContent);
 			accAside.setAttribute("class", "results-tree-network-number");
 			accSummary.appendChild(accSummaryContent);
+			accSummary.appendChild(accAside);
+			accSummary.appendChild(accProgress);
 			accSummary.setAttribute("class", "results-tree-network-title");
 			accDetails.appendChild(accSummary);
-			accDetails.appendChild(accAside);
-			accDetails.appendChild(accProgress);
 			accDetails.appendChild(accUl);
 			accDetails.setAttribute("class", "results-tree-network");
 			
