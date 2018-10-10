@@ -31,6 +31,7 @@ function updateMap(){
     
     //check here if city has at least one filtered network
     this.cities.forEach(function(city){
+		if(!city.isSurvey){
         if(isFilteredCity(city, this.filteredAccounts, filter)){
             if(!this.cluster.hasLayer(city.marker)){
                 this.cluster.addLayer(city.marker);
@@ -39,6 +40,7 @@ function updateMap(){
         }else{
             this.cluster.removeLayer(city.marker);
         }
+		}
         
     }.bind(this));
 	
