@@ -104,7 +104,8 @@ function buildSurveyResults(datas){
 	for(var i = 0; i < datas.length; i++) {
 		var cityDetails = document.createElement("details"),
 			 citySummary = document.createElement("summary"),
-			 citySummaryContent = document.createTextNode(datas[i].name),
+			 citySummarySpan = document.createElement("span"),
+			 citySummarySpanText = document.createTextNode(datas[i].name),
 			 cityAside = document.createElement("aside"),
 			 cityAsideContent = document.createTextNode(datas[i].surveyCount+" demandes"),
 			 cityProgress = document.createElement("progress");
@@ -113,7 +114,9 @@ function buildSurveyResults(datas){
 		cityProgress.setAttribute("class", "results-tree-city-chart");
 		cityAside.appendChild(cityAsideContent);
 		cityAside.setAttribute("class", "results-tree-city-number");
-		citySummary.appendChild(citySummaryContent);
+		citySummarySpan.appendChild(citySummarySpanText);
+		citySummarySpan.setAttribute("class", "results-tree-city-name");
+		citySummary.appendChild(citySummarySpan);
 		citySummary.appendChild(cityAside);
 		citySummary.appendChild(cityProgress);
 		citySummary.setAttribute("class", "results-tree-city-title");
@@ -123,7 +126,8 @@ function buildSurveyResults(datas){
 		for(var j = 0; j < datas[i].accounts.length; j++){
 			var accDetails = document.createElement("details"),
 				 accSummary = document.createElement("summary"),
-				 accSummaryContent = document.createTextNode(datas[i].accounts[j].name),
+				 accSummarySpan = document.createElement("span"),
+				 accSummarySpanText = document.createTextNode(datas[i].accounts[j].name),
 				 accAside = document.createElement("aside"),
 				 accAsideContent = document.createTextNode(datas[i].accounts[j].surveyCount),
 				 accProgress = document.createElement("progress"),
@@ -163,7 +167,9 @@ function buildSurveyResults(datas){
 			accProgress.setAttribute("class", "results-tree-network-chart");
 			accAside.appendChild(accAsideContent);
 			accAside.setAttribute("class", "results-tree-network-number");
-			accSummary.appendChild(accSummaryContent);
+			accSummarySpan.appendChild(accSummarySpanText);
+			accSummarySpan.setAttribute("class", "results-tree-network-name");
+			accSummary.appendChild(accSummarySpan);
 			accSummary.appendChild(accAside);
 			accSummary.appendChild(accProgress);
 			accSummary.setAttribute("class", "results-tree-network-title");

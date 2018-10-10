@@ -26,3 +26,8 @@ end
 group :jekyll_plugins do
    gem "jekyll-polyglot"
 end
+
+# Pagination
+group :jekyll_plugins do
+   gem "jekyll-paginate-v2"
+end
