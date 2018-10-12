@@ -13,8 +13,8 @@
 		<li class="panel-menu-item operators{% if page.permalink == '/operators/' %} active{% endif %} inactive">
 			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.operators }}</a>
 		</li>
-		<li class="panel-menu-item passenger{% if page.permalink == '/passengers/' %} active{% endif %} inactive">
-			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.passengers }}</a>
+		<li class="panel-menu-item passenger{% if page.permalink == '/passengers/' %} active{% endif %}">
+			<a href="{{ site.baseurl }}/passengers/" class="panel-menu-item-text">{{ site.data["strings"].nav.passengers }}</a>
 		</li>
 		<li class="panel-menu-item blog{% if page.url contains 'blog' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/blog/" class="panel-menu-item-text">{{ site.data["strings"].nav.blog }}</a>
