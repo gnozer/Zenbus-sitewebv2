@@ -4,9 +4,6 @@
 	<header class="job-section-header">
 		<h1>{{ site.data["strings"].job[include.id].team_title }}</h1>
 	</header>
-	<aside class="job-section-author">
-		<img src="{{ baseurl }}/assets/img/authors/{{ a.photo }}" alt="" class="job-section-author-img">
-	</aside>
 	<div class="job-section-content">
 		<p class="job-section-content-text">
 			{{ site.data["strings"].job[include.id].team_text }}
@@ -25,9 +22,12 @@
 			<span> n'hésite pas à nous transmettre <a onclick="mailto()">ta candidature</a>.
 			</span>
 		</p>
-		<div class="job-section-content-signature">
-			<span>{{ a.firstname }}</span>
-			<span>{{ a.role }}</span>
-		</div>
+	</div>
+	<aside class="job-section-author">
+		<img src="{{ baseurl }}/assets/img/authors/{{ a.photo }}" alt="" class="job-section-author-img">
+	</aside>
+	<div class="job-section-signature">
+		<span class="job-section-signature-name">{{ a.firstname }}</span>
+		<span class="job-section-signature-role">{{ a.role }}</span>
 	</div>
 </section>

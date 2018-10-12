@@ -9,25 +9,25 @@ permalink: /passengers/
 			<h2 class="header-tile-title">{{ site.data["strings"].passengers.tile_title }}</h2>
 			<p class="header-tile-text">{{ site.data["strings"].passengers.tile_text }}</p>
 		</div>
-		<div class="apps-tile-download">
-			<a href="https://itunes.apple.com/fr/app/zenbus/id808231328" target="_blank" class="apps-tile-download-link appstore">
-				<span class="apps-tile-download-link-text">Télécharger dans</span>
-				<span class="apps-tile-download-link-brand">l'App Store</span>
+		<div class="stores">
+			<a href="https://itunes.apple.com/fr/app/zenbus/id808231328" target="_blank" class="stores-link appstore">
+				<span class="stores-link-text">Télécharger dans</span>
+				<span class="stores-link-brand">l'App Store</span>
 			</a>
-			<a href="https://play.google.com/store/apps/details?id=com.byjoul.code.zenbus.android" target="_blank" class="apps-tile-download-link playstore">
-				<span class="apps-tile-download-link-text">Disponible sur</span>
-				<span class="apps-tile-download-link-brand">Play Store</span>
+			<a href="https://play.google.com/store/apps/details?id=com.byjoul.code.zenbus.android" target="_blank" class="stores-link playstore">
+				<span class="stores-link-text">Disponible sur</span>
+				<span class="stores-link-brand">Play Store</span>
 			</a>
 		</div>
 		<ul class="apps-mobile">
 			<li class="apps-mobile-item">
-				<img src="" alt="" class="item-img">
+				<img src="../assets/img/app_01.png" alt="zenbus application map" class="apps-mobile-item-img">
 			</li>
 			<li class="apps-mobile-item">
-				<img src="" alt="" class="item-img">
+				<img src="../assets/img/app_02.png" alt="zenbus application route" class="apps-mobile-item-img">
 			</li>
 			<li class="apps-mobile-item">
-				<img src="" alt="" class="item-img">
+				<img src="../assets/img/app_03.png" alt="zenbus application stops" class="apps-mobile-item-img">
 			</li>
 		</ul>
 		<div class="header-tile">
@@ -35,7 +35,7 @@ permalink: /passengers/
 			<p class="header-tile-text">{{ site.data["strings"].passengers.tile2_text }}</p>
 		</div>
 		<div class="apps-web">
-			<img src="" alt="" class="apps-web-img">
+			<img src="../assets/img/web.png" alt="zenbus web" class="apps-web-img">
 		</div>
 	</section>
 	<section class="verbatim">
@@ -45,26 +45,27 @@ permalink: /passengers/
 		</div>
 		<ul class="verbatim-list">
 			<li class="verbatim-list-item">
-				<h3 class="verbatim-name"></h3>
-				<h4 class="verbatim-title"></h4>
-				<p class="verbatim-comment"></p>
+				<h3 class="verbatim-title">Très bonne application</h3>
+				<h4 class="verbatim-name">par Louis</h4>
+				<p class="verbatim-comment">La géolocalisation des bus est très pratique surtout en cas de correspondance entre plusieurs lignes ce qui est mon cas sur le réseau TAN Nantes Métropole (E5 et 86), je suis « zen » au moment de correspondance ! 😊 Ce serait cool que le concept soit étendu au réseau LILA Loire-Atlantique</p>
 			</li>
 			<li class="verbatim-list-item">
-				<h3 class="verbatim-name"></h3>
-				<h4 class="verbatim-title"></h4>
-				<p class="verbatim-comment"></p>
+				<h3 class="verbatim-title">Enfin ! J'en ai rêvé, vous l'avez fait</h3>
+				<h4 class="verbatim-name">par Nono</h4>
+				<p class="verbatim-comment">Je ne prends pas le bus à cause du stress généré par l'attente ( jusqu'à 40 mn dans le pire des cas)
+Cette application pourrait me réconcilier avec les transports en commun. Voir où est son bus sur la carte et avoir le délai jusqu'à l'arrivée au prochain arrêt, c'est tout simplement génial !</p>
 				
 			</li>
 			<li class="verbatim-list-item">
-				<h3 class="verbatim-name"></h3>
-				<h4 class="verbatim-title"></h4>
-				<p class="verbatim-comment"></p>
+				<h3 class="verbatim-title">Superbe idée & concept</h3>
+				<h4 class="verbatim-name">par Elena Martichka</h4>
+				<p class="verbatim-comment">Super application dans une région où les infos bus sont rarement au point. Merci ! Vivement que d'autres compagnies et leurs chauffeurs soient convertis !!!</p>
 				
 			</li>
 			<li class="verbatim-list-item">
-				<h3 class="verbatim-name"></h3>
-				<h4 class="verbatim-title"></h4>
-				<p class="verbatim-comment"></p>
+				<h3 class="verbatim-title">Indispensable</h3>
+				<h4 class="verbatim-name">par Mathiieuc</h4>
+				<p class="verbatim-comment">Application indispensable pour tous les usagers de transports en commun : on peut anticiper son départ de chez soi pour ne pas attendre trop longtemps à l'arrêt et ça rassure de savoir que le bus va bien arriver.</p>
 			</li>
 		</ul>
 	</section>
@@ -73,38 +74,39 @@ permalink: /passengers/
 			<h2 class="header-tile-title">{{ site.data["strings"].passengers.tile4_title }}</h2>
 			<p class="header-tile-text">{{ site.data["strings"].passengers.tile4_text }}</p>
 		</div>
-		<form action="" class="suvey-form" id="surveyForm" novalidate>
-			<span class="suvey-form-email-error">{{ site.data["strings"].contact.email_error }}</span>
-			<span class="suvey-form-form-error">{{ site.data["strings"].contact.form_error }}</span>
-			<label class="survey-form-email">
+		<form action="" class="survey-form" id="surveyForm" novalidate>
+			<span class="survey-form-email-error">{{ site.data["strings"].contact.email_error }}</span>
+			<span class="survey-form-form-error">{{ site.data["strings"].contact.form_error }}</span>
+			<label class="survey-label">
 				{{ site.data["strings"].passengers.form_label1 }}
 				<input type="mail" placeholder="{{ site.data['strings'].passengers.form_placeholder1 }}" id="surveyInputEmail" required>
 			</label>
-			<div>
-				<label>
-					{{ site.data["strings"].passengers.form_label2 }}
-					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder2 }}" id="surveyInputLines">
-				</label>
-				<input type="checkbox" id="surveyCheckboxLines">
-				<label for="surveyCheckboxLines">{{ site.data['strings'].passengers.form_label3 }}</label>
-			</div>
-			<div>
-				<label>
-					{{ site.data["strings"].passengers.form_label4 }}
-					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder4 }}" id="surveyInputNetwork">
-				</label>
-				<input type="checkbox" id="surveyCheckboxNetwork">
-				<label for="surveyCheckboxNetwork">{{ site.data['strings'].passengers.form_label5 }}</label>
-			</div>
-			<label>
+			<label class="survey-label">
 				{{ site.data["strings"].passengers.form_label6 }}
 				<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder6 }}" id="surveyInputCity">
 			</label>
 			<div>
-				<input type="checkbox" id="surveyCheckboxRGPD">
-				<label for="surveyCheckboxRGPD">{{ site.data['strings'].contact.form_rgpd }}</label>
+				<label class="survey-label">
+					{{ site.data["strings"].passengers.form_label4 }}
+					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder4 }}" id="surveyInputNetwork">
+				</label>
+				<input type="checkbox" id="surveyCheckboxNetwork" class="classic-form-checkbox">
+				<label for="surveyCheckboxNetwork" class="classic-form-label checkbox">{{ site.data['strings'].passengers.form_label5 }}</label>
 			</div>
-			<button type="submit">{{ site.data['strings'].passengers.form_submit }}</button>
+			<div>
+				<label class="survey-label">
+					{{ site.data["strings"].passengers.form_label2 }}
+					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder2 }}" id="surveyInputLines">
+				</label>
+				<input type="checkbox" id="surveyCheckboxLines" class="classic-form-checkbox">
+				<label for="surveyCheckboxLines" class="classic-form-label checkbox">{{ site.data['strings'].passengers.form_label3 }}</label>
+			</div>
+			<div>
+				<input type="checkbox" id="surveyCheckboxRGPD" class="classic-form-checkbox">
+				<label for="surveyCheckboxRGPD" class="classic-form-label checkbox">{{ site.data['strings'].contact.form_rgpd }}</label>
+			</div>
+			<button type="submit" class="classic-form-submit">{{ site.data['strings'].passengers.form_submit }}</button>
+			<p class="survey-form-validation">Merci pour votre retour ! Votre demande sera prise en compte le plus rapidement possible</p>
 		</form>
 	</section>
 	<section class="results">
@@ -123,11 +125,11 @@ permalink: /passengers/
 		</div>
 		<div class="rules-content">
 			<ul class="rules-content-list">
-				<li class="rules-content-list-item"></li>
-				<li class="rules-content-list-item"></li>
-				<li class="rules-content-list-item"></li>
-				<li class="rules-content-list-item"></li>
-				<li class="rules-content-list-item"></li>
+				<li class="rules-content-list-item">De l’application, tu parleras (si elle te plait, évidemment)</li>
+				<li class="rules-content-list-item">De tes retours, nous sommes friands, donc à nous écrire, tu n’hésiteras pas</li>
+				<li class="rules-content-list-item">A ton écoute nous sommes, d’un besoin particulier, tu nous entretiendras</li>
+				<li class="rules-content-list-item">Si c'est pour ton opérateur de transport, lui dire directement tu privilégieras</li>
+				<li class="rules-content-list-item">Les avis constructifs nous préférons, les messages méchants tu éviteras</li>
 			</ul>
 		</div>
 	</section>
