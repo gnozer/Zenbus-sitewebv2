@@ -95,7 +95,7 @@ job:
 # ---------- PASSENGERS -----------
 passengers:
   tile_title: "Simple. Efficace. Gratuit."
-  tile_text: "Zenbus a pour mission de transformer votre mobilité en vous proposant une solution simple pour localiser les transports collectifs.<br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, des curieux, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... c'est notre diversité qui fait notre force.<br>Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors n'attendez plus pour venir consulter nos offres et rejoignez notre équipe !"
+  tile_text: "Zenbus a pour mission de transformer votre mobilité en vous proposant une solution simple pour localiser les transports collectifs."
   tile2_title: "Pas de smartphone ? On a pensé à vous"
   tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé dans un fauteuil, il existe sa version web. Accédez facilement à une multitude de réseaux équipés."
   tile3_title: "Pas encore convaincu ? Ecoutez les autres"
