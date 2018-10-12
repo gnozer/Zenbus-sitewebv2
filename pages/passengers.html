@@ -45,26 +45,24 @@ permalink: /passengers/
 		</div>
 		<ul class="verbatim-list">
 			<li class="verbatim-list-item">
-				<h3 class="verbatim-title">Très bonne application</h3>
-				<h4 class="verbatim-name">par Louis</h4>
-				<p class="verbatim-comment">La géolocalisation des bus est très pratique surtout en cas de correspondance entre plusieurs lignes ce qui est mon cas sur le réseau TAN Nantes Métropole (E5 et 86), je suis « zen » au moment de correspondance ! 😊 Ce serait cool que le concept soit étendu au réseau LILA Loire-Atlantique</p>
+				<h3 class="verbatim-title">{{ site.data["strings"].passengers.verbatim1_title }}</h3>
+				<h4 class="verbatim-name">{{ site.data["strings"].passengers.verbatim1_name }}</h4>
+				<p class="verbatim-comment">{{ site.data["strings"].passengers.verbatim1_comment }}</p>
 			</li>
 			<li class="verbatim-list-item">
-				<h3 class="verbatim-title">Enfin ! J'en ai rêvé, vous l'avez fait</h3>
-				<h4 class="verbatim-name">par Nono</h4>
-				<p class="verbatim-comment">Je ne prends pas le bus à cause du stress généré par l'attente (jusqu'à 40 mn dans le pire des cas). Cette application pourrait me réconcilier avec les transports en commun. Voir où est son bus sur la carte et avoir le délai jusqu'à l'arrivée au prochain arrêt, c'est tout simplement génial !</p>
-				
+				<h3 class="verbatim-title">{{ site.data["strings"].passengers.verbatim2_title }}</h3>
+				<h4 class="verbatim-name">{{ site.data["strings"].passengers.verbatim2_name }}</h4>
+				<p class="verbatim-comment">{{ site.data["strings"].passengers.verbatim2_comment }}</p>
 			</li>
 			<li class="verbatim-list-item">
-				<h3 class="verbatim-title">Superbe idée & concept</h3>
-				<h4 class="verbatim-name">par Elena Martichka</h4>
-				<p class="verbatim-comment">Super application dans une région où les infos bus sont rarement au point. Merci ! Vivement que d'autres compagnies et leurs chauffeurs soient convertis !!!</p>
-				
+				<h3 class="verbatim-title">{{ site.data["strings"].passengers.verbatim3_title }}</h3>
+				<h4 class="verbatim-name">{{ site.data["strings"].passengers.verbatim3_name }}</h4>
+				<p class="verbatim-comment">{{ site.data["strings"].passengers.verbatim3_comment }}</p>
 			</li>
 			<li class="verbatim-list-item">
-				<h3 class="verbatim-title">Indispensable</h3>
-				<h4 class="verbatim-name">par Mathiieuc</h4>
-				<p class="verbatim-comment">Application indispensable pour tous les usagers de transports en commun : on peut anticiper son départ de chez soi pour ne pas attendre trop longtemps à l'arrêt et ça rassure de savoir que le bus va bien arriver.</p>
+				<h3 class="verbatim-title">{{ site.data["strings"].passengers.verbatim4_title }}</h3>
+				<h4 class="verbatim-name">{{ site.data["strings"].passengers.verbatim4_name }}</h4>
+				<p class="verbatim-comment">{{ site.data["strings"].passengers.verbatim4_comment }}</p>
 			</li>
 		</ul>
 	</section>
@@ -105,7 +103,7 @@ permalink: /passengers/
 				<label for="surveyCheckboxRGPD" class="classic-form-label checkbox">{{ site.data['strings'].contact.form_rgpd }}</label>
 			</div>
 			<button type="submit" class="classic-form-submit">{{ site.data['strings'].passengers.form_submit }}</button>
-			<p class="survey-form-validation">Merci pour votre retour ! Votre demande sera prise en compte le plus rapidement possible</p>
+			<p class="survey-form-validation">{{ site.data['strings'].passengers.form_success }}</p>
 		</form>
 	</section>
 	<section class="results">
@@ -124,11 +122,11 @@ permalink: /passengers/
 		</div>
 		<div class="rules-content">
 			<ul class="rules-content-list">
-				<li class="rules-content-list-item">De l’application, tu parleras (si elle te plait, évidemment)</li>
-				<li class="rules-content-list-item">De tes retours, nous sommes friands, donc à nous écrire, tu n’hésiteras pas</li>
-				<li class="rules-content-list-item">A ton écoute nous sommes, d’un besoin particulier, tu nous entretiendras</li>
-				<li class="rules-content-list-item">Si c'est pour ton opérateur de transport, lui dire directement tu privilégieras</li>
-				<li class="rules-content-list-item">Les avis constructifs nous préférons, les messages méchants tu éviteras</li>
+				<li class="rules-content-list-item">{{ site.data["strings"].passengers.rule1 }}</li>
+				<li class="rules-content-list-item">{{ site.data["strings"].passengers.rule2 }}</li>
+				<li class="rules-content-list-item">{{ site.data["strings"].passengers.rule3 }}</li>
+				<li class="rules-content-list-item">{{ site.data["strings"].passengers.rule4 }}</li>
+				<li class="rules-content-list-item">{{ site.data["strings"].passengers.rule5 }}</li>
 			</ul>
 		</div>
 	</section>
