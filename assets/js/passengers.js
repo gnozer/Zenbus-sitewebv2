@@ -107,7 +107,7 @@ function buildSurveyResults(datas){
 			 citySummarySpan = document.createElement("span"),
 			 citySummarySpanText = document.createTextNode(datas[i].name),
 			 cityAside = document.createElement("aside"),
-			 cityAsideContent = document.createTextNode(datas[i].surveyCount+" demandes"),
+			 cityAsideContent = datas[i].surveyCount > 1 ? document.createTextNode(datas[i].surveyCount+" demandes") : document.createTextNode(datas[i].surveyCount+" demande"),
 			 cityProgress = document.createElement("progress");
 		cityProgress.setAttribute("max", 100);
 		cityProgress.setAttribute("value", datas[i].surveyCount*100/totalRequests);
