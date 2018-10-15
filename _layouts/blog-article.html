@@ -5,6 +5,7 @@
    
    <body>
    	{% assign auth = site.data["authors"] | where: "id", page.author %}
+   	{% assign a = auth | first %}
    	<div id="app">
 			{% include nav.html %}
 			<div class="content-container blog">
@@ -13,7 +14,6 @@
 				</header>
 				
 				<article class="article">
-					{% for a in auth %}
 					<div class="article-infos">
 						
 						<h1 class="article-infos-title">{{ page.title }}</h1>
@@ -36,7 +36,7 @@
 						</div>
 						
 					</div>
-
+					{% include components/socials.html %}
 					<div class="article-content">
 						<header class="article-content-banner" style="background-image:url('{{ baseurl }}/assets/img/blog/{{ page.image }}')"></header>
 						
@@ -45,7 +45,6 @@
 						</div>
 						
 					</div>
-					{% endfor %}
 				</article>
 				
 			</div>
@@ -53,6 +52,7 @@
    	</div>
    	{% include loader.html %}
    	<script src="{{ site.baseurl }}/assets/js/footer.min.js"></script>
+   	<script src="{{ site.baseurl }}/assets/js/share.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/menu.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/dev-harpoon.js"></script>
    </body>

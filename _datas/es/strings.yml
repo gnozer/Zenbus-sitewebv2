@@ -11,7 +11,7 @@ nav:
   blog: "Blog"
   team: "Equipo"
   contact: "Contacto"
-  recruit: "Únete a nosotros"
+  recruit: "Reclutamiento"
   press: "Prensa"
 
 # ----------- BLOG ------------
@@ -19,6 +19,7 @@ nav:
 written_by: "Por"
 back_to_articles: "Todos los artículos"
 the_date: "El "
+social_share_span: "Comparte este artículo"
 
 # ----- Home Blog
 search_placeholder: "Buscar"
@@ -76,6 +77,64 @@ team:
   description_job: "¿ Quieres participar en la aventura ? ¡ Descubre las misiones que te proponemos !"
   job1: "1 Commercial Junior"
   job2: "2 Desarrolladores"
+  
+# ---------- JOB -----------
+job:
+  tile_title: "On recrute !"
+  tile_text: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, des curieux, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
+  technic:
+    team_title: "Du côté des devs..."
+    team_text: "Petite équipe, peer programming, décisions d'archi & produit prises par les devs à l'unanimité, zéro framework (sans réinventer la roue), pas de dette technique, pas de bullshit, pas de méthode magique, pas de presta, avant de faire du java (c'est pas d'la menthe à l'eau) on fait de l'algorithmie, pas de sysadmin (merci GAE). On touche un tantinet nos billes niveau scalabilité, concurrence, parallélisme & latences magiques sur des grille-pains virtualisés avec masse données. "
+  sales:
+    team_title: "Du côté des bizdev..."
+    team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et tourné(e) vers l'action ? Nous t'attendons ! "
+  customer:
+    team_title: "Nos chefs de projet ont besoin de vous !"
+    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! Allo oui ? "
+  
+# ---------- PASSENGERS -----------
+passengers:
+  tile_title: "Simple. Efficace. Gratuit."
+  tile_text: "Zenbus a pour mission de transformer votre mobilité en vous proposant une solution simple pour localiser les transports collectifs."
+  tile2_title: "Pas de smartphone ? On a pensé à vous"
+  tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé dans un fauteuil, il existe sa version web. Accédez facilement à une multitude de réseaux équipés."
+  tile3_title: "Pas encore convaincu ? Ecoutez les autres"
+  tile3_text: "Certains ont des choses à dire et nous les écoutons. C'est encore mieux quand on nous complimente, alors on ne se prive pas pour vous partager les commentaires les plus sympas."
+  tile4_title: "Ne dites rien... Il vous manque quelque chose ?"
+  tile4_text: "Il est possible que Zenbus n'équipe pas votre ville, votre réseau ou même simplement votre ligne. N'hésitez pas à nous le faire savoir avec ce petit questionnaire rapide."
+  form_label1: "Votre adresse mail"
+  form_placeholder1: "Votre adresse mail"
+  form_label2: "Quelles lignes souhaitez-vous ?"
+  form_placeholder2: "ex: Ligne 1, Ligne 2, A, B, Ligne bleue, etc..."
+  form_label3: "Je souhaite avoir toutes les lignes possibles"
+  form_label4: "De quel réseau de transport parlons-nous ?"
+  form_placeholder4: "ex: SEMITAN, Ales'y, RATP, TBM, etc..."
+  form_label5: "Je ne connais pas précisément le nom de mon réseau"
+  form_label6: "Et ça se situe dans quelle ville ?"
+  form_placeholder6: "ex: Paris, New York, Moutiers les Maufaits, etc..."
+  form_submit: "Envoyer"
+  form_success: "Merci pour votre retour ! Votre demande sera prise en compte le plus rapidement possible"
+  tile5_title: "Sachez que vous n'êtes pas seuls"
+  tile5_text: "Un grand pouvoir implique de grandes responsabilités. Nous, c'est de recueillir vos besoins et d'en prendre compte afin de savoir vers où diriger nos efforts."
+  tile6_title: "Vous aussi, vous avez des responsabilités"
+  tile6_text: "Et oui, en tant qu'utilisateur de Zenbus, vous êtes mis à contribution : faire connaître, faire mieux fonctionner, faire de chaque jour qui passe un paradis sur Terre. Voici la charte du Zenbusseur reponsable"
+  rule1: "De l’application, tu parleras (si elle te plait, évidemment)"
+  rule2: "De tes retours, nous sommes friands, donc à nous écrire, tu n’hésiteras pas"
+  rule3: "A ton écoute nous sommes, d’un besoin particulier, tu nous entretiendras"
+  rule4: "Si c'est pour ton opérateur de transport, lui dire directement tu privilégieras"
+  rule5: "Les avis constructifs nous préférons, les messages méchants tu éviteras"
+  verbatim1_title: "Très bonne application"
+  verbatim1_name: "par Louis"
+  verbatim1_comment: "La géolocalisation des bus est très pratique surtout en cas de correspondance entre plusieurs lignes ce qui est mon cas sur le réseau TAN Nantes Métropole (E5 et 86), je suis « zen » au moment de correspondance ! 😊 Ce serait cool que le concept soit étendu au réseau LILA Loire-Atlantique"
+  verbatim2_title: "Enfin ! J'en ai rêvé, vous l'avez fait"
+  verbatim2_name: "par Nono"
+  verbatim2_comment: "Je ne prends pas le bus à cause du stress généré par l'attente (jusqu'à 40 mn dans le pire des cas) Cette application pourrait me réconcilier avec les transports en commun. Voir où est son bus sur la carte et avoir le délai jusqu'à l'arrivée au prochain arrêt, c'est tout simplement génial !"
+  verbatim3_title: "Superbe idée & concept"
+  verbatim3_name: "par Elena Martichka"
+  verbatim3_comment: "Super application dans une région où les infos bus sont rarement au point. Merci ! Vivement que d'autres compagnies et leurs chauffeurs soient convertis !!!"
+  verbatim4_title: "Indispensable"
+  verbatim4_name: "par Mathiieuc"
+  verbatim4_comment: "Application indispensable pour tous les usagers de transports en commun : on peut anticiper son départ de chez soi pour ne pas attendre trop longtemps à l'arrêt et ça rassure de savoir que le bus va bien arriver."
 
 # ---------- CONTACT -----------
 contact:

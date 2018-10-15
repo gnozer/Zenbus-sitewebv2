@@ -1,0 +1,6 @@
+<div class="article-share">
+	<span class="article-share-title">{{ site.data["strings"].social_share_span }}</span>
+	<a class="social-img fb" href="https://www.facebook.com/sharer/sharer.php?u={{ site.base_url }}{{ page.url }}" target="_blank" onclick="sendDatasToSheet('facebook', '{{ page.url }}')"></a>
+	<a class="social-img tw" href="https://twitter.com/intent/tweet?url={{ site.base_url }}{{ page.url }}&text={{ page.title }}&via=zenbus" target="_blank" onclick="sendDatasToSheet('twitter', '{{ page.url }}')"></a>
+	<a class="social-img in" href="https://www.linkedin.com/shareArticle?url={{ site.base_url }}{{ page.url }}&mini=true&title={{ page.title }}&source=Zenbus" target="_blank" onclick="sendDatasToSheet('linkedin', '{{ page.url }}')"></a>
+</div>
