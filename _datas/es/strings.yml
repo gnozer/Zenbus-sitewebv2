@@ -94,14 +94,20 @@ job:
   
 # ---------- PASSENGERS -----------
 passengers:
-  tile_title: "Simple. Efficace. Gratuit."
-  tile_text: "Zenbus a pour mission de transformer votre mobilité en vous proposant une solution simple pour localiser les transports collectifs."
+  tile_title: "Easy. Efficient. Free."
+  tile_text: "Zenbus's mission is to transform your mobility by offering you a simple solution to locate public transport."
+  appstore:
+    download: "Télécharger dans"
+    brand: "l'App Store"
+  playstore:
+    download: "Disponible sur"
+    brand: "Play Store"
   tile2_title: "Pas de smartphone ? On a pensé à vous"
-  tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé dans un fauteuil, il existe sa version web. Accédez facilement à une multitude de réseaux équipés."
-  tile3_title: "Pas encore convaincu ? Ecoutez les autres"
-  tile3_text: "Certains ont des choses à dire et nous les écoutons. C'est encore mieux quand on nous complimente, alors on ne se prive pas pour vous partager les commentaires les plus sympas."
+  tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé dans un fauteuil, utilisez sa <a target='_blank' href='/#map'>version web</a>. Accédez facilement à une multitude de réseaux équipés."
+  tile3_title: "Pas encore convaincu ? Ecoutez les autres utilisateurs"
+  tile3_text: "Nous avons reçu des centaines de retours, parfois critiques mais le plus souvent positifs. Alors comme on aime bien ça, voici quelques commentaires parmi les plus sympas."
   tile4_title: "Ne dites rien... Il vous manque quelque chose ?"
-  tile4_text: "Il est possible que Zenbus n'équipe pas votre ville, votre réseau ou même simplement votre ligne. N'hésitez pas à nous le faire savoir avec ce petit questionnaire rapide."
+  tile4_text: "Il est possible que Zenbus n'équipe pas votre ville (voir <a target='_blank' href='/#map'>la carte des réseaux</a>), votre réseau ou même simplement votre ligne. N'hésitez pas à nous le faire savoir avec ce petit questionnaire rapide."
   form_label1: "Votre adresse mail"
   form_placeholder1: "Votre adresse mail"
   form_label2: "Quelles lignes souhaitez-vous ?"
@@ -118,7 +124,7 @@ passengers:
   tile5_text: "Un grand pouvoir implique de grandes responsabilités. Nous, c'est de recueillir vos besoins et d'en prendre compte afin de savoir vers où diriger nos efforts."
   tile6_title: "Vous aussi, vous avez des responsabilités"
   tile6_text: "Et oui, en tant qu'utilisateur de Zenbus, vous êtes mis à contribution : faire connaître, faire mieux fonctionner, faire de chaque jour qui passe un paradis sur Terre. Voici la charte du Zenbusseur reponsable"
-  rule1: "De l’application, tu parleras (si elle te plait, évidemment)"
+  rule1: "De l’application, tu parleras (si elle te plaît, évidemment)"
   rule2: "De tes retours, nous sommes friands, donc à nous écrire, tu n’hésiteras pas"
   rule3: "A ton écoute nous sommes, d’un besoin particulier, tu nous entretiendras"
   rule4: "Si c'est pour ton opérateur de transport, lui dire directement tu privilégieras"
