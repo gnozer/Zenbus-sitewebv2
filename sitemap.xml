@@ -21,6 +21,7 @@
 	</url>
 	
 	<!-- TODO: use sitemapindex: https://webmasters.stackexchange.com/questions/74118/is-a-different-sitemap-per-language-ok-how-do-i-tell-google-about-them -->
+	<!-- TODO: use google news sitemap to improve blog search engine https://news.google.com/publisher#p:id=pfehome -->
 	<!-- ENGLISH -->
 	<url>
 		<loc>https://zenbus.fr/en/</loc>
@@ -29,6 +30,7 @@
 						hreflang="en"
 						href="https://zenbus.fr/en/"
 						/>
+		<priority>0.8</priority>
 	</url>
 	
 	<!-- SPANISH -->
@@ -39,6 +41,6 @@
 						hreflang="es"
 						href="https://zenbus.fr/es/"
 						/>
+		<priority>0.8</priority>
 	</url>
- 	
 </urlset>
