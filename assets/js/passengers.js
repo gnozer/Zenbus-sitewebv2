@@ -1,38 +1,16 @@
 var SURVEY_FORM; //DOM element
 
 /**
- * Function to check if Datas sent are valid
- */
-function areDatasValid(email) {
-	var rgpd_checkbox = document.querySelector('#surveyCheckboxRGPD');
-	if(SURVEY_FORM.classList.contains("rgpd-error")) {
-		SURVEY_FORM.classList.remove("rgpd-error");
-	} else if(SURVEY_FORM.classList.contains("email-error")) {
-		SURVEY_FORM.classList.remove("email-error");
-	}
-	if(!rgpd_checkbox.checked) {
-		SURVEY_FORM.classList.add("rgpd-error");
-	}
-
-	if(!isEmailValid(email)){
-		SURVEY_FORM.classList.add("email-error");
-	}
-	if(SURVEY_FORM.classList.length == 1) return true;
-}
-
-/**
  * Main function to send an email to contact sheet
  */
 function sendDatasToSheet(email, lines, network, city) {
-	if(areDatasValid(email)) {
-		var args = "form=passengers_survey&email="+encodeURIComponent(email)+"&lines="+encodeURIComponent(lines)+"&network="+encodeURIComponent(network)+"&city="+encodeURIComponent(city);
+		var args = "form=passengers_survey&lines="+encodeURIComponent(lines)+"&network="+encodeURIComponent(network)+"&city="+encodeURIComponent(city);
 		get("https://script.google.com/macros/s/AKfycbzOOFyPsyXzqytgQK8aWzEI1srgCOhKPTCwFwQ5xys8GXEAJiM/exec?"+args).then(function(){
 			SURVEY_FORM.classList.add("survey-sent");
 		})
 		.catch(function(error){
 			console.log('error', error.message);
 		});
-	}
 }
 
 function compareSurveyCount(a,b) {
@@ -136,10 +114,12 @@ function buildSurveyResults(datas){
 			
 			if(datas[i].accounts[j].wantedRoutes.length > 3){
 				for(var k=0; k < 3; k++){
-					var accLi = document.createElement("li");
-					accLi.innerHTML = (datas[i].accounts[j].wantedRoutes[k].name == 'All'?'Toutes':datas[i].accounts[j].wantedRoutes[k].name)+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
-					accLi.setAttribute("class", "results-tree-network-lines-name");
-					accUl.appendChild(accLi);
+					if(datas[i].accounts[j].wantedRoutes[k].surveyCount > 0) {
+						var accLi = document.createElement("li");
+						accLi.innerHTML = (datas[i].accounts[j].wantedRoutes[k].name == 'All'?'Toutes':datas[i].accounts[j].wantedRoutes[k].name)+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
+						accLi.setAttribute("class", "results-tree-network-lines-name");
+						accUl.appendChild(accLi);
+					}
 				}
 				
 				
@@ -147,17 +127,21 @@ function buildSurveyResults(datas){
 					 textNode = "Autres : ";
 				
 				for(var k = 3; k < datas[i].accounts[j].wantedRoutes.length; k++){
-					textNode += (datas[i].accounts[j].wantedRoutes[k].name == 'All'?'Toutes':datas[i].accounts[j].wantedRoutes[k].name)+" (<span class=\"results-tree-lines-number\">"+datas[i].accounts[j].wantedRoutes[k].surveyCount+"</span>) - "
+					if(datas[i].accounts[j].wantedRoutes[k].surveyCount > 0) {
+						textNode += (datas[i].accounts[j].wantedRoutes[k].name == 'All'?'Toutes':datas[i].accounts[j].wantedRoutes[k].name)+" (<span class=\"results-tree-lines-number\">"+datas[i].accounts[j].wantedRoutes[k].surveyCount+"</span>) - ";
+					}
 				}
 				accLastLi.innerHTML = textNode.slice(0,-3);
 				accLastLi.setAttribute("class", "results-tree-network-lines-name");
 				accUl.appendChild(accLastLi);
 			} else {
 				for(var k = 0; k < datas[i].accounts[j].wantedRoutes.length; k++){
-					var accLi = document.createElement("li");
-					accLi.innerHTML = (datas[i].accounts[j].wantedRoutes[k].name == 'All'?'Toutes':datas[i].accounts[j].wantedRoutes[k].name)+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
-					accLi.setAttribute("class", "results-tree-network-lines-name");
-					accUl.appendChild(accLi);
+					if(datas[i].accounts[j].wantedRoutes[k].surveyCount > 0) {
+						var accLi = document.createElement("li");
+						accLi.innerHTML = (datas[i].accounts[j].wantedRoutes[k].name == 'All'?'Toutes':datas[i].accounts[j].wantedRoutes[k].name)+' (<span class="results-tree-lines-number">'+datas[i].accounts[j].wantedRoutes[k].surveyCount+'</span>)';
+						accLi.setAttribute("class", "results-tree-network-lines-name");
+						accUl.appendChild(accLi);
+					}
 				}
 			}
 
