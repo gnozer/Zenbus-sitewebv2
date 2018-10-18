@@ -181,9 +181,10 @@ function buildSurveyResults(datas){
 		sendDatasToSheet(email, lines, network, city);
 	});
 	
-	initSurveyResults().then(function(response){
+	// A décommenter quand on aura "assez de données"
+	/*initSurveyResults().then(function(response){
 		return buildSurveyResults(response);
-	})
+	})*/
 })();
 
 document.getElementById('surveyCheckboxLines').onchange = function() {
