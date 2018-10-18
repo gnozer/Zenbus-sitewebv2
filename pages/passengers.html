@@ -72,12 +72,6 @@ permalink: /passengers/
 			<p class="header-tile-text">{{ site.data["strings"].passengers.tile4_text }}</p>
 		</div>
 		<form action="" class="survey-form" id="surveyForm" novalidate>
-			<span class="survey-form-email-error">{{ site.data["strings"].contact.email_error }}</span>
-			<span class="survey-form-form-error">{{ site.data["strings"].contact.form_error }}</span>
-			<label class="survey-label">
-				{{ site.data["strings"].passengers.form_label1 }}
-				<input type="mail" placeholder="{{ site.data['strings'].passengers.form_placeholder1 }}" id="surveyInputEmail" required>
-			</label>
 			<label class="survey-label">
 				{{ site.data["strings"].passengers.form_label6 }}
 				<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder6 }}" id="surveyInputCity">
@@ -97,10 +91,6 @@ permalink: /passengers/
 				</label>
 				<input type="checkbox" id="surveyCheckboxLines" class="classic-form-checkbox">
 				<label for="surveyCheckboxLines" class="classic-form-label checkbox">{{ site.data['strings'].passengers.form_label3 }}</label>
-			</div>
-			<div>
-				<input type="checkbox" id="surveyCheckboxRGPD" class="classic-form-checkbox">
-				<label for="surveyCheckboxRGPD" class="classic-form-label checkbox">{{ site.data['strings'].contact.form_rgpd }}</label>
 			</div>
 			<button type="submit" class="classic-form-submit">{{ site.data['strings'].passengers.form_submit }}</button>
 			<p class="survey-form-validation">{{ site.data['strings'].passengers.form_success }}</p>
