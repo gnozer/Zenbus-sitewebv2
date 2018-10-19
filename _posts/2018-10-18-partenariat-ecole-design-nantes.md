@@ -8,7 +8,7 @@ tags: tignes navette gratuite stgm
 author: romain
 lang: fr
 ---
-*À partir du 7 novembre, les étudiants de 3è année du cycle Interactivité de l’Ecole de Design Nantes Atlantique travailleront au futur de l’application de Zenbus.*
+*À partir du 7 novembre, les étudiants de 3è année du cycle Interactivité de l’Ecole de Design Nantes Atlantique travailleront au futur de l’application Zenbus.*
 
 Zenbus, c’est un iceberg. Des strates de techniques qui enrichissent des interfaces complexes, invisibles aux yeux du voyageur et pourtant nécessaires. Comme tout iceberg qui se respecte, la solution possède sa partie émergée : l’application Voyageurs, la vitrine du savoir-faire de Zenbus.
 
