@@ -3,7 +3,7 @@ var SURVEY_FORM; //DOM element
 /**
  * Main function to send an email to contact sheet
  */
-function sendDatasToSheet(email, lines, network, city) {
+function sendDatasToSheet(lines, network, city) {
 		var args = "form=passengers_survey&lines="+encodeURIComponent(lines)+"&network="+encodeURIComponent(network)+"&city="+encodeURIComponent(city);
 		get("https://script.google.com/macros/s/AKfycbzOOFyPsyXzqytgQK8aWzEI1srgCOhKPTCwFwQ5xys8GXEAJiM/exec?"+args).then(function(){
 			SURVEY_FORM.classList.add("survey-sent");
@@ -173,12 +173,13 @@ function buildSurveyResults(datas){
 	SURVEY_FORM = document.getElementById('surveyForm');
 	SURVEY_FORM.addEventListener("submit", function(evt){
 		evt.preventDefault();
-		var email = document.getElementById('surveyInputEmail').value,
-			 lines = document.getElementById('surveyCheckboxLines').checked ? 'Toutes les lignes' : document.getElementById('surveyInputLines').value,
+		var lines = document.getElementById('surveyCheckboxLines').checked ? 'Toutes les lignes' : document.getElementById('surveyInputLines').value,
 			 network = document.getElementById('surveyCheckboxNetwork').checked ? 'Je ne connais pas le nom de mon réseau' : document.getElementById('surveyInputNetwork').value,
 			 city = document.getElementById('surveyInputCity').value;
+		
+		document.getElementById('surveySubmit').disabled = true;
 			
-		sendDatasToSheet(email, lines, network, city);
+		sendDatasToSheet(lines, network, city);
 	});
 	
 	// A décommenter quand on aura "assez de données"
