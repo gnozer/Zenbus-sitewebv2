@@ -218,3 +218,14 @@
   linkedin: https://www.linkedin.com/in/simon-vergnaud/
   photo: simon.jpg
   photo_fun: simon_fun.jpg
+- id: oceane
+  name: Océane Blot-Barzic
+  firstname: Océane
+  lastname: Blot-Barzic
+  arrival_date: 2018-11-05
+  role: Business Developer
+  localization: Nantes
+  presentation: "A faire"
+  linkedin: https://www.linkedin.com/in/oc%C3%A9ane-blot-1a3327a2/
+  photo: oceane.jpg
+  photo_fun: oceane_fun.jpg
