@@ -140,6 +140,7 @@ permalink: /transport-authorities/
 			<a href="tel:+33987361246" class="estimate-phone-button">{{ site.data["strings"].ao.estimate.button_call1 }}</a>
 			<form id="callMeForm" class="estimate-phone-form" novalidate>
 				<input id="inputPhone" type="text" class="estimate-phone-form-input" placeholder="+33 6 XX XX XX XX" name="phone_only">
+				<input type="hidden" name="page_id" value="Autorité Organisatrice" id="inputPageId">
 				<button type="submit" class="estimate-phone-form" name="submit_phone_only">{{ site.data["strings"].ao.estimate.button_call2 }}</button>
 				<p class="estimate-phone-form-policy">{{ site.data["strings"].ao.estimate.policy1 }}</p>
 			</form>
@@ -160,19 +161,19 @@ permalink: /transport-authorities/
 			</div>
 			<label class="estimate-form-label">
 				{{ site.data["strings"].ao.estimate.form.label4 }}
-				<input type="text" id="estimateInputLastname">
+				<input type="text" id="estimateInputLastname" autocomplete="family-name">
 			</label>
 			<label class="estimate-form-label">
 				{{ site.data["strings"].ao.estimate.form.label5 }}
-				<input type="text" id="estimateInputFirstname">
+				<input type="text" id="estimateInputFirstname" autocomplete="given-name">
 			</label>
 			<label class="estimate-form-label">
 				{{ site.data["strings"].ao.estimate.form.label6 }}
-				<input type="email" id="estimateInputEmail">
+				<input type="email" id="estimateInputEmail" autocomplete="email">
 			</label>
 			<label class="estimate-form-label">
 				{{ site.data["strings"].ao.estimate.form.label7 }}
-				<input type="text" id="estimateInputPhone">
+				<input type="text" id="estimateInputPhone" autocomplete="tel">
 			</label>
 			<textarea class="estimate-form-textarea message" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder3 }}" name="message" id="estimateTextareaMessage" cols="30" rows="10"></textarea>
 			<button type="submit" class="estimate-form-submit" id="estimateSubmit">{{ site.data['strings'].ao.estimate.form.submit }}</button>

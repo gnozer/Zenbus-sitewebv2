@@ -7,11 +7,11 @@
 		<li class="panel-menu-item home{% if page.permalink == '/' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/" class="panel-menu-item-text">{{ site.data["strings"].nav.home }}</a>
 		</li>
-		<li class="panel-menu-item collectivity">
+		<li class="panel-menu-item collectivity{% if page.permalink == '/operators/' or page.permalink == '/transport-authorities/' %} active{% endif %}">
 			<button class="panel-menu-item-text">{{ site.data["strings"].nav.customers }}</button>
 			<ul class="collectivity-submenu">
 				<li class="panel-menu-item home{% if page.permalink == '/transport-authorities/' %} active{% endif %}">
-					<a href="{{ site.baseurl }}/transport-authorities/" class="panel-menu-item-text">{{ site.data["strings"].nav.operators }}</a>
+					<a href="{{ site.baseurl }}/transport-authorities/" class="panel-menu-item-text">{{ site.data["strings"].nav.ao }}</a>
 				</li>
 				<li class="panel-menu-item home{% if page.permalink == '/operators/' %} active{% endif %}">
 					<a href="{{ site.baseurl }}/operators/" class="panel-menu-item-text">{{ site.data["strings"].nav.operators }}</a>
