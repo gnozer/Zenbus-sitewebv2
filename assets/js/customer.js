@@ -1,6 +1,27 @@
 var CALL_ME_FORM; //DOM element
 var ESTIMATE_FORM;
 
+function openTab(evt, tabName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="profits-subtypes-content" and hide them
+    tabcontent = document.getElementsByClassName("profits-subtypes-content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].className = tabcontent[i].className.replace(' visible', '');
+    }
+
+    // Get all elements with class="profits-subtypes-tabs-tab" and remove the class "active"
+    tablinks = document.getElementsByClassName("profits-subtypes-tabs-tab");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).classList.add("visible");
+    evt.currentTarget.className += " active";
+}
+
 /**
  * Utils to test if email address is well formed
  */
@@ -45,9 +66,9 @@ function areDatasValid(email, phone) {
 /**
  * Main function to send an email to contact sheet
  */
-function sendDatasToSheet(firstname, lastname, iam, email, message) {
-	if(areDatasValid(email)) {
-		var args = "form=contact&email="+encodeURIComponent(email)+"&prenom="+encodeURIComponent(firstname)+"&nom="+encodeURIComponent(lastname)+"&type="+encodeURIComponent(iam)+"&message="+encodeURIComponent(message);
+function sendDatasToSheet(network, operators, firstname, lastname, email, phone, message) {
+	if(areDatasValid(email, phone)) {
+		var args = "form=Contact_AO&reseau="+encodeURIComponent(network)+"&exploitants="+encodeURIComponent(firstname)+"&nom="+encodeURIComponent(lastname)+"&type="+encodeURIComponent(iam)+"&message="+encodeURIComponent(message);
 		get("https://script.google.com/macros/s/AKfycbzOOFyPsyXzqytgQK8aWzEI1srgCOhKPTCwFwQ5xys8GXEAJiM/exec?"+args).then(function(){
 			CONTACT_FORM.classList.add("contact-sent");
 		})
@@ -81,6 +102,9 @@ function get(url){
 }
 
 (function(){
+	
+	
+	
 		CALL_ME_FORM = document.getElementById('callMeForm');
 		CALL_ME_FORM.addEventListener("submit", function(evt){
 			evt.preventDefault();

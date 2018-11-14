@@ -25,12 +25,12 @@ permalink: /transport-authorities/
 <!--		<a href="{{ baseurl }}/products/" target="_blank" class="profits-button"></a>-->
 		<div class="profits-subtypes">
 			<div class="profits-subtypes-tabs">
-				<button class="profits-subtypes-tabs-tab">{{ site.data["strings"].ao.small_urban.name }}</button>
-				<button class="profits-subtypes-tabs-tab">{{ site.data["strings"].ao.mid_urban.name }}</button>
-				<button class="profits-subtypes-tabs-tab">{{ site.data["strings"].ao.big_urban.name }}</button>
-				<button class="profits-subtypes-tabs-tab">{{ site.data["strings"].ao.scolar_inter.name }}</button>
+				<button class="profits-subtypes-tabs-tab active" onclick="openTab(event, 'smallUrban')">{{ site.data["strings"].ao.small_urban.name }}</button>
+				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'midUrban')">{{ site.data["strings"].ao.mid_urban.name }}</button>
+				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'bigUrban')">{{ site.data["strings"].ao.big_urban.name }}</button>
+				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'scolarInter')">{{ site.data["strings"].ao.scolar_inter.name }}</button>
 			</div>
-			<div class="profits-subtypes-content">
+			<div class="profits-subtypes-content visible" id="smallUrban">
 				<h3 class="profits-subtypes-content-name">{{ site.data["strings"].ao.small_urban.name }}</h3>
 				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.small_urban.title }}</h2>
 				<p class="profits-subtypes-content-text">
@@ -49,7 +49,7 @@ permalink: /transport-authorities/
 					</li>
 				</ul>
 			</div>
-			<div class="profits-subtypes-content">
+			<div class="profits-subtypes-content" id="midUrban">
 				<h3 class="profits-subtypes-content-name">{{ site.data["strings"].ao.mid_urban.name }}</h3>
 				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.mid_urban.title }}</h2>
 				<p class="profits-subtypes-content-text">
@@ -78,7 +78,7 @@ permalink: /transport-authorities/
 					</li>
 				</ul>
 			</div>
-			<div class="profits-subtypes-content">
+			<div class="profits-subtypes-content" id="bigUrban">
 				<h3 class="profits-subtypes-content-name">{{ site.data["strings"].ao.big_urban.name }}</h3>
 				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.big_urban.title }}</h2>
 				<p class="profits-subtypes-content-text">
@@ -102,7 +102,7 @@ permalink: /transport-authorities/
 					</li>
 				</ul>
 			</div>
-			<div class="profits-subtypes-content">
+			<div class="profits-subtypes-content" id="scolarInter">
 				<h3 class="profits-subtypes-content-name">{{ site.data["strings"].ao.scolar_inter.name }}</h3>
 				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.scolar_inter.title }}</h2>
 				<p class="profits-subtypes-content-text">
