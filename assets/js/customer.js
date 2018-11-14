@@ -68,9 +68,9 @@ function areDatasValid(email, phone) {
  */
 function sendDatasToSheet(network, operators, firstname, lastname, email, phone, message) {
 	if(areDatasValid(email, phone)) {
-		var args = "form=Contact_AO&reseau="+encodeURIComponent(network)+"&exploitants="+encodeURIComponent(firstname)+"&nom="+encodeURIComponent(lastname)+"&type="+encodeURIComponent(iam)+"&message="+encodeURIComponent(message);
-		get("https://script.google.com/macros/s/AKfycbzOOFyPsyXzqytgQK8aWzEI1srgCOhKPTCwFwQ5xys8GXEAJiM/exec?"+args).then(function(){
-			CONTACT_FORM.classList.add("contact-sent");
+		var args = "form=Contact_AO&reseau="+encodeURIComponent(network)+"&exploitants="+encodeURIComponent(operators)+"&nom="+encodeURIComponent(lastname)+"&prenom="+encodeURIComponent(firstname)+"&email="+encodeURIComponent(email)+"&phone="+encodeURIComponent(phone)+"&message="+encodeURIComponent(message);
+		get("https://script.google.com/macros/s/AKfycbyAxaPtYwy-Uwp27vEu9uTaiJ1NnevuR4U2CRn5zVNczMnGYTs/exec?"+args).then(function(){
+			ESTIMATE_FORM.classList.add("contact-sent");
 		})
 		.catch(function(error){
 			console.log('error', error.message);
