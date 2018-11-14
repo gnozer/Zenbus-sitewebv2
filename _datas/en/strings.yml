@@ -5,7 +5,8 @@ homepage:
 # ----------- NAV ------------
 nav:
   home: "Home"
-  collectivity: "Local authorities"
+  customers: "Customers"
+  ao: "Transport Authorities"
   operators: "Transport operators"
   passengers: "Passengers"
   blog: "Blog"
