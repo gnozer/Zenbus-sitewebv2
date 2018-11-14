@@ -5,7 +5,8 @@ homepage:
 # ----------- NAV ------------
 nav:
   home: "Home"
-  collectivity: "Collectivités"
+  customers: "Clients"
+  ao: "Autorités Organisatrices"
   operators: "Exploitants"
   passengers: "Voyageurs"
   blog: "Blog"
@@ -91,7 +92,62 @@ job:
   customer:
     team_title: "Nos chefs de projet ont besoin de vous !"
     team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! Allo oui ? "
-  
+
+# ---------- AO -----------
+ao:
+  tile_title: "Zenbus pour les AOM"
+  profit1:
+    title: "Valorisez votre réseau de bus et facilitez le report modal"
+    text: "Proposez enfin un outil permettant au voyageur d’apprécier ses déplacements en bus et d’en faire un moyen de déplacement privilégié."
+  profit2:
+    title: "Suivez et optimisez votre offre de transport"
+    text: "Nos données précises et  nos interfaces intuitives vont vous aider à comprendre et agir en s’appuyant sur des informations fiables et partagées avec votre exploitant"
+  profit3:
+    title: "Respectez vos obligations réglementaires"
+    text: "Zenbus vous permet de vous inscrire dans les standards et les exigences de la loi LOM en vous accompagnant très simplement, dans l’ouverture de vos données statiques et dynamiques."
+  small_urban:
+    name: "Petit urbain"
+    title: "Accéder à un SAEIV ultra light efficace"
+    text: "Réseau urbain entre 1 et 2 lignes"
+  mid_urban:
+    name: "Moyen urbain"
+    title: "Réseau urbain entre 3 et 20 lignes"
+    text: "Utilisé en SAEIV intégral ou BOOST IV, donnez enfin à votre réseau une information voyageur et/ou un outil d’aide à l’exploitation performant, évolutif, facile/rapide à déployer, avec un accompagnement adapté tout en restant dans vos budgets. Profitez des flux ouverts SIRI et GTFS-RT de Zenbus pour respecter les réglementations à venir en mettant à disposition les données temps réelles les plus performantes du marché."
+  big_urban:
+    name: "Gros urbain"
+    title: "Réseau urbain de plus de 20 lignes"
+    text: "BOOST IV, événementiel, substitution, statistiques"
+  scolar_inter:
+    name: "Interurbain & scolaire"
+    title: "Lignes structurantes interurbaines et Scolaires"
+    text: "Utilisé en SAEIV intégral ou BOOST IV, donnez enfin à votre réseau une information voyageur et/ou un outil d’aide à l’exploitation performant, évolutif, facile/rapide à déployer, avec un accompagnement adapté tout en restant dans vos budgets. Profitez des flux ouverts SIRI et GTFS-RT de Zenbus pour respecter les réglementations à venir en mettant à disposition les données temps réelles les plus performantes du marché."
+  contract:
+    title: "Comment bénéficier de Zenbus sur son réseau ?"
+    span1: "Contractualisez directement avec nous"
+    text1: "et utilisez notre référencement en centrale d’achat pour rendre cette démarche simple et rapide"
+    span2: "Mettez-nous en contact avec votre exploitant."
+    text2: "Il est très probable que nous nous connaissions déjà mais dans le cas contraire, nous serons heureux de tisser une nouvelle collaboration !"  
+  estimate:
+    tile_title: "Contactez-nous"
+    tile_text: "Nous sommes à votre disposition pour réagir rapidement à vos sollicitations et répondre précisément à toute question technique ou financière. N’hésitez pas !"
+    button_call1: "Nous appeler (+33 9 87 36 12 46)"
+    button_call2: "Appelez-moi"
+    policy1: "En remplissant ce champ j’accepte que mon numéro de téléphone soit utilisé à des fins commerciales et vous prenez connaissance de notre <a href='/mentions.html#donnees' class='estimate-phone-form-policy-link'>politique de confidentialité</a>"
+    intertitle: "Ou écrivez-nous"
+    form:
+      label1: "Je suis Autorité Organisatrice de Mobilité pour le réseau de"
+      placeholder1: "ex: Paris, Lyon, Marseille, etc..."
+      label2: "Mes exploitants"
+      placeholder2: "ex: Exploitant_A, Exploitant_B, etc..."
+      label3: "Il n'y a pas d'exploitant"
+      label4: "Nom"
+      label5: "Prénom"
+      label6: "Email"
+      label7: "Téléphone"
+      placeholder3: "Idéalement, décrivez-nous votre réseau de transport (nombre de lignes, nombre de véhicules, grilles horaires/fréquence), vos enjeux principaux (optimiser l’expérience de vos voyageurs, mieux comprendre la réalisé, répondre aux exigences réglementaires de la LOM, ...) et votre calendrier."
+      submit: "Envoyer"
+      rgpd: "En soumettant ce formulaire, vous acceptez que les informations saisies soient utilisées pour répondre à votre demande."
+
 # ---------- PASSENGERS -----------
 passengers:
   tile_title: "Simple. Efficace. Gratuit."
