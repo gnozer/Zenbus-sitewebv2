@@ -66,9 +66,9 @@ function areDatasValid(email, phone) {
 /**
  * Main function to send an email to contact sheet
  */
-function sendDatasToSheet(network, operators, firstname, lastname, email, phone, message) {
+function sendDatasToSheet(network, operators, email, phone, message) {
 	if(areDatasValid(email, phone)) {
-		var args = "form=Contact_AO&reseau="+encodeURIComponent(network)+"&exploitants="+encodeURIComponent(operators)+"&nom="+encodeURIComponent(lastname)+"&prenom="+encodeURIComponent(firstname)+"&email="+encodeURIComponent(email)+"&phone="+encodeURIComponent(phone)+"&message="+encodeURIComponent(message);
+		var args = "form=Contact_AO&reseau="+encodeURIComponent(network)+"&exploitants="+encodeURIComponent(operators)+"&email="+encodeURIComponent(email)+"&phone="+encodeURIComponent(phone)+"&message="+encodeURIComponent(message);
 		get("https://script.google.com/macros/s/AKfycbyAxaPtYwy-Uwp27vEu9uTaiJ1NnevuR4U2CRn5zVNczMnGYTs/exec?"+args).then(function(){
 			ESTIMATE_FORM.classList.add("contact-sent");
 		})
@@ -118,12 +118,10 @@ function get(url){
 			
 			var network = document.getElementById('estimateInputNetwork').value,
 				 operators= document.getElementById('estimateCheckboxOperators').checked ? 'Pas d\'opérateurs' : document.getElementById('estimateInputOperators').value,
-				 firstname = document.getElementById('estimateInputFirstname').value,
-				 lastname = document.getElementById('estimateInputLastname').value,
 				 email = document.getElementById('estimateInputEmail').value,
 				 phone = document.getElementById('estimateInputPhone').value,
 				 message = document.getElementById('estimateInputNetwork').value;
-			sendDatasToSheet(network, operators, firstname, lastname, email, phone, message);
+			sendDatasToSheet(network, operators, email, phone, message);
 		});
 })();
 
