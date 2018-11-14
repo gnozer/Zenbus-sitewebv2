@@ -229,3 +229,25 @@
   linkedin: https://www.linkedin.com/in/oc%C3%A9ane-blot-1a3327a2/
   photo: oceane.jpg
   photo_fun: oceane_fun.jpg
+- id: guillaume
+  name: Guillaume Guery
+  firstname: Guillaume
+  lastname: Guery
+  arrival_date: 2018-09-12
+  role: Développeur
+  localization: Paris
+  presentation: "A faire"
+  linkedin: https://www.linkedin.com/in/guillaumeguery/
+  photo: guillaume.jpg
+  photo_fun: guillaume_fun.jpg
+- id: julio
+  name: Julien Fosse
+  firstname: Julien
+  lastname: Fosse
+  arrival_date: 2018-10-17
+  role: Assistant Marketing
+  localization: Paris
+  presentation: "A faire"
+  linkedin: https://www.linkedin.com/in/julien-fosse/
+  photo: julio.jpg
+  photo_fun: julio_fun.jpg
