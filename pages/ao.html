@@ -147,6 +147,8 @@ permalink: /transport-authorities/
 		</div>
 		<h3 class="estimate-intertitle">{{ site.data["strings"].ao.estimate.intertitle }}</h3>
 		<form action="" class="estimate-form" id="estimateForm" novalidate>
+			<span class="estimate-form-contact-error">{{ site.data["strings"].ao.estimate.form.contact_error }}</span>
+			<span class="estimate-form-rgpd-error">{{ site.data["strings"].ao.estimate.form.rgpd_error }}</span>
 			<label class="estimate-label">
 				{{ site.data["strings"].ao.estimate.form.label1 }}
 				<input type="text" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder1 }}" id="estimateInputNetwork">
@@ -156,8 +158,8 @@ permalink: /transport-authorities/
 					{{ site.data["strings"].ao.estimate.form.label2 }}
 					<input type="text" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder2 }}" id="estimateInputOperators">
 				</label>
-				<input type="checkbox" id="estimateCheckboxNetwork" class="classic-form-checkbox">
-				<label for="estimateCheckboxNetwork" class="classic-form-label checkbox">{{ site.data['strings'].ao.estimate.form.label3 }}</label>
+				<input type="checkbox" id="estimateCheckboxOperators" class="classic-form-checkbox">
+				<label for="estimateCheckboxOperators" class="classic-form-label checkbox">{{ site.data['strings'].ao.estimate.form.label3 }}</label>
 			</div>
 			<label class="estimate-form-label">
 				{{ site.data["strings"].ao.estimate.form.label4 }}

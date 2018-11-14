@@ -23,6 +23,41 @@ function sendPhoneToSheet(phone, pageId) {
 }
 
 /**
+ * Function to check if Datas sent are valid
+ */
+function areDatasValid(email, phone) {
+	var rgpd_checkbox = document.querySelector('#estimateCheckboxRGPD');
+	if(ESTIMATE_FORM.classList.contains("rgpd-error")) {
+		ESTIMATE_FORM.classList.remove("rgpd-error");
+	} else if(ESTIMATE_FORM.classList.contains("contact-error")) {
+		ESTIMATE_FORM.classList.remove("contact-error");
+	}
+	if(!rgpd_checkbox.checked) {
+		ESTIMATE_FORM.classList.add("rgpd-error");
+	}
+
+	if(email == '' && phone == ''){
+		ESTIMATE_FORM.classList.add("contact-error");
+	}
+	if(ESTIMATE_FORM.classList.length == 1) return true;
+}
+
+/**
+ * Main function to send an email to contact sheet
+ */
+function sendDatasToSheet(firstname, lastname, iam, email, message) {
+	if(areDatasValid(email)) {
+		var args = "form=contact&email="+encodeURIComponent(email)+"&prenom="+encodeURIComponent(firstname)+"&nom="+encodeURIComponent(lastname)+"&type="+encodeURIComponent(iam)+"&message="+encodeURIComponent(message);
+		get("https://script.google.com/macros/s/AKfycbzOOFyPsyXzqytgQK8aWzEI1srgCOhKPTCwFwQ5xys8GXEAJiM/exec?"+args).then(function(){
+			CONTACT_FORM.classList.add("contact-sent");
+		})
+		.catch(function(error){
+			console.log('error', error.message);
+		});
+	}
+}
+
+/**
  * Utils to get using promise 
  * @param   {String} url to get
  * @returns {Object} promise
@@ -57,8 +92,17 @@ function get(url){
 		ESTIMATE_FORM.addEventListener("submit", function(evt){
 			evt.preventDefault();
 			
-			var network
-			
-			sendPhoneToSheet(document.getElementById("inputPhone").value, document.getElementById("inputPageId").value);
+			var network = document.getElementById('estimateInputNetwork').value,
+				 operators= document.getElementById('estimateCheckboxOperators').checked ? 'Pas d\'opérateurs' : document.getElementById('estimateInputOperators').value,
+				 firstname = document.getElementById('estimateInputFirstname').value,
+				 lastname = document.getElementById('estimateInputLastname').value,
+				 email = document.getElementById('estimateInputEmail').value,
+				 phone = document.getElementById('estimateInputPhone').value,
+				 message = document.getElementById('estimateInputNetwork').value;
+			sendDatasToSheet(network, operators, firstname, lastname, email, phone, message);
 		});
 })();
+
+document.getElementById('estimateCheckboxOperators').onchange = function() {
+	document.getElementById('estimateInputOperators').disabled = this.checked;
+};
