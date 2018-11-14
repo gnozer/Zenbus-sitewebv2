@@ -31,7 +31,6 @@ permalink: /transport-authorities/
 				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'scolarInter')">{{ site.data["strings"].ao.scolar_inter.name }}</button>
 			</div>
 			<div class="profits-subtypes-content visible" id="smallUrban">
-				<h3 class="profits-subtypes-content-name">{{ site.data["strings"].ao.small_urban.name }}</h3>
 				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.small_urban.title }}</h2>
 				<p class="profits-subtypes-content-text">
 					{{ site.data["strings"].ao.small_urban.text }}
@@ -50,7 +49,6 @@ permalink: /transport-authorities/
 				</ul>
 			</div>
 			<div class="profits-subtypes-content" id="midUrban">
-				<h3 class="profits-subtypes-content-name">{{ site.data["strings"].ao.mid_urban.name }}</h3>
 				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.mid_urban.title }}</h2>
 				<p class="profits-subtypes-content-text">
 					{{ site.data["strings"].ao.mid_urban.text }}
@@ -79,7 +77,6 @@ permalink: /transport-authorities/
 				</ul>
 			</div>
 			<div class="profits-subtypes-content" id="bigUrban">
-				<h3 class="profits-subtypes-content-name">{{ site.data["strings"].ao.big_urban.name }}</h3>
 				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.big_urban.title }}</h2>
 				<p class="profits-subtypes-content-text">
 					{{ site.data["strings"].ao.big_urban.text }}
@@ -103,7 +100,6 @@ permalink: /transport-authorities/
 				</ul>
 			</div>
 			<div class="profits-subtypes-content" id="scolarInter">
-				<h3 class="profits-subtypes-content-name">{{ site.data["strings"].ao.scolar_inter.name }}</h3>
 				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.scolar_inter.title }}</h2>
 				<p class="profits-subtypes-content-text">
 					{{ site.data["strings"].ao.scolar_inter.text }}
@@ -141,48 +137,48 @@ permalink: /transport-authorities/
 			<form id="callMeForm" class="estimate-phone-form" novalidate>
 				<input id="inputPhone" type="text" class="estimate-phone-form-input" placeholder="+33 6 XX XX XX XX" name="phone_only">
 				<input type="hidden" name="page_id" value="Autorité Organisatrice" id="inputPageId">
-				<button type="submit" class="estimate-phone-form" name="submit_phone_only">{{ site.data["strings"].ao.estimate.button_call2 }}</button>
+				<button type="submit" class="classic-form-submit" name="submit_phone_only">{{ site.data["strings"].ao.estimate.button_call2 }}</button>
 				<p class="estimate-phone-form-policy">{{ site.data["strings"].ao.estimate.policy1 }}</p>
 			</form>
 		</div>
 		<h3 class="estimate-intertitle">{{ site.data["strings"].ao.estimate.intertitle }}</h3>
-		<form action="" class="estimate-form" id="estimateForm" novalidate>
-			<span class="estimate-form-contact-error">{{ site.data["strings"].ao.estimate.form.contact_error }}</span>
-			<span class="estimate-form-rgpd-error">{{ site.data["strings"].ao.estimate.form.rgpd_error }}</span>
-			<label class="estimate-label">
+		<form action="" class="survey-form" id="estimateForm" novalidate>
+			<span class="survey-form-email-error">{{ site.data["strings"].ao.estimate.form.contact_error }}</span>
+			<span class="survey-form-form-error">{{ site.data["strings"].ao.estimate.form.rgpd_error }}</span>
+			<label class="survey-label">
 				{{ site.data["strings"].ao.estimate.form.label1 }}
 				<input type="text" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder1 }}" id="estimateInputNetwork">
 			</label>
 			<div>
-				<label class="estimate-form-label">
+				<label class="survey-label">
 					{{ site.data["strings"].ao.estimate.form.label2 }}
 					<input type="text" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder2 }}" id="estimateInputOperators">
 				</label>
 				<input type="checkbox" id="estimateCheckboxOperators" class="classic-form-checkbox">
 				<label for="estimateCheckboxOperators" class="classic-form-label checkbox">{{ site.data['strings'].ao.estimate.form.label3 }}</label>
 			</div>
-			<label class="estimate-form-label">
+			<label class="survey-label">
 				{{ site.data["strings"].ao.estimate.form.label4 }}
 				<input type="text" id="estimateInputLastname" autocomplete="family-name">
 			</label>
-			<label class="estimate-form-label">
+			<label class="survey-label">
 				{{ site.data["strings"].ao.estimate.form.label5 }}
 				<input type="text" id="estimateInputFirstname" autocomplete="given-name">
 			</label>
-			<label class="estimate-form-label">
+			<label class="survey-label">
 				{{ site.data["strings"].ao.estimate.form.label6 }}
 				<input type="email" id="estimateInputEmail" autocomplete="email">
 			</label>
-			<label class="estimate-form-label">
+			<label class="survey-label">
 				{{ site.data["strings"].ao.estimate.form.label7 }}
 				<input type="text" id="estimateInputPhone" autocomplete="tel">
 			</label>
-			<textarea class="estimate-form-textarea message" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder3 }}" name="message" id="estimateTextareaMessage" cols="30" rows="10"></textarea>
-			<button type="submit" class="estimate-form-submit" id="estimateSubmit">{{ site.data['strings'].ao.estimate.form.submit }}</button>
-			<div class="estimate-form-rgpd">
-				<input type="checkbox" class="estimate-form-checkbox" name="rgpd" id="estimateCheckboxRGPD">
-				<label class="estimate-form-label checkbox" for="estimateCheckboxRGPD">{{ site.data['strings'].ao.estimate.form.rgpd }}</label>
+			<textarea class="survey-form-textarea message" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder3 }}" name="message" id="estimateTextareaMessage" cols="30" rows="10"></textarea>
+			<div class="classic-form-rgpd">
+				<input type="checkbox" class="classic-form-checkbox" name="rgpd" id="estimateCheckboxRGPD">
+				<label class="classic-form-label checkbox" for="estimateCheckboxRGPD">{{ site.data['strings'].ao.estimate.form.rgpd }}</label>
 			</div>
+			<button type="submit" class="classic-form-submit" id="estimateSubmit">{{ site.data['strings'].ao.estimate.form.submit }}</button>
 		</form>
 	</section>
 	<section class="faq">
