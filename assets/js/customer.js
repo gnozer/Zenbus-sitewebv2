@@ -50,9 +50,12 @@ function areDatasValid(email, phone) {
 	var rgpd_checkbox = document.querySelector('#estimateCheckboxRGPD');
 	if(ESTIMATE_FORM.classList.contains("rgpd-error")) {
 		ESTIMATE_FORM.classList.remove("rgpd-error");
-	} else if(ESTIMATE_FORM.classList.contains("email-error")) {
+	} 
+	
+	if(ESTIMATE_FORM.classList.contains("email-error")) {
 		ESTIMATE_FORM.classList.remove("email-error");
 	}
+	
 	if(!rgpd_checkbox.checked) {
 		ESTIMATE_FORM.classList.add("rgpd-error");
 	}
