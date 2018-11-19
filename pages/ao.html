@@ -28,7 +28,8 @@ permalink: /transport-authorities/
 				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'scolarInter')">{{ site.data["strings"].ao.scolar_inter.name }}</button>
 			</div>
 			<div class="profits-subtypes-content visible" id="smallUrban">
-				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.small_urban.title }}</h2>
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].ao.small_urban.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].ao.small_urban.title }}</h3>
 				<p class="profits-subtypes-content-text">
 					{{ site.data["strings"].ao.small_urban.text }}
 				</p>
@@ -66,7 +67,8 @@ permalink: /transport-authorities/
 				{% endif %}
 			</div>
 			<div class="profits-subtypes-content" id="midUrban">
-				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.mid_urban.title }}</h2>
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].ao.mid_urban.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].ao.mid_urban.title }}</h3>
 				<p class="profits-subtypes-content-text">
 					{{ site.data["strings"].ao.mid_urban.text }}
 				</p>
@@ -104,7 +106,8 @@ permalink: /transport-authorities/
 				{% endif %}
 			</div>
 			<div class="profits-subtypes-content" id="bigUrban">
-				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.big_urban.title }}</h2>
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].ao.big_urban.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].ao.big_urban.title }}</h3>
 				<p class="profits-subtypes-content-text">
 					{{ site.data["strings"].ao.big_urban.text }}
 				</p>
@@ -142,7 +145,8 @@ permalink: /transport-authorities/
 				{% endif %}
 			</div>
 			<div class="profits-subtypes-content" id="scolarInter">
-				<h2 class="profits-subtypes-content-title">{{ site.data["strings"].ao.scolar_inter.title }}</h2>
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].ao.scolar_inter.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].ao.scolar_inter.title }}</h3>
 				<p class="profits-subtypes-content-text">
 					{{ site.data["strings"].ao.scolar_inter.text }}
 				</p>
@@ -240,6 +244,9 @@ permalink: /transport-authorities/
 				<span id="contactError" class="form-error-text">{{ site.data["strings"].ao.estimate.form.contact_error }}</span>
 				<span id="rgpdError" class="form-error-text">{{ site.data["strings"].ao.estimate.form.rgpd_error }}</span>
 			</div>
+			<p class="form-validation">
+				<span class="form-validation-text">{{ site.data['strings'].passengers.form_success }}</span>
+			</p>
 		</form>
 	</section>
 	<section class="faq">
