@@ -36,7 +36,9 @@ function isEmailValid(email) {
 function sendPhoneToSheet(phone, pageId) {
 	var args = "form=CallMe&phone=" + encodeURIComponent(phone) + "&page=" + encodeURIComponent(pageId);
 	get("https://script.google.com/macros/s/AKfycbyAxaPtYwy-Uwp27vEu9uTaiJ1NnevuR4U2CRn5zVNczMnGYTs/exec?"+args).then(function(){
-		CALL_ME_FORM.classList.add("phone-sent");
+		CALL_ME_FORM.classList.add("survey-sent");
+		document.getElementById("phoneSubmit").innerText = "Merci :)";
+		document.getElementById("phoneSubmit").disabled = true;
 	})
 	.catch(function(error){
 		console.log('error', error.message);
@@ -74,7 +76,7 @@ function sendDatasToSheet(network, operators, email, phone, message) {
 	if(areDatasValid(email, phone)) {
 		var args = "form=Contact_AO&reseau="+encodeURIComponent(network)+"&exploitants="+encodeURIComponent(operators)+"&email="+encodeURIComponent(email)+"&phone="+encodeURIComponent(phone)+"&message="+encodeURIComponent(message);
 		get("https://script.google.com/macros/s/AKfycbyAxaPtYwy-Uwp27vEu9uTaiJ1NnevuR4U2CRn5zVNczMnGYTs/exec?"+args).then(function(){
-			ESTIMATE_FORM.classList.add("contact-sent");
+			ESTIMATE_FORM.classList.add("survey-sent");
 		})
 		.catch(function(error){
 			console.log('error', error.message);
