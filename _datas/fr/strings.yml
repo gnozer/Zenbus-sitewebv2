@@ -101,38 +101,38 @@ ao:
     text: "Proposez enfin un outil permettant au voyageur d’apprécier ses déplacements en bus et d’en faire un moyen de déplacement privilégié."
   profit2:
     title: "Suivez et optimisez votre offre de transport"
-    text: "Nos données précises et  nos interfaces intuitives vont vous aider à comprendre et agir en s’appuyant sur des informations fiables et partagées avec votre exploitant"
+    text: "Nos données précises et nos interfaces intuitives vont vous aider à comprendre et agir en s’appuyant sur des informations fiables et partagées avec votre exploitant"
   profit3:
     title: "Respectez vos obligations réglementaires"
     text: "Zenbus vous permet de vous inscrire dans les standards et les exigences de la loi LOM en vous accompagnant très simplement, dans l’ouverture de vos données statiques et dynamiques."
   small_urban:
     name: "Petit urbain"
-    title: "Accéder à un SAEIV ultra light efficace"
-    text: "Réseau urbain entre 1 et 2 lignes"
+    title: "Pourquoi s’interdire un service de qualité ?"
+    text: "Il n’y a pas de “petit réseau” pour Zenbus ! Notre solution est effectivement conçue pour se déployer de manière très simple quelle que soit la taille de votre réseau.<br>1 ou 2 lignes ? 1 ou 2 véhicules ? Vous serez surpris par la simplicité de déploiement et séduits par un modèle économique adapté à vos contraintes."
   mid_urban:
     name: "Moyen urbain"
-    title: "Réseau urbain entre 3 et 20 lignes"
-    text: "Utilisé en SAEIV intégral ou BOOST IV, donnez enfin à votre réseau une information voyageur et/ou un outil d’aide à l’exploitation performant, évolutif, facile/rapide à déployer, avec un accompagnement adapté tout en restant dans vos budgets. Profitez des flux ouverts SIRI et GTFS-RT de Zenbus pour respecter les réglementations à venir en mettant à disposition les données temps réelles les plus performantes du marché."
+    title: "Zenbus, le SAEIV adapté à votre contexte"
+    text: "Une information voyageur de qualité n’est pas réservée aux “très gros réseaux”. Zenbus vous aidera à valoriser vos bus auprès de vos voyageurs en leur apportant une information à la qualité inégalée !<br>Plus largement, Zenbus peut répondre à l’ensemble de vos enjeux de gestion de votre offre de transport : suivi d’exploitation, magnétoscope, aide à la conduite, analyses statistiques.<br>Zenbus vous aide aussi à adresser les contraintes réglementaires de la future Loi d’Orientation des Mobilités"
   big_urban:
     name: "Gros urbain"
-    title: "Réseau urbain de plus de 20 lignes"
-    text: "BOOST IV, événementiel, substitution, statistiques"
+    title: "BOOSTEZ votre information voyageur !"
+    text: "Vous avez déjà un SAE ou un SAEIV, mais êtes-vous totalement satisfaits de l’expérience de vos voyageurs ? Ont-ils accès à tout moment à une information fiable et ergonomique ?<br><br>Vos équipements ont-ils l’agilité suffisante pour vous accompagner, vous et vos usagers, sur des perturbations provisoires (travaux, substitution...) ?<br><br>Certaines de vos lignes (affrétées, navettes centre ville) ne sont-elles pas négligées ?"
   scolar_inter:
     name: "Interurbain & scolaire"
-    title: "Lignes structurantes interurbaines et Scolaires"
-    text: "Utilisé en SAEIV intégral ou BOOST IV, donnez enfin à votre réseau une information voyageur et/ou un outil d’aide à l’exploitation performant, évolutif, facile/rapide à déployer, avec un accompagnement adapté tout en restant dans vos budgets. Profitez des flux ouverts SIRI et GTFS-RT de Zenbus pour respecter les réglementations à venir en mettant à disposition les données temps réelles les plus performantes du marché."
+    title: "Adoptez un SAEIV agile et performant "
+    text: "Améliorer la qualité de service (ponctualité, information voyageur) avec une solution très simple techniquement et très légère financièrement. Gagner en flexibilité et en performance avec une solution agile liée à chacun de vos véhicules, services ou conducteurs.<br>Avoir une solution collaborative pour permettre à chaque acteur du réseau (conducteur, responsable d’exploitation, responsable de parc, directeur réseau,...), quel que soit sa situation et ses contraintes, d’être mieux informé et de faire des choix pertinents. "
   contract:
     title: "Comment bénéficier de Zenbus sur son réseau ?"
     span1: "Contractualisez directement avec nous"
     text1: "et utilisez notre référencement en centrale d’achat pour rendre cette démarche simple et rapide"
     span2: "Mettez-nous en contact avec votre exploitant."
-    text2: "Il est très probable que nous nous connaissions déjà mais dans le cas contraire, nous serons heureux de tisser une nouvelle collaboration !"  
+    text2: "Il est très probable que nous nous connaissions déjà mais dans le cas contraire, nous serons heureux de tisser une nouvelle collaboration !"
   estimate:
     tile_title: "Contactez-nous"
     tile_text: "Nous sommes à votre disposition pour réagir rapidement à vos sollicitations et répondre précisément à toute question technique ou financière. N’hésitez pas !"
     button_call1: "Nous appeler (+33 9 87 36 12 46)"
     button_call2: "Appelez-moi"
-    policy1: "En remplissant ce champ j’accepte que mon numéro de téléphone soit utilisé à des fins commerciales et vous prenez connaissance de notre <a href='/mentions.html#donnees' class='estimate-phone-form-policy-link'>politique de confidentialité</a>"
+    policy1: "En remplissant ce champ j’accepte que mon numéro de téléphone soit utilisé à des fins commerciales et vous prenez connaissance de notre <a href='/mentions.html#donnees' class='form-link'>politique de confidentialité</a>"
     intertitle: "Ou écrivez-nous"
     form:
       label1: "Je suis Autorité Organisatrice de Mobilité pour le réseau de"
