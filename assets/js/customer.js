@@ -47,23 +47,24 @@ function sendPhoneToSheet(phone, pageId) {
  * Function to check if Datas sent are valid
  */
 function areDatasValid(email, phone) {
-	var rgpd_checkbox = document.querySelector('#estimateCheckboxRGPD');
-	if(ESTIMATE_FORM.classList.contains("rgpd-error")) {
-		ESTIMATE_FORM.classList.remove("rgpd-error");
-	} 
+	var rgpd_checkbox = document.querySelector('#estimateCheckboxRGPD'),
+		 contactError = document.getElementById("contactError"),
+		 rgpdError = document.getElementById("rgpdError"),
+		 valid = true;
 	
-	if(ESTIMATE_FORM.classList.contains("email-error")) {
-		ESTIMATE_FORM.classList.remove("email-error");
-	}
+	contactError.className = contactError.className.replace(' visible', '');
+	rgpdError.className = rgpdError.className.replace(' visible', '');
 	
 	if(!rgpd_checkbox.checked) {
-		ESTIMATE_FORM.classList.add("rgpd-error");
+		rgpdError.classList.add("visible");
+		valid = false;
 	}
 
 	if(email == '' && phone == ''){
-		ESTIMATE_FORM.classList.add("email-error");
+		contactError.classList.add("visible");
+		valid = false;
 	}
-	if(ESTIMATE_FORM.classList.length == 1) return true;
+	return valid;
 }
 
 /**
