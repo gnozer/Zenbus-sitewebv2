@@ -149,6 +149,7 @@ ao:
       rgpd: "En soumettant ce formulaire, vous acceptez que les informations saisies soient utilisées pour répondre à votre demande."
       contact_error: "Afin de vous répondre, une adresse email ou un numéro de téléphone est nécessaire."
       rgpd_error: "Pour soumettre le formulaire, vous devez cocher la case ci-dessus."
+      success: "Votre message a bien été envoyé, nous vous répondrons dans les plus brefs délais."
 
 # ---------- PASSENGERS -----------
 passengers:
