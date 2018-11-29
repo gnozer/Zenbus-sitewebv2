@@ -82,7 +82,7 @@ team:
 # ---------- JOB -----------
 job:
   tile_title: "On recrute !"
-  tile_text: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, des curieux, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
+  tile_text: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, de curieux, de musiciens, d'écrivains, de sportifs, de Suisses, de Belges, de Nantais, de Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
   technic:
     team_title: "Du côté des devs..."
     team_text: "Petite équipe, peer programming, décisions d'archi & produit prises par les devs à l'unanimité, zéro framework (sans réinventer la roue), pas de dette technique, pas de bullshit, pas de méthode magique, pas de presta, avant de faire du java (c'est pas d'la menthe à l'eau) on fait de l'algorithmie, pas de sysadmin (merci GAE). On touche un tantinet nos billes niveau scalabilité, concurrence, parallélisme & latences magiques sur des grille-pains virtualisés avec masse données. "
@@ -90,8 +90,8 @@ job:
     team_title: "Du côté des bizdev..."
     team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et tourné(e) vers l'action ? Nous t'attendons ! "
   customer:
-    team_title: "Nos chefs de projet ont besoin de vous !"
-    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! Allo oui ? "
+    team_title: "Du côté des Customer Success Managers..."
+    team_text: "Tu cherches ton stage de fin d'étude dans une équipe super Zen et tu veux découvrir le bonheur de la relation clients tout en voyageant virtuellement ?"
 
 # ---------- AO -----------
 ao:
@@ -120,7 +120,7 @@ ao:
   scolar_inter:
     name: "Interurbain & scolaire"
     title: "Adoptez un SAEIV agile et performant "
-    text: "Améliorer la qualité de service (ponctualité, information voyageur) avec une solution très simple techniquement et très légère financièrement. Gagner en flexibilité et en performance avec une solution agile liée à chacun de vos véhicules, services ou conducteurs.<br>Avoir une solution collaborative pour permettre à chaque acteur du réseau (conducteur, responsable d’exploitation, responsable de parc, directeur réseau,...), quel que soit sa situation et ses contraintes, d’être mieux informé et de faire des choix pertinents. "
+    text: "Améliorer la qualité de service (ponctualité, information voyageur) avec une solution très simple techniquement et très légère financièrement. Gagner en flexibilité et en performance avec une solution agile liée à chacun de vos véhicules, services ou conducteurs.<br>Avoir une solution collaborative pour permettre à chaque acteur du réseau (conducteur, responsable d’exploitation, responsable de parc, directeur réseau,...), quelles que soient sa situation et ses contraintes, d’être mieux informé et de faire des choix pertinents. "
   contract:
     title: "Comment bénéficier de Zenbus sur son réseau ?"
     span1: "Contractualisez directement avec nous"

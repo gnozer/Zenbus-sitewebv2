@@ -11,7 +11,7 @@
 			{% if include.jobs != null %}
 			<span>Voici nos offres : 
 				{% for job in include.jobs %}
-					<a href="{{ job.url }}">{{ job.title }}</a>, 
+					<a href="{{ job.url }}" target="_blank">{{ job.title }}</a>, 
 				{% endfor %}
 				
 			</span>
