@@ -6,7 +6,11 @@ permalink: /press/
 
 <section class="content-container presshistory">
 	<header class="headerback">
-		<a class="headerback-link" href="/{{ site.active_lang }}/#press"></a>
+		{% if site.active_lang == 'fr' %}
+			<a class="headerback-link" href="/#press"></a>
+		{% else %}
+			<a class="headerback-link" href="/{{ site.active_lang }}/#press"></a>
+		{% endif %}
 	</header>
 	
 	<div class="presshistory-articles">
