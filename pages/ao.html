@@ -1,0 +1,258 @@
+---
+layout: page
+title: ao
+permalink: /transport-authorities/
+---
+<div class="content-container ao">
+	<section class="profits">
+		<div class="header-tile">
+			<h2 class="header-tile-title">{{ site.data["strings"].ao.tile_title }}</h2>
+		</div>
+		<ul class="profits-list">
+			<li class="profits-list-item">
+				<h3 class="profits-list-item-title">{{ site.data["strings"].ao.profit1.title }}</h3>
+			</li>
+			<li class="profits-list-item">
+				<h3 class="profits-list-item-title">{{ site.data["strings"].ao.profit2.title }}</h3>
+			</li>
+			<li class="profits-list-item">
+				<h3 class="profits-list-item-title">{{ site.data["strings"].ao.profit3.title }}</h3>
+			</li>
+		</ul>
+<!--		<a href="{{ baseurl }}/products/" target="_blank" class="profits-button"></a>-->
+		<div class="profits-subtypes">
+			<div class="profits-subtypes-tabs">
+				<button class="profits-subtypes-tabs-tab active" onclick="openTab(event, 'smallUrban')">{{ site.data["strings"].ao.small_urban.name }}</button>
+				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'midUrban')">{{ site.data["strings"].ao.mid_urban.name }}</button>
+				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'bigUrban')">{{ site.data["strings"].ao.big_urban.name }}</button>
+				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'scolarInter')">{{ site.data["strings"].ao.scolar_inter.name }}</button>
+			</div>
+			<div class="profits-subtypes-content visible" id="smallUrban">
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].ao.small_urban.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].ao.small_urban.title }}</h3>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].ao.small_urban.text }}
+				</p>
+				<ul class="profits-subtypes-content-references">
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/pamiers" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/pamiers.png" alt="zenbus logo pamiers" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/maybus" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/maybus.png" alt="zenbus logo maybus" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/sambuy739006" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/sambuy.png" alt="zenbus logo sambuy" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/hobus" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/hobus.jpg" alt="zenbus logo hobus" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/granville" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/granville.png" alt="zenbus logo granville" class="reference-img">
+						</a>
+					</li>
+				</ul>
+				{% if site.active_lang == 'fr' %}
+				<a class="estimate-phone-button" href="/#map">Voir la carte des réseaux</a>
+				{% else %}
+				<a class="estimate-phone-button" href="/{{ site.active_lang }}/#map">Voir la carte des réseaux</a>
+				{% endif %}
+			</div>
+			<div class="profits-subtypes-content" id="midUrban">
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].ao.mid_urban.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].ao.mid_urban.title }}</h3>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].ao.mid_urban.text }}
+				</p>
+				<ul class="profits-subtypes-content-references">
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/16i2434229" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/agen.png" alt="zenbus logo agen" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/buss-cdasaintes" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/saintes.png" alt="zenbus logo saintes" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/auch1024938" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/auch.png" alt="zenbus logo auchs" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/alesy" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/alesy.png" alt="zenbus logo ales" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/arles-envia" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/arles.png" alt="zenbus logo arles" class="reference-img">
+						</a>
+					</li>
+				</ul>
+				{% if site.active_lang == 'fr' %}
+				<a class="estimate-phone-button" href="/#map">Voir la carte des réseaux</a>
+				{% else %}
+				<a class="estimate-phone-button" href="/{{ site.active_lang }}/#map">Voir la carte des réseaux</a>
+				{% endif %}
+			</div>
+			<div class="profits-subtypes-content" id="bigUrban">
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].ao.big_urban.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].ao.big_urban.title }}</h3>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].ao.big_urban.text }}
+				</p>
+				<ul class="profits-subtypes-content-references">
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/tan" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/nantes.png" alt="zenbus logo nantes" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/tbm-ligne47-citeis" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/bordeaux.png" alt="zenbus logo bordeaux" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/paysbasque" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/bayonne.png" alt="zenbus logo bayonne" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/twisto" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/caen.jpg" alt="zenbus logo twisto" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/nicelda" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/nice.png" alt="zenbus logo nice" class="reference-img">
+						</a>
+					</li>
+				</ul>
+				{% if site.active_lang == 'fr' %}
+				<a class="estimate-phone-button" href="/#map">Voir la carte des réseaux</a>
+				{% else %}
+				<a class="estimate-phone-button" href="/{{ site.active_lang }}/#map">Voir la carte des réseaux</a>
+				{% endif %}
+			</div>
+			<div class="profits-subtypes-content" id="scolarInter">
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].ao.scolar_inter.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].ao.scolar_inter.title }}</h3>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].ao.scolar_inter.text }}
+				</p>
+				<ul class="profits-subtypes-content-references">
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/keolispyrenees1810826" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/lr943.png" alt="zenbus logo occitanie" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/keolispyrenees326495" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/malignegaves.png" alt="zenbus logo malignegaves" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/lr36" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/lr36.png" alt="zenbus logo lr36" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/stao263304172" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/lr26.png" alt="zenbus logo lr26" class="reference-img">
+						</a>
+					</li>
+					<li class="profits-subtypes-content-references-item">
+						<a href="https://zenbus.net/ligne-express-67" target="_blank">
+							<img src="{{ baseurl }}/assets/img/logos/express67.png" alt="zenbus logo express67" class="reference-img">
+						</a>
+					</li>
+				</ul>
+				{% if site.active_lang == 'fr' %}
+				<a class="estimate-phone-button" href="/#map">Voir la carte des réseaux</a>
+				{% else %}
+				<a class="estimate-phone-button" href="/{{ site.active_lang }}/#map">Voir la carte des réseaux</a>
+				{% endif %}
+			</div>
+		</div>
+	</section>
+	<section class="contract">
+		<div class="header-tile">
+			<h2 class="header-tile-title">{{ site.data["strings"].ao.contract.title }}</h2>
+		</div>
+		<ul class="contract-list">
+			<li class="contract-list-item">
+				<span class="contract-list-item-span">{{ site.data["strings"].ao.contract.span1 }}</span> {{ site.data["strings"].ao.contract.text1 }}
+			</li>
+			<li class="contract-list-item">
+				<span class="contract-list-item-span">{{ site.data["strings"].ao.contract.span2 }}</span> {{ site.data["strings"].ao.contract.text2 }}
+			</li>
+		</ul>
+	</section>
+	<section class="estimate">
+		<div class="header-tile">
+			<h2 class="header-tile-title">{{ site.data["strings"].ao.estimate.tile_title }}</h2>
+			<p class="header-tile-text">{{ site.data["strings"].ao.estimate.tile_text }}</p>
+		</div>
+		<div class="estimate-phone">
+			<a href="tel:+33987361246" class="estimate-phone-button">{{ site.data["strings"].ao.estimate.button_call1 }}</a>
+			<form id="callMeForm" class="estimate-phone-form" novalidate>
+				<input id="inputPhone" type="text" class="estimate-phone-form-input" placeholder="+33 6 XX XX XX XX" name="phone_only" autocomplete="tel">
+				<input type="hidden" name="page_id" value="Autorité Organisatrice" id="inputPageId">
+				<button type="submit" id="phoneSubmit" class="form-submit" name="submit_phone_only">{{ site.data["strings"].ao.estimate.button_call2 }}</button>
+				<p class="estimate-phone-form-policy">{{ site.data["strings"].ao.estimate.policy1 }}</p>
+			</form>
+		</div>
+		<h3 class="estimate-intertitle">{{ site.data["strings"].ao.estimate.intertitle }}</h3>
+		<form action="" class="form" id="estimateForm" novalidate>
+			<label class="form-label">
+				{{ site.data["strings"].ao.estimate.form.label1 }}
+				<input type="text" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder1 }}" id="estimateInputNetwork" class="form-input">
+			</label>
+			<div>
+				<label class="form-label">
+					{{ site.data["strings"].ao.estimate.form.label2 }}
+					<input type="text" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder2 }}" id="estimateInputOperators" class="form-input">
+				</label>
+				<input type="checkbox" id="estimateCheckboxOperators" class="form-checkbox">
+				<label for="estimateCheckboxOperators" class="form-checkbox-label">{{ site.data['strings'].ao.estimate.form.label3 }}</label>
+			</div>
+			<label class="form-label">
+				{{ site.data["strings"].ao.estimate.form.label6 }}
+				<input type="email" id="estimateInputEmail" autocomplete="email" class="form-input">
+			</label>
+			<label class="form-label">
+				{{ site.data["strings"].ao.estimate.form.label7 }}
+				<input type="text" id="estimateInputPhone" autocomplete="tel" class="form-input">
+			</label>
+			<textarea class="form-textarea message" placeholder="{{ site.data['strings'].ao.estimate.form.placeholder3 }}" name="message" id="estimateTextareaMessage" cols="30" rows="10"></textarea>
+			<div class="form-rgpd">
+				<input type="checkbox" class="form-checkbox" name="rgpd" id="estimateCheckboxRGPD">
+				<label class="form-checkbox-label" for="estimateCheckboxRGPD">{{ site.data['strings'].ao.estimate.form.rgpd }}</label>
+			</div>
+			<button type="submit" class="form-submit" id="estimateSubmit">{{ site.data['strings'].ao.estimate.form.submit }}</button>
+			<div class="form-error">
+				<span id="contactError" class="form-error-text">{{ site.data["strings"].ao.estimate.form.contact_error }}</span>
+				<span id="rgpdError" class="form-error-text">{{ site.data["strings"].ao.estimate.form.rgpd_error }}</span>
+			</div>
+			<p class="form-validation">
+				<span class="form-validation-text">{{ site.data['strings'].ao.estimate.form.success }}</span>
+			</p>
+		</form>
+	</section>
+	<section class="faq">
+		<div class="header-tile">
+			<h2 class="header-tile-title">{{ site.data["strings"].ao.tile4_title }}</h2>
+			<p class="header-tile-text">{{ site.data["strings"].ao.tile4_text }}</p>
+		</div>
+	</section>
+</div>

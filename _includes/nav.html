@@ -7,11 +7,16 @@
 		<li class="panel-menu-item home{% if page.permalink == '/' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/" class="panel-menu-item-text">{{ site.data["strings"].nav.home }}</a>
 		</li>
-		<li class="panel-menu-item collectivity{% if page.permalink == '/collectivity/' %} active{% endif %} inactive">
-			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.collectivity }}</a>
-		</li>
-		<li class="panel-menu-item operators{% if page.permalink == '/operators/' %} active{% endif %} inactive">
-			<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.operators }}</a>
+		<li class="panel-menu-item collectivity{% if page.permalink == '/operators/' or page.permalink == '/transport-authorities/' %} sub-active{% endif %}">
+			<button class="panel-menu-item-text">{{ site.data["strings"].nav.customers }}</button>
+			<ul class="collectivity-submenu">
+				<li class="panel-menu-item transport-authorities{% if page.permalink == '/transport-authorities/' %} active{% endif %}">
+					<a href="{{ site.baseurl }}/transport-authorities/" class="panel-menu-item-text">{{ site.data["strings"].nav.ao }}</a>
+				</li>
+				<li class="panel-menu-item operators{% if page.permalink == '/operators/' %} active{% endif %} inactive">
+					<a href="" class="panel-menu-item-text">{{ site.data["strings"].nav.operators }}</a>
+				</li>
+			</ul>
 		</li>
 		<li class="panel-menu-item passenger{% if page.permalink == '/passengers/' %} active{% endif %}">
 			<a href="{{ site.baseurl }}/passengers/" class="panel-menu-item-text">{{ site.data["strings"].nav.passengers }}</a>

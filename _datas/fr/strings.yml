@@ -5,7 +5,8 @@ homepage:
 # ----------- NAV ------------
 nav:
   home: "Home"
-  collectivity: "Collectivités"
+  customers: "Clients"
+  ao: "Autorités Organisatrices"
   operators: "Exploitants"
   passengers: "Voyageurs"
   blog: "Blog"
@@ -81,7 +82,7 @@ team:
 # ---------- JOB -----------
 job:
   tile_title: "On recrute !"
-  tile_text: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, des curieux, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
+  tile_text: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, de curieux, de musiciens, d'écrivains, de sportifs, de Suisses, de Belges, de Nantais, de Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
   technic:
     team_title: "Du côté des devs..."
     team_text: "Petite équipe, peer programming, décisions d'archi & produit prises par les devs à l'unanimité, zéro framework (sans réinventer la roue), pas de dette technique, pas de bullshit, pas de méthode magique, pas de presta, avant de faire du java (c'est pas d'la menthe à l'eau) on fait de l'algorithmie, pas de sysadmin (merci GAE). On touche un tantinet nos billes niveau scalabilité, concurrence, parallélisme & latences magiques sur des grille-pains virtualisés avec masse données. "
@@ -89,36 +90,101 @@ job:
     team_title: "Du côté des bizdev..."
     team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et tourné(e) vers l'action ? Nous t'attendons ! "
   customer:
-    team_title: "Nos chefs de projet ont besoin de vous !"
-    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! Allo oui ? "
-  
+    team_title: "Du côté des Customer Success Managers..."
+    team_text: "Tu cherches ton stage de fin d'étude dans une équipe super Zen et tu veux découvrir le bonheur de la relation clients tout en voyageant virtuellement ?"
+
+# ---------- AO -----------
+ao:
+  tile_title: "Zenbus pour les AOM"
+  profit1:
+    title: "Valorisez votre réseau de bus et facilitez le report modal"
+    text: "Proposez enfin un outil permettant au voyageur d’apprécier ses déplacements en bus et d’en faire un moyen de déplacement privilégié."
+  profit2:
+    title: "Suivez et optimisez votre offre de transport"
+    text: "Nos données précises et nos interfaces intuitives vont vous aider à comprendre et agir en s’appuyant sur des informations fiables et partagées avec votre exploitant"
+  profit3:
+    title: "Respectez vos obligations réglementaires"
+    text: "Zenbus vous permet de vous inscrire dans les standards et les exigences de la loi LOM en vous accompagnant très simplement, dans l’ouverture de vos données statiques et dynamiques."
+  small_urban:
+    name: "Petit urbain"
+    title: "Pourquoi s’interdire un service de qualité ?"
+    text: "Il n’y a pas de “petit réseau” pour Zenbus ! Notre solution est effectivement conçue pour se déployer de manière très simple quelle que soit la taille de votre réseau.<br>1 ou 2 lignes ? 1 ou 2 véhicules ? Vous serez surpris par la simplicité de déploiement et séduits par un modèle économique adapté à vos contraintes."
+  mid_urban:
+    name: "Moyen urbain"
+    title: "Zenbus, le SAEIV adapté à votre contexte"
+    text: "Une information voyageur de qualité n’est pas réservée aux “très gros réseaux”. Zenbus vous aidera à valoriser vos bus auprès de vos voyageurs en leur apportant une information à la qualité inégalée !<br>Plus largement, Zenbus peut répondre à l’ensemble de vos enjeux de gestion de votre offre de transport : suivi d’exploitation, magnétoscope, aide à la conduite, analyses statistiques.<br>Zenbus vous aide aussi à adresser les contraintes réglementaires de la future Loi d’Orientation des Mobilités"
+  big_urban:
+    name: "Grand urbain"
+    title: "BOOSTEZ votre information voyageur !"
+    text: "Vous avez déjà un SAE ou un SAEIV, mais êtes-vous totalement satisfaits de l’expérience de vos voyageurs ? Ont-ils accès à tout moment à une information fiable et ergonomique ?<br><br>Vos équipements ont-ils l’agilité suffisante pour vous accompagner, vous et vos usagers, sur des perturbations provisoires (travaux, substitution...) ?<br><br>Certaines de vos lignes (affrétées, navettes centre ville) ne sont-elles pas négligées ?"
+  scolar_inter:
+    name: "Interurbain & scolaire"
+    title: "Adoptez un SAEIV agile et performant "
+    text: "Améliorer la qualité de service (ponctualité, information voyageur) avec une solution très simple techniquement et très légère financièrement. Gagner en flexibilité et en performance avec une solution agile liée à chacun de vos véhicules, services ou conducteurs.<br>Avoir une solution collaborative pour permettre à chaque acteur du réseau (conducteur, responsable d’exploitation, responsable de parc, directeur réseau,...), quelles que soient sa situation et ses contraintes, d’être mieux informé et de faire des choix pertinents. "
+  contract:
+    title: "Comment bénéficier de Zenbus sur son réseau ?"
+    span1: "Contractualisez directement avec nous"
+    text1: "et utilisez notre référencement en centrale d’achat pour rendre cette démarche simple et rapide"
+    span2: "Mettez-nous en contact avec votre exploitant."
+    text2: "Il est très probable que nous nous connaissions déjà mais dans le cas contraire, nous serons heureux de tisser une nouvelle collaboration !"
+  estimate:
+    tile_title: "Contactez-nous"
+    tile_text: "Nous sommes à votre disposition pour réagir rapidement à vos sollicitations et répondre précisément à toute question technique ou financière. N’hésitez pas !"
+    button_call1: "Nous appeler (+33 9 87 36 12 46)"
+    button_call2: "Appelez-moi"
+    policy1: "En remplissant ce champ j’accepte que mon numéro de téléphone soit utilisé à des fins commerciales et vous prenez connaissance de notre <a href='/mentions.html#donnees' class='form-link'>politique de confidentialité</a>"
+    intertitle: "Ou écrivez-nous"
+    form:
+      label1: "Je suis Autorité Organisatrice de Mobilité pour le réseau de"
+      placeholder1: "ex: Paris, Lyon, Marseille, etc..."
+      label2: "Mes exploitants"
+      placeholder2: "ex: Exploitant_A, Exploitant_B, etc..."
+      label3: "Il n'y a pas d'exploitant"
+      label4: "Nom"
+      label5: "Prénom"
+      label6: "Email"
+      label7: "Téléphone"
+      placeholder3: "Idéalement, décrivez-nous votre réseau de transport (nombre de lignes, nombre de véhicules, grilles horaires/fréquence), vos enjeux principaux (optimiser l’expérience de vos voyageurs, mieux comprendre la réalisé, répondre aux exigences réglementaires de la LOM, ...) et votre calendrier."
+      submit: "Envoyer"
+      rgpd: "En soumettant ce formulaire, vous acceptez que les informations saisies soient utilisées pour répondre à votre demande."
+      contact_error: "Afin de vous répondre, une adresse email ou un numéro de téléphone est nécessaire."
+      rgpd_error: "Pour soumettre le formulaire, vous devez cocher la case ci-dessus."
+      success: "Votre message a bien été envoyé, nous vous répondrons dans les plus brefs délais."
+
 # ---------- PASSENGERS -----------
 passengers:
   tile_title: "Simple. Efficace. Gratuit."
   tile_text: "Zenbus a pour mission de transformer votre mobilité en vous proposant une solution simple pour localiser les transports collectifs."
-  tile2_title: "Pas de smartphone ? On a pensé à vous"
-  tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé dans un fauteuil, il existe sa version web. Accédez facilement à une multitude de réseaux équipés."
-  tile3_title: "Pas encore convaincu ? Ecoutez les autres"
-  tile3_text: "Certains ont des choses à dire et nous les écoutons. C'est encore mieux quand on nous complimente, alors on ne se prive pas pour vous partager les commentaires les plus sympas."
-  tile4_title: "Ne dites rien... Il vous manque quelque chose ?"
-  tile4_text: "Il est possible que Zenbus n'équipe pas votre ville, votre réseau ou même simplement votre ligne. N'hésitez pas à nous le faire savoir avec ce petit questionnaire rapide."
+  appstore:
+    download: "Télécharger dans"
+    brand: "l'App Store"
+  playstore:
+    download: "Disponible sur"
+    brand: "Play Store"
+  tile2_title: "Pas de smartphone&nbsp;? On a pensé à vous"
+  tile2_text: "Si vous préférez consulter Zenbus au chaud et bien calé(e) dans un fauteuil, utilisez sa <a target='_blank' href='/#map'>version web</a>. Accédez facilement à une multitude de réseaux équipés."
+  tile3_title: "Pas encore convaincu&nbsp;? Lisez les autres utilisateurs"
+  tile3_text: "Nous avons reçu des centaines de retours, pour certains déjà en attente d'évolutions et de nouveaux déploiements, et le plus souvent très enthousiastes !"
+  tile4_title: "Ne dites rien... Il vous manque quelque chose&nbsp;?"
+  tile4_text: "Il est possible que Zenbus n'équipe pas votre ville (voir <a target='_blank' href='/#map'>la carte des réseaux</a>), votre réseau ou même simplement votre ligne. N'hésitez pas à nous le faire savoir avec ce petit questionnaire rapide."
   form_label1: "Votre adresse mail"
   form_placeholder1: "Votre adresse mail"
-  form_label2: "Quelles lignes souhaitez-vous ?"
+  form_label2: "Et quelles lignes souhaitez-vous&nbsp;?"
   form_placeholder2: "ex: Ligne 1, Ligne 2, A, B, Ligne bleue, etc..."
   form_label3: "Je souhaite avoir toutes les lignes possibles"
-  form_label4: "De quel réseau de transport parlons-nous ?"
-  form_placeholder4: "ex: SEMITAN, Ales'y, RATP, TBM, etc..."
+  form_label4: "De quel réseau de transport parlons-nous&nbsp;?"
+  form_placeholder4: "ex: TAN, Ales'y, RATP, TBM, etc..."
   form_label5: "Je ne connais pas précisément le nom de mon réseau"
-  form_label6: "Et ça se situe dans quelle ville ?"
+  form_label6: "Ça se situe dans quelle ville&nbsp;?"
   form_placeholder6: "ex: Paris, New York, Moutiers les Maufaits, etc..."
   form_submit: "Envoyer"
-  form_success: "Merci pour votre retour ! Votre demande sera prise en compte le plus rapidement possible"
+  form_success: "Merci pour votre retour&nbsp;! Votre demande sera prise en compte le plus rapidement possible"
   tile5_title: "Sachez que vous n'êtes pas seuls"
-  tile5_text: "Un grand pouvoir implique de grandes responsabilités. Nous, c'est de recueillir vos besoins et d'en prendre compte afin de savoir vers où diriger nos efforts."
+  #tile5_text: "Des centaines de personnes sont dans le même cas que vous. Nous, on s'occupe de recueillir vos besoins et de les prendre en compte afin de savoir vers où diriger nos efforts."
+  tile5_text: "Vous pourrez bientôt suivre les résultats de l'ensemble des demandes, réseau par réseau."
   tile6_title: "Vous aussi, vous avez des responsabilités"
   tile6_text: "Et oui, en tant qu'utilisateur de Zenbus, vous êtes mis à contribution : faire connaître, faire mieux fonctionner, faire de chaque jour qui passe un paradis sur Terre. Voici la charte du Zenbusseur reponsable"
-  rule1: "De l’application, tu parleras (si elle te plait, évidemment)"
+  rule1: "De l’application, tu parleras (si elle te plaît, évidemment)"
   rule2: "De tes retours, nous sommes friands, donc à nous écrire, tu n’hésiteras pas"
   rule3: "A ton écoute nous sommes, d’un besoin particulier, tu nous entretiendras"
   rule4: "Si c'est pour ton opérateur de transport, lui dire directement tu privilégieras"
@@ -130,7 +196,7 @@ passengers:
   verbatim2_name: "par Nono"
   verbatim2_comment: "Je ne prends pas le bus à cause du stress généré par l'attente (jusqu'à 40 mn dans le pire des cas) Cette application pourrait me réconcilier avec les transports en commun. Voir où est son bus sur la carte et avoir le délai jusqu'à l'arrivée au prochain arrêt, c'est tout simplement génial !"
   verbatim3_title: "Superbe idée & concept"
-  verbatim3_name: "par Elena Martichka"
+  verbatim3_name: "par Elena"
   verbatim3_comment: "Super application dans une région où les infos bus sont rarement au point. Merci ! Vivement que d'autres compagnies et leurs chauffeurs soient convertis !!!"
   verbatim4_title: "Indispensable"
   verbatim4_name: "par Mathiieuc"

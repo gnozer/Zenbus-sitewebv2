@@ -11,23 +11,23 @@ permalink: /passengers/
 		</div>
 		<div class="stores">
 			<a href="https://itunes.apple.com/fr/app/zenbus/id808231328" target="_blank" class="stores-link appstore">
-				<span class="stores-link-text">Télécharger dans</span>
-				<span class="stores-link-brand">l'App Store</span>
+				<span class="stores-link-text">{{ site.data["strings"].passengers.appstore.download }}</span>
+				<span class="stores-link-brand">{{ site.data["strings"].passengers.appstore.brand }}</span>
 			</a>
 			<a href="https://play.google.com/store/apps/details?id=com.byjoul.code.zenbus.android" target="_blank" class="stores-link playstore">
-				<span class="stores-link-text">Disponible sur</span>
-				<span class="stores-link-brand">Play Store</span>
+				<span class="stores-link-text">{{ site.data["strings"].passengers.playstore.download }}</span>
+				<span class="stores-link-brand">{{ site.data["strings"].passengers.playstore.brand }}</span>
 			</a>
 		</div>
 		<ul class="apps-mobile">
 			<li class="apps-mobile-item">
-				<img src="{{ baseurl }}/assets/img/app_01.png" alt="zenbus application map" class="apps-mobile-item-img">
+				<img src="{{ baseurl }}/assets/img/app_01_{{ site.active_lang }}.png" alt="zenbus application map" class="apps-mobile-item-img">
 			</li>
 			<li class="apps-mobile-item">
-				<img src="{{ baseurl }}/assets/img/app_02.png" alt="zenbus application route" class="apps-mobile-item-img">
+				<img src="{{ baseurl }}/assets/img/app_02_{{ site.active_lang }}.png" alt="zenbus application route" class="apps-mobile-item-img">
 			</li>
 			<li class="apps-mobile-item">
-				<img src="{{ baseurl }}/assets/img/app_03.png" alt="zenbus application stops" class="apps-mobile-item-img">
+				<img src="{{ baseurl }}/assets/img/app_03_{{ site.active_lang }}.png" alt="zenbus application stops" class="apps-mobile-item-img">
 			</li>
 		</ul>
 		<div class="header-tile">
@@ -35,7 +35,7 @@ permalink: /passengers/
 			<p class="header-tile-text">{{ site.data["strings"].passengers.tile2_text }}</p>
 		</div>
 		<div class="apps-web">
-			<img src="{{ baseurl }}/assets/img/web.png" alt="zenbus web" class="apps-web-img">
+			<img src="{{ baseurl }}/assets/img/web_{{ site.active_lang }}.png" alt="zenbus web" class="apps-web-img">
 		</div>
 	</section>
 	<section class="verbatim">
@@ -71,39 +71,31 @@ permalink: /passengers/
 			<h2 class="header-tile-title">{{ site.data["strings"].passengers.tile4_title }}</h2>
 			<p class="header-tile-text">{{ site.data["strings"].passengers.tile4_text }}</p>
 		</div>
-		<form action="" class="survey-form" id="surveyForm" novalidate>
-			<span class="survey-form-email-error">{{ site.data["strings"].contact.email_error }}</span>
-			<span class="survey-form-form-error">{{ site.data["strings"].contact.form_error }}</span>
-			<label class="survey-label">
-				{{ site.data["strings"].passengers.form_label1 }}
-				<input type="mail" placeholder="{{ site.data['strings'].passengers.form_placeholder1 }}" id="surveyInputEmail" required>
-			</label>
-			<label class="survey-label">
+		<form action="" class="form" id="surveyForm" novalidate>
+			<label class="form-label">
 				{{ site.data["strings"].passengers.form_label6 }}
-				<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder6 }}" id="surveyInputCity">
+				<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder6 }}" id="surveyInputCity" class="form-input">
 			</label>
 			<div>
-				<label class="survey-label">
+				<label class="form-label">
 					{{ site.data["strings"].passengers.form_label4 }}
-					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder4 }}" id="surveyInputNetwork">
+					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder4 }}" id="surveyInputNetwork" class="form-input">
 				</label>
-				<input type="checkbox" id="surveyCheckboxNetwork" class="classic-form-checkbox">
-				<label for="surveyCheckboxNetwork" class="classic-form-label checkbox">{{ site.data['strings'].passengers.form_label5 }}</label>
+				<input type="checkbox" id="surveyCheckboxNetwork" class="form-checkbox">
+				<label for="surveyCheckboxNetwork" class="form-checkbox-label">{{ site.data['strings'].passengers.form_label5 }}</label>
 			</div>
 			<div>
-				<label class="survey-label">
+				<label class="form-label">
 					{{ site.data["strings"].passengers.form_label2 }}
-					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder2 }}" id="surveyInputLines">
+					<input type="text" placeholder="{{ site.data['strings'].passengers.form_placeholder2 }}" id="surveyInputLines" class="form-input">
 				</label>
-				<input type="checkbox" id="surveyCheckboxLines" class="classic-form-checkbox">
-				<label for="surveyCheckboxLines" class="classic-form-label checkbox">{{ site.data['strings'].passengers.form_label3 }}</label>
+				<input type="checkbox" id="surveyCheckboxLines" class="form-checkbox">
+				<label for="surveyCheckboxLines" class="form-checkbox-label">{{ site.data['strings'].passengers.form_label3 }}</label>
 			</div>
-			<div>
-				<input type="checkbox" id="surveyCheckboxRGPD" class="classic-form-checkbox">
-				<label for="surveyCheckboxRGPD" class="classic-form-label checkbox">{{ site.data['strings'].contact.form_rgpd }}</label>
-			</div>
-			<button type="submit" class="classic-form-submit">{{ site.data['strings'].passengers.form_submit }}</button>
-			<p class="survey-form-validation">{{ site.data['strings'].passengers.form_success }}</p>
+			<button type="submit" class="form-submit" id="surveySubmit">{{ site.data['strings'].passengers.form_submit }}</button>
+			<p class="form-validation">
+				<span class="form-validation-text">{{ site.data['strings'].passengers.form_success }}</span>
+			</p>
 		</form>
 	</section>
 	<section class="results">
