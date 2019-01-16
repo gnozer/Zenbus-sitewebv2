@@ -229,17 +229,6 @@
   linkedin: https://www.linkedin.com/in/oc%C3%A9ane-blot-1a3327a2/
   photo: oceane.jpg
   photo_fun: oceane_fun.jpg
-- id: guillaume
-  name: Guillaume Guery
-  firstname: Guillaume
-  lastname: Guery
-  arrival_date: 2018-09-12
-  role: Développeur
-  localization: Paris
-  presentation: "Guillaume c'est le junior de l'équipe des développeurs. C'est un curieux qui cherche à comprendre le fonctionnement de tout (ce qui explique sa passion pour les voitures et l'informatique) ! Fanatique de pizza (même en office de gâteau d'anniversaire) Guillaume est tout simplement heureux et positif."
-  linkedin: https://www.linkedin.com/in/guillaumeguery/
-  photo: guillaume.jpg
-  photo_fun: guillaume_fun.jpg
 - id: julio
   name: Julien Fosse
   firstname: Julien
@@ -251,3 +240,14 @@
   linkedin: https://www.linkedin.com/in/julien-fosse/
   photo: julio.jpg
   photo_fun: julio_fun.jpg
+- id: moustapha
+  name: Moustapha Fofana
+  firstname: Moustapha
+  lastname: Fofana
+  arrival_date: 2019-01-01
+  role: Business Developer
+  localization: Paris
+  presentation: ""
+  linkedin: https://www.linkedin.com/in/moustapha-fofana-9a1489a4/
+  photo: moustapha.jpg
+  photo_fun: moustapha_fun.jpg
