@@ -2,14 +2,14 @@
   resp: lionel
   jobs: 
     - title: "Développeur Java (Paris)"
-      url: https://storage.googleapis.com/zenbus-files/OffreEmploi-zenbus.pdf
+      url: https://zenbus.fr/files/Offre-dev-08-2018.pdf
 - id: customer
   resp: christine
   jobs:
     - title: "Stage Customer Success (Nantes)"
-      url: https://storage.googleapis.com/zenbus-files/Customer_Success_FichePoste.pdf
+      url: https://zenbus.fr/files/Customer_Success_FichePoste.pdf
 - id: sales
   resp: olivier
   jobs: 
     - title: "Commercial Junior (Nantes)"
-      url: https://storage.googleapis.com/zenbus-files/Fichedeposte-CommercialB2B.pdf
+      url: https://zenbus.fr/files/Fichedeposte-CommercialB2B.pdf

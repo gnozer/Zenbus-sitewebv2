@@ -1,0 +1,44 @@
+---
+permalink: /merci/
+---
+<head>
+	<title>Merci pour votre retour!</title>
+</head>
+<body style="margin:0;">
+	<object data="../voeux_Zenbus.pdf" type="application/pdf" width="100%" height="100%"></object>
+</body>
+<script>	
+	/**
+ * Utils to get using promise 
+ * @param   {String} url to get
+ * @returns {Object} promise
+ */
+function get(url){
+	return new Promise(function(resolve, reject){
+		
+		var req = new XMLHttpRequest();
+		req.open('GET',url);
+		req.setRequestHeader("Accept","application/json");
+		
+		req.onload = function(){
+			if(req.status == 200){
+				resolve(JSON.parse(req.response));
+			}else{
+				reject(req.statusText);
+			}
+		}
+		req.send();
+	});
+}
+(function(){
+	
+	var args = "form=feedbackMAJ&Clic=Oui";
+	get("https://script.google.com/macros/s/AKfycbzOOFyPsyXzqytgQK8aWzEI1srgCOhKPTCwFwQ5xys8GXEAJiM/exec?"+args).then(function(){
+		console.log("OK");
+	})
+	.catch(function(error){
+		console.log("NOT OK");
+	});
+		
+})();
+</script>
