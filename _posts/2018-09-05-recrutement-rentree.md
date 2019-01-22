@@ -30,12 +30,12 @@ Zenbus est à la recherche d'un futur commercial junior ! Déterminé, sensible 
 De formation Bac +4 +5 en commerce, avec une expérience de la vente de service BtoB.
 
 {: style="text-align: center"}
-[Plus d’infos sur le poste](https://storage.googleapis.com/zenbus-files/Fichedeposte-CommercialB2B.pdf){:target="_blank"}
+[Plus d’infos sur le poste](https://zenbus.fr/files/Fichedeposte-CommercialB2B.pdf){:target="_blank"}
 
 * __2 DÉVELOPPEURS :__
 Développeur passionné, très bon ou juste doué et modeste. Curieux et avide d’apprendre au sein d’une petite équipe exigeante mais pas trop méchante. Un bon relationnel sera donc apprécié. Une attirance pour l’algorithmique est également un plus non négligeable.
 
 {: style="text-align: center"}
-[Plus d’infos sur le poste](http://storage.googleapis.com/zenbus-files/OffreEmploi-zenbus.pdf){:target="_blank"}
+[Plus d’infos sur le poste](https://zenbus.fr/files/Offre-dev-08-2018.pdf){:target="_blank"}
 
 D’autres offres sont à venir prochainement&nbsp;! Pour les consulter venez sur notre site sur la page “rejoignez-nous” ou suivez-nous sur les réseaux sociaux pour être au courant des dernières actualités. 
