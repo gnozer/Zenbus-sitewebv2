@@ -92,12 +92,13 @@ new Vue({
 		areDatasValid: areDatasValid,
 		sendDatasToSheet: sendDatasToSheet,
 		//Mailto
-		mailto: mailto
+		mailto: mailto,
+		
+		removeBehaviour: function(){return false;}
 	},
-	
 	created: created, 
 	mounted: function(){
-		/*this.$http.get("http://404.zenbus.fr/api").then(function(response){
+		/*this.$http.get("http://localhost:8080/api").then(function(response){
 			var data = JSON.parse(response.bodyText);
 			this.cities = data.cities;
 			this.accounts = data.accounts;
@@ -149,4 +150,5 @@ new Vue({
 	destroyed: function() {
 		clearInterval(this.$interval);
 	}
+	
 }); 

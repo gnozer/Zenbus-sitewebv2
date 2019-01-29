@@ -49,7 +49,7 @@ lang: es
                            <p class="filters-header-text">Puedes filtrar el mapa por tipología de red</p>
                         </header>
                        
-                        <form class="filters-search" v-bind:class="{'show-results': showSearchResults}">
+                        <form v-on:submit.prevent="removeBehaviour" class="filters-search" v-bind:class="{'show-results': showSearchResults}">
                           
                           <label class="filters-search-label"><span v-if="activeFiltersLabel != ''">Excepto [%activeFiltersLabel%]</span></label>
                            

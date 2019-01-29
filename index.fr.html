@@ -45,7 +45,7 @@ lang: fr
                            <h4 class="filters-header-title">Carte</h4> 
                            <p class="filters-header-text">Vous pouvez filtrer la carte par typologie de réseau</p>
                         </header>
-                        <form class="filters-search" v-bind:class="{'show-results':showSearchResults}">
+                        <form v-on:submit.prevent="removeBehaviour" class="filters-search" v-bind:class="{'show-results':showSearchResults}">
                           <label class="filters-search-label"><span v-if="activeFiltersLabel != ''">Sauf [%activeFiltersLabel%]</span></label>
                           <input type="search" class="filters-search-input" placeholder="Rechercher un réseau" v-on:focus="showSearchResults = true" v-model="search">
                            <span class="filters-search-close" v-on:click="showSearchResults = false"></span>
