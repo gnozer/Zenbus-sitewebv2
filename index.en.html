@@ -45,7 +45,7 @@ lang: en
                            <p class="filters-header-text">You can filter the map by type of network </p>
                         </header>
                        
-                        <form class="filters-search" v-bind:class="{'show-results': showSearchResults}">
+                        <form v-on:submit.prevent="removeBehaviour" class="filters-search" v-bind:class="{'show-results': showSearchResults}">
                           
                           <label class="filters-search-label"><span v-if="activeFiltersLabel != ''">Except [%activeFiltersLabel%]</span></label>
                            
