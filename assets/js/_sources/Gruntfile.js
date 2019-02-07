@@ -51,5 +51,4 @@ grunt.registerTask('prod', ['watch', 'concat', 'uglify']);
 
 // when developing the default task can be run just by typing "grunt" on the command line
 grunt.registerTask('default', ['watch']);
-
 };
