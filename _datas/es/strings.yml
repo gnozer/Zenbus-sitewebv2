@@ -93,6 +93,62 @@ job:
   customer:
     team_title: "Nos chefs de projet ont besoin de vous !"
     team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! Allo oui ? "
+
+# ---------- AO -----------
+ao:
+  tile_title: "Zenbus dedicado a entidades de gestión del transporte"
+  profit1:
+    title: "Valorice su red de autobuses y facilite la transferencia modal"
+  profit2:
+    title: "Controle y optimice su oferta de transporte"
+  profit3:
+    title: "Respete sus obligaciones reglamentarias"
+  small_urban:
+    name: "Redes urbanas pequeñas "
+    title: "¿Por qué privarse de un servicio de calidad?"
+    text: "¡Para Zenbus no existe ninguna \"red pequeña\"! Nuestra solución está diseñada para poder desplegarse de manera muy simple, sin importar el tamaño de su red.<br>¿Una o dos líneas? ¿Uno o dos vehículos? Le sorprenderá la sencillez del despliegue y, seguramente, encontrará un modelo económico adaptado a sus exigencias."
+  mid_urban:
+    name: "Redes urbanas intermedias "
+    title: "Zenbus es el sistema de ayuda a la gestión e información que más se adapta a sus necesidades."
+    text: "No solo las \"grandes redes\" pueden brindar información de calidad a los usuarios... ¡Zenbus le ayudará a valorizar su autobús aportando información de una calidad sin igual!<br><br>Además, Zenbus puede responder al conjunto de desafíos que plantea la gestión de su oferta de transporte: seguimiento de las operaciones, grabación de imágenes, ayuda a la conducción y análisis estadísticos.<br><br>Zenbus también le ayuda a tratar las exigencias reglamentarias de la futura ley de orientación de la movilidad."
+  big_urban:
+    name: "Grandes redes urbanas "
+    title: "¡MEJORE la información que comunica a los usuarios!"
+    text: "Si ya posee un sistema de ayuda a la gestión e información del viajero, ¿está totalmente satisfecho con la opinión de los usuarios? ¿Pueden consultar en todo momento una información fiable y ergonómica?<br><br>¿Tienen sus equipos la agilidad necesaria para que usted y sus usuarios se sientan acompañados en caso de perturbaciones provisorias (obras, líneas de sustitución, etc.)? <br><br>¿Se han desatendido algunas de sus líneas (servicios contratados, autobuses al centro de la ciudad)?"
+  scolar_inter:
+    name: "Interurbano/transporte escolar"
+    title: "Adopte un sistema de ayuda a la gestión e información del viajero que sea ágil y de alto rendimiento"
+    text: "Mejore la calidad del servicio (puntualidad e información a los usuarios) gracias a una solución técnica muy sencilla y poco costosa. Gane flexibilidad y rendimiento con una solución ágil conectada a cada uno de sus vehículos, servicios o conductores. <br>Cuente con una solución colaborativa para que cada actor de la red (conductor, responsable de operaciones, responsable de parque, director de red, etc.) pueda estar mejor informado y elija con pertinencia, independiente de la situación y de sus exigencias. "
+  see_others: "Consulte todas nuestras referencias en el mapa"
+  contract:
+    title: "¿Cómo obtener los beneficios de Zenbus en su red?"
+    span1: "Establezca un contrato directo con nosotros"
+    text1: "y utilice nuestras referencias en la central de compra para que la operación sea simple y rápida."
+    span2: "Contacte con su operador."
+    text2: "Es probable que ya nos conozcamos pero, en caso contrario, nos gustaría establecer una nueva colaboración."
+  estimate:
+    tile_title: "Contáctenos"
+    tile_text: "Estamos a su disposición para responder rápidamente a sus demandas y a toda pregunta técnica o financiera.  ¡No lo dude!"
+    button_call1: "Llamanos (+33 9 87 36 12 46)"
+    button_call2: "¡LLAME YA!"
+    policy1: "Si completa este campo, acepta que su número de teléfono sea utilizado a fines comerciales y acepta nuestra <a href='/mentions.html#donnees' class='form-link'>política de confidencialidad.</a>"
+    intertitle: "O escríbanos"
+    form:
+      label1: "Soy el responsable de la gestión de la movilidad para la red de "
+      placeholder1: "por ejemplo: Madrid, Lima, Barcelona, etc..."
+      label2: "Mis operadores "
+      placeholder2: "por ejemplo: Operador A, Operador B, etc..."
+      label3: "No operador"
+      label4: "Apellido"
+      label5: "Nombre"
+      label6: "E-mail"
+      label7: "Número de teléfono"
+      placeholder3: "Idealmente, describa su red de transporte (número de líneas, número de vehículos, horarios / frecuencia), sus principales desafíos (optimice la experiencia de sus viajeros, obtenga una mejor comprensión de la realización, cumpla con los requisitos reglamentarios de la LOM, ...) y su horario."
+      submit: "Enviar"
+      rgpd: "Al introducir tu dirección de email, aceptas recibir nuestras noticias y novedades por correo electrónico y tomas conocimiento de nuestra política de privacidad."
+      contact_error: "Para responderle, es necesaria una dirección de correo electrónico o un número de teléfono."
+      rgpd_error: "Para enviar el formulario, debe marcar la casilla de arriba."
+      success: "Su mensaje ha sido enviado, le contestaremos lo antes posible."
   
 # ---------- PASSENGERS -----------
 passengers:

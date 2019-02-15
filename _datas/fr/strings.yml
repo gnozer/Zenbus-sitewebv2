@@ -99,13 +99,10 @@ ao:
   tile_title: "Zenbus pour les AOM"
   profit1:
     title: "Valorisez votre réseau de bus et facilitez le report modal"
-    text: "Proposez enfin un outil permettant au voyageur d’apprécier ses déplacements en bus et d’en faire un moyen de déplacement privilégié."
   profit2:
     title: "Suivez et optimisez votre offre de transport"
-    text: "Nos données précises et nos interfaces intuitives vont vous aider à comprendre et agir en s’appuyant sur des informations fiables et partagées avec votre exploitant"
   profit3:
     title: "Respectez vos obligations réglementaires"
-    text: "Zenbus vous permet de vous inscrire dans les standards et les exigences de la loi LOM en vous accompagnant très simplement, dans l’ouverture de vos données statiques et dynamiques."
   small_urban:
     name: "Petit urbain"
     title: "Pourquoi s’interdire un service de qualité ?"

@@ -79,20 +79,62 @@ team:
   description_job: "Want to join in the fun? Discover the missions that we propose!"
   job1: "1 Junior Commercial"
   job2: "2 Developers"
-  
-# ---------- JOB -----------
-job:
-  tile_title: "On recrute !"
-  tile_text: "Zenbus s'est donné pour mission de transformer votre mobilité de demain, en vous proposant une solution simple afin de localiser les transports collectifs. <br>Constituée d'ingénieurs pointus, de développeurs experts & originaux, de commerciaux aguerris, de créatifs, des curieux, des musiciens, des écrivains, des sportifs, des Suisses, des Belges, des Nantais, des Parisiens... Zenbus c'est avant tout une équipe dynamique et ambitieuse qui n'attend que vous : alors venez dès à présent consulter nos offres et rejoindre notre équipe !"
-  technic:
-    team_title: "Du côté des devs..."
-    team_text: "Petite équipe, peer programming, décisions d'archi & produit prises par les devs à l'unanimité, zéro framework (sans réinventer la roue), pas de dette technique, pas de bullshit, pas de méthode magique, pas de presta, avant de faire du java (c'est pas d'la menthe à l'eau) on fait de l'algorithmie, pas de sysadmin (merci GAE). On touche un tantinet nos billes niveau scalabilité, concurrence, parallélisme & latences magiques sur des grille-pains virtualisés avec masse données. "
-  sales:
-    team_title: "Du côté des bizdev..."
-    team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et tourné(e) vers l'action ? Nous t'attendons ! "
-  customer:
-    team_title: "Nos chefs de projet ont besoin de vous !"
-    team_text: "Si t'es super motivé mais pas super ambitieux, viens chez nous, on est hyper bien et le café est bon et surtout gratos !!! Allo oui ? "
+
+# ---------- AO -----------
+ao:
+  tile_title: "Zenbus for Mobility Organising Authorities (AOM)"
+  profit1:
+    title: "Enhance your bus network and facilitate modal shift"
+  profit2:
+    title: "Track and optimise your transport offering"
+  profit3:
+    title: "Comply with your regulatory obligations"
+  small_urban:
+    name: "Small Urban Networks"
+    title: "Why not provide a quality service?"
+    text: "There is no such thing as a \"small network\" for Zenbus! Our solution is designed to be implemented easily, regardless of the size of your network.<br>1 or 2 lines? 1 or 2 vehicles? You’ll be surprised by how easy it is to implement and you’ll appreciate the business model that’s just right for you."
+  mid_urban:
+    name: "Medium Urban Networks"
+    title: "Zenbus, the Passenger Information System tailored to your needs"
+    text: "Quality passenger information systems are not just for very large networks. Zenbus will help you enhance your bus service by providing passengers with accurate information when and where they need it!<br>More broadly, Zenbus provides solutions for all your transport management needs: operations monitoring, video recorder, driver assistance systems and statistical analyses.<br>Zenbus also helps you to comply with the new regulations under the future Mobility Orientation Law"
+  big_urban:
+    name: "Large Urban Networks "
+    title: "BOOST your passenger information system!"
+    text: "You already have a passenger information system, but are you completely satisfied with your user experience? Do passengers have access to accurate and easy to understand information at all times?<br><br>Is your system agile enough to deal with temporary disruptions such as construction work requiring bus replacement service/modified routes?<br><br>Are some of your chartered or city centre shuttle lines not included in the system?"
+  scolar_inter:
+    name: "Intercity & School Service"
+    title: "Choose our agile and efficient passenger information system"
+    text: "Improve the quality of service (punctuality, passenger information) with a technologically simple and cost-effective solution. Gain in flexibility and performance with an agile solution connected to each of your vehicles, services or drivers.<br>Enjoy a collaborative solution that keeps everyone informed so they can make the right decisions at the right time, be they drivers, operations managers, fleet managers or network managers, wherever they are and whatever they need."
+  see_others: "See all our references on the network map"
+  contract:
+    title: "How to implement Zenbus on your network?"
+    span1: "Contract with us directly!"
+    text1: "We are approved providers with a central procurement agency, making the process simple and fast."
+    span2: "Put us in touch with your operator."
+    text2: "We probably already work with them, but if not, we will be happy to form a new business relationship!"
+  estimate:
+    tile_title: "Contact us"
+    tile_text: "We will respond promptly to your requests and are happy to answer any technical or financial questions you may have. Contact us today!"
+    button_call1: "Call us (+33 9 87 36 12 46)"
+    button_call2: "Call me back"
+    policy1: "By filling in this field you agree that your phone number may be used for commercial purposes and you have read our <a href='/mentions.html#donnees' class='form-link'>privacy policy</a>"
+    intertitle: "Or write to us"
+    form:
+      label1: "I am the Mobility Organising Authority for the network of"
+      placeholder1: "e.g. London, New-York, Chicago, Brisbane, etc..."
+      label2: "My operators"
+      placeholder2: "e.g. Operator A, Operator B, etc..."
+      label3: "There isn't any operator"
+      label4: "Lastname"
+      label5: "Firstname"
+      label6: "Mail address"
+      label7: "Phone number"
+      placeholder3: "Ideally, describe your transportation network (number of lines, number of vehicles, timetables/frequency), your main challenges (optimize your travellers' experience, gain a better understanding of the realization, meet the regulatory requirements of the LOM,...) and your schedule."
+      submit: "Send"
+      rgpd: "By submitting this form, you agree to the information provided being used to satisfy your request."
+      contact_error: "To reply, a valid email address or a phone number is required."
+      rgpd_error: "To submit the form, you must check the box above."
+      success: "Your message has been sent, we will respond promptly."
   
 # ---------- PASSENGERS -----------
 passengers:
