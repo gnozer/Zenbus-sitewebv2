@@ -77,7 +77,7 @@ team:
   what_if: "Et si c'était toi ?"
   we_recruit: "On recrute !"
   description_job: "Envie de participer à l’aventure ? Découvrez les missions que nous proposons !"
-  job1: "1 Customer Success Manager"
+  job1: "1 chef de projet"
   job2: "2 développeur"
   
 # ---------- JOB -----------
@@ -91,7 +91,7 @@ job:
     team_title: "Du côté des bizdev..."
     team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et tourné(e) vers l'action ? Nous t'attendons ! "
   customer:
-    team_title: "Du côté des Customer Success Managers..."
+    team_title: "Du côté des Chefs de projet..."
     team_text: "Tu cherches ton stage de fin d'étude dans une équipe super Zen et tu veux découvrir le bonheur de la relation clients tout en voyageant virtuellement ?"
 
 # ---------- AO -----------
