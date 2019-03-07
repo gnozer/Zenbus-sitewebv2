@@ -251,3 +251,14 @@
   linkedin: https://www.linkedin.com/in/moustapha-fofana-9a1489a4/
   photo: moustapha.jpg
   photo_fun: moustapha_fun.jpg
+- id: jerome
+  name: Jérôme Journeau
+  firstname: Jérôme
+  lastname: Journeau
+  arrival_date: 2019-02-25
+  role: Business Developer
+  localization: Nantes
+  presentation: "Jérôme, c'est notre marathonien: la course de fond du petit matin c'est sa manière de rester zen avant ses coups de téléphone. Passionné de voyages, il est prêt à conquérir le monde pour vendre Zenbus Worldwide."
+  linkedin: https://www.linkedin.com/in/j%C3%A9r%C3%B4me-journeau-19560327/
+  photo: jerome.jpg
+  photo_fun: jerome_fun.jpg
