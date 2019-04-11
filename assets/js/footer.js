@@ -23,7 +23,6 @@ function sendEmailToSheet(email) {
 		NL_FORM.classList.add("form-error");
 	}
 }
-
 /**
  * To open mail soft from his machine
  */
