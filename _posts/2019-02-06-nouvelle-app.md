@@ -27,7 +27,7 @@ Comme dit Denis Brogniart&nbsp;: ah&nbsp;! Effectivement, beaucoup d’entre vou
 
 #### 3 / Fichtre, je suis sur Android et je ne peux pas quitter l’application&nbsp;!
 En fait, "quitter l'application" n'a jamais été proposé dans Zenbus, pour la bonne raison qu'à l'instar de la plupart des apps, Zenbus devient totalement inactive une fois qu'elle est en arrière-plan. En revanche, nous avons bien désactivé la touche "retour arrière" afin que les comportements de Zenbus sur iPhone et Android soient similaires. Peut-être que nous rétablirons cette fonction dans la prochaine version, n'hésitez pas à nous donner votre avis&nbsp;!
-
+**EDIT: La fonction "retour en arrière" a été remise en place tout dernièrement à la suite des demandes des utilisateurs.**
 
 ### LES FONCTIONNALITÉS 
 #### 1 / Le sélecteur de réseau

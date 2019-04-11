@@ -3,11 +3,6 @@
   jobs: 
     - title: "Développeur Java (Paris)"
       url: https://zenbus.fr/files/Offre-dev-08-2018.pdf
-- id: customer
-  resp: christine
-  jobs:
-    - title: "Assistant chef de projet (Nantes)"
-      url: https://zenbus.fr/files/Chef_De_Projet_Zenbus_Fiche.pdf
 - id: sales
   resp: olivier
   jobs: 
