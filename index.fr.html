@@ -50,9 +50,13 @@ lang: fr
                           <input type="search" class="filters-search-input" placeholder="Rechercher un réseau" v-on:focus="showSearchResults = true" v-model="search">
                            <span class="filters-search-close" v-on:click="showSearchResults = false"></span>
                            <ul id="searchResult" class="filters-search-results">
-                              <li v-on:click="searchItemBehaviour(acc)" v-for="acc in searchedAccounts" class="filters-search-results-item">
-                                 <img class="account-img" v-bind:src="acc.icon" alt="logo du réseau" />
-                                 <span class="account-name">[%acc.pageTitle%]</span>
+                              <li v-on:click="searchItemBehaviour(item)" v-for="item in searchedDatas" class="filters-search-results-item">
+                                  <!-- ACCOUNT -->
+											<img v-if="item.namespace" class="account-img" v-bind:src="item.icon" alt="logo du réseau" />
+                                 <span v-if="item.namespace" class="account-name">[%item.pageTitle%]</span>
+											<!-- CITIES -->
+											<img v-if="item.namespaces" class="account-img" src="/assets/img/town_POI.png" alt="" />
+                                 <span v-if="item.namespaces" class="account-name">[%item.name%]</span>
                               </li>
                            </ul>
                         </form>
