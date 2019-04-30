@@ -106,8 +106,11 @@ function markerBehaviour(city){
 		city.marker.stopBouncing();
 	}.bind(this, city), 1000);
 }
-function searchItemBehaviour(item){
 
+/**
+ * Search list 
+ */
+function searchItemBehaviour(item){
 	if(item.namespace){
 		this.cities.forEach(function(city){
 			city.namespaces.forEach(function(a){
@@ -117,13 +120,49 @@ function searchItemBehaviour(item){
 			}.bind(this));
 		}.bind(this));
 	}
-	
 	if(item.namespaces){
 		markerBehaviour.call(this, item);
 	}
-
 	this.showSearchResults = false;
 }
+
+function searchedDatas(){
+	var temp = this.filteredAccounts.concat(this.filteredCities);
+	
+	 return temp.sort(compare).filter(function(data){
+		 if(data.namespace){
+			 return data.pageTitle.toLowerCase().includes(this.search.toLowerCase());
+		 }
+		 
+		 if(data.namespaces){
+			 return data.name.toLowerCase().includes(this.search.toLowerCase());
+		 }
+    }.bind(this));
+}
+
+function searchedCities(){
+	return this.filteredCities.sort(compare).filter(function(city){
+		
+		if(city && city.name && city.name.toLowerCase().includes(this.search.toLowerCase())){
+			return true;
+		}
+
+		var result = city.namespaces.filter(function(acc){
+			if(acc && acc.pageTitle){
+				return acc.pageTitle.toLowerCase().includes(this.search.toLowerCase()) ;
+			}
+			return false;
+		}.bind(this));
+		
+		
+		return result.length > 0;
+		
+	}.bind(this));
+}
+
+/*
+acc && acc.city && acc.pageTitle && (acc.city.toLowerCase().includes(search.toLowerCase()) || acc.pageTitle.toLowerCase().includes(search.toLowerCase()))*/
+
 function fetchAccTypes(types){
     return this.networkTypes.filter(function(type){
         return (types & type.value) == type.value;
@@ -209,19 +248,7 @@ function searchedAccounts(){
     }.bind(this));
 }
 
-function searchedDatas(){
-	var temp = this.filteredAccounts.concat(this.filteredCities);
-	
-	 return temp.sort(compare).filter(function(data){
-		 if(data.namespace){
-			 return data.pageTitle.toLowerCase().includes(this.search.toLowerCase());
-		 }
-		 
-		 if(data.namespaces){
-			 return data.name.toLowerCase().includes(this.search.toLowerCase());
-		 }
-    }.bind(this));
-}
+
 
 function displayUserPosition(){
      if(!this.user && navigator.geolocation){

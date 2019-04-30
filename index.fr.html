@@ -47,16 +47,18 @@ lang: fr
                         </header>
                         <form v-on:submit.prevent="removeBehaviour" class="filters-search" v-bind:class="{'show-results':showSearchResults}">
                           <label class="filters-search-label"><span v-if="activeFiltersLabel != ''">Sauf [%activeFiltersLabel%]</span></label>
-                          <input type="search" class="filters-search-input" placeholder="Rechercher un réseau" v-on:focus="showSearchResults = true" v-model="search">
+                          <input type="search" class="filters-search-input" placeholder="Rechercher un réseau, une ville" v-on:focus="showSearchResults = true" v-model="search">
                            <span class="filters-search-close" v-on:click="showSearchResults = false"></span>
-                           <ul id="searchResult" class="filters-search-results">
-                              <li v-on:click="searchItemBehaviour(item)" v-for="item in searchedDatas" class="filters-search-results-item">
-                                  <!-- ACCOUNT -->
-											<img v-if="item.namespace" class="account-img" v-bind:src="item.icon" alt="logo du réseau" />
-                                 <span v-if="item.namespace" class="account-name">[%item.pageTitle%]</span>
-											<!-- CITIES -->
-											<img v-if="item.namespaces" class="account-img" src="/assets/img/town_POI.png" alt="" />
-                                 <span v-if="item.namespaces" class="account-name">[%item.name%]</span>
+									<ul id="searchResult" class="filters-search-results">
+                              <li v-for="item in searchedCities" >
+											<!--<img src="/assets/img/town_POI.png" alt="" />-->
+                                 <span>[%item.name%]</span>
+											<ul>
+												<li v-on:click="searchItemBehaviour(item)" v-if= "acc && acc.city && acc.pageTitle && (acc.city.toLowerCase().includes(search.toLowerCase()) || acc.pageTitle.toLowerCase().includes(search.toLowerCase()))" v-for="acc in item.namespaces" class="filters-search-results-item">
+													<img v-bind:src="acc.icon" alt="logo du réseau" class="account-img" />
+                           				<span class="account-name">[%acc.pageTitle%]</span>
+												</li>
+											</ul>
                               </li>
                            </ul>
                         </form>

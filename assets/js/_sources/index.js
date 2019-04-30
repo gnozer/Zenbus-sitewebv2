@@ -144,18 +144,9 @@ new Vue({
 		currentFilter: currentFilter,
 		filteredAccounts: filteredAccounts, //map
 		filteredCities: filteredCities, //map
-		
-		
-		
-		
-		searchedDatas: searchedDatas,
+		searchedCities: searchedCities,
 		searchedAccounts: searchedAccounts, //search
 		activeFiltersLabel: activeFiltersLabel //search
-		
-		
-		
-		
-		
 	},
 	destroyed: function() {
 		clearInterval(this.$interval);
