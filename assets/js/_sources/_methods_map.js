@@ -196,11 +196,13 @@ function filteredAccounts(){
     
     return accounts;
 }
-function searchedAccounts(){
-    return this.filteredAccounts.sort(compare).filter(function(account){
-        return account.pageTitle.toLowerCase().includes(this.search.toLowerCase());
-    }.bind(this));
-}
+
+function searchedAccounts(){ 
+    return this.filteredAccounts.sort(compare).filter(function(account){ 
+        return account.pageTitle.toLowerCase().includes(this.search.toLowerCase()); 
+    }.bind(this)); 
+} 
+
 function displayUserPosition(){
      if(!this.user && navigator.geolocation){
             navigator.geolocation.getCurrentPosition(function(user){

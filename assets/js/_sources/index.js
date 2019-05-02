@@ -82,6 +82,7 @@ new Vue({
 		toggleMap: function(){
 			this.isActiveMap = !this.isActiveMap;
 			this.displayUserPosition();
+			this.checkedFilter = -1;
 		},
 		init: init,
 		update: update,
@@ -110,7 +111,6 @@ new Vue({
 		this.accounts = API.accounts;
 		this.networkTypes = API.networkTypes;
 		this.init();
-		
 		Draggable.create(".products-container-showcase", {
 			bounds:"#dragContainer",
 			//allowNativeTouchScrolling:false,
@@ -143,8 +143,8 @@ new Vue({
 	computed: {
 		currentFilter: currentFilter,
 		filteredAccounts: filteredAccounts, //map
+		searchedAccounts: searchedAccounts,
 		filteredCities: filteredCities, //map
-		searchedAccounts: searchedAccounts, //search
 		activeFiltersLabel: activeFiltersLabel //search
 	},
 	destroyed: function() {
