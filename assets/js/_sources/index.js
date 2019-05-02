@@ -145,6 +145,8 @@ new Vue({
 		filteredAccounts: filteredAccounts, //map
 		searchedAccounts: searchedAccounts,
 		filteredCities: filteredCities, //map
+		searchedCities: searchedCities,
+		searchedAccounts: searchedAccounts, //search
 		activeFiltersLabel: activeFiltersLabel //search
 	},
 	destroyed: function() {

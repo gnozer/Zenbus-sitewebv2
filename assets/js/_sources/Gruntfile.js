@@ -17,7 +17,8 @@ grunt.initConfig({
 	uglify: {
 		options: {
 			compress: {
-				drop_console: true
+				drop_console: true,
+				passes: 2
 			},
 			beautify: true
 		},
