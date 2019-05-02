@@ -51,14 +51,19 @@ lang: en
                            
                             <input type="search" class="filters-search-input" placeholder="Network search" v-on:focus="showSearchResults = true"  v-model="search">
                         
-                           
-                           <span class="filters-search-close" v-on:click="showSearchResults = false"></span>
-                           <ul id="searchResult" class="filters-search-results">
-                              <li v-on:click="searchItemBehaviour(acc)" v-for="acc in searchedAccounts" class="filters-search-results-item">
-                                 <img class="account-img" v-bind:src="acc.icon" alt="network logo" />
-                                 <span class="account-name">[%acc.pageTitle%]</span>
-                              </li>
-                           </ul>
+									
+									<ul id="searchResult" class="filters-search-results"> 
+                              <li v-for="item in searchedCities" > 
+                      <!--<img src="/assets/img/town_POI.png" alt="" />--> 
+                                 <span>[%item.name%]</span> 
+                      <ul> 
+                        <li v-on:click="searchItemBehaviour(item)" v-if= "acc && acc.city && acc.pageTitle && (acc.city.toLowerCase().includes(search.toLowerCase()) || acc.pageTitle.toLowerCase().includes(search.toLowerCase()))" v-for="acc in item.namespaces" class="filters-search-results-item"> 
+                          <img v-bind:src="acc.icon" alt="network logo" class="account-img" /> 
+                                   <span class="account-name">[%acc.pageTitle%]</span> 
+                        </li> 
+                      </ul> 
+                              </li> 
+                           </ul> 
                               
                         </form>
                         

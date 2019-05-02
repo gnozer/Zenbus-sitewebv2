@@ -43,7 +43,6 @@ function updateMap(){
 		}
         
     }.bind(this));
-	
     fitBounds.call(this);
 }
 function currentFilter(){
@@ -159,7 +158,6 @@ function searchedCities(){
 		
 	}.bind(this));
 }
-
 /*
 acc && acc.city && acc.pageTitle && (acc.city.toLowerCase().includes(search.toLowerCase()) || acc.pageTitle.toLowerCase().includes(search.toLowerCase()))*/
 
