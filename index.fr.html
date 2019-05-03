@@ -47,12 +47,18 @@ lang: fr
                         </header>
                         <form v-on:submit.prevent="removeBehaviour" class="filters-search" v-bind:class="{'show-results':showSearchResults}">
                           <label class="filters-search-label"><span v-if="activeFiltersLabel != ''">Sauf [%activeFiltersLabel%]</span></label>
-                          <input type="search" class="filters-search-input" placeholder="Rechercher un réseau" v-on:focus="showSearchResults = true" v-model="search">
+                          <input type="search" class="filters-search-input" placeholder="Rechercher un réseau, une ville" v-on:focus="showSearchResults = true" v-model="search">
                            <span class="filters-search-close" v-on:click="showSearchResults = false"></span>
-                           <ul id="searchResult" class="filters-search-results">
-                              <li v-on:click="searchItemBehaviour(acc)" v-for="acc in searchedAccounts" class="filters-search-results-item">
-                                 <img class="account-img" v-bind:src="acc.icon" alt="logo du réseau" />
-                                 <span class="account-name">[%acc.pageTitle%]</span>
+									<ul id="searchResult" class="filters-search-results">
+                              <li v-for="item in searchedCities" >
+											<!--<img src="/assets/img/town_POI.png" alt="" />-->
+                                 <span>[%item.name%]</span>
+											<ul>
+												<li v-on:click="searchItemBehaviour(item)" v-if= "acc && acc.city && acc.pageTitle && (acc.city.toLowerCase().includes(search.toLowerCase()) || acc.pageTitle.toLowerCase().includes(search.toLowerCase()))" v-for="acc in item.namespaces" class="filters-search-results-item">
+													<img v-bind:src="acc.icon" alt="logo du réseau" class="account-img" />
+                           				<span class="account-name">[%acc.pageTitle%]</span>
+												</li>
+											</ul>
                               </li>
                            </ul>
                         </form>
@@ -265,35 +271,35 @@ lang: fr
       		<section class="statistics">
       			<div class="statistics-tile tile">
       				<h2 class="tile-title">Le saviez-vous ?</h2>
-      				<p class="tile-text">Depuis sa création, Zenbus  collecte de nombreuses données de mobilité dont voici quelques illustrations parfois surprenantes !
+      				<!--<p class="tile-text">Depuis sa création, Zenbus  collecte de nombreuses données de mobilité dont voici quelques illustrations parfois surprenantes !
       					<a href="" class="tile-text-link"></a>
-      				</p>
+      				</p>-->
       			</div>
       			<div class="statistics-content">
       				<header class="statistics-content-main">
-      					<span class="statistics-content-main-title">[% numberWithSpaces(currentKms) %]</span>
-      					<span class="statistics-content-main-text">kilomètres parcourus depuis le lancement de Zenbus</span>
+      					<span class="statistics-content-main-title">[%filteredAccounts.length%]</span>
+      					<span class="statistics-content-main-text">réseaux déployés</span>
       				</header>
    					<ul class="statistics-content-others">
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">[%accounts.length%]</span>
-   							<span class="stat-description">réseaux déployés</span>
+   							<span class="stat-metric">+4 millions</span>
+   							<span class="stat-description">de connexions au service depuis son ouverture</span>
+   						</li>
+							<li class="stat">
+   							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
+   							<span class="stat-metric">+200 000</span>
+   							<span class="stat-description">utilisateurs</span>
    						</li>
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">7737</span>
-   							<span class="stat-description">arrêts desservis</span>
+   							<span class="stat-metric">57%</span>
+   							<span class="stat-description">d'usages quotidiens</span>
    						</li>
-   						<li class="stat">
+							<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">-42<small>%</small></span>
-   							<span class="stat-description">de rendez-vous ratés</span>
-   						</li>
-   						<li class="stat">
-   							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">12</span>
-   							<span class="stat-description">ulcères évités</span>
+   							<span class="stat-metric">[% numberWithSpaces(currentKms) %]</span>
+   							<span class="stat-description">kilomètres parcourus depuis le lancement de Zenbus</span>
    						</li>
    					</ul>
       			</div>
@@ -305,6 +311,7 @@ lang: fr
                   <h2 class="tile-title">On parle de nous</h2>
                   <p class="tile-text">Retrouvez dans notre espace presse l'ensemble des articles, communiqués et dossiers parus dans la presse qui nous sont consacrés.
                      <a href="{{ site.baseurl }}/press/" class="tile-text-link">Voir tous les articles</a>
+							<a href="http://mobtr-podcast.fr/data-mobilite-zenbus-olivier-deschaseaux-interview" target="_blank" class="tile-text-link">Mobtr Podcast - « La data transporte le bus ? »</a>
                   </p>
                </div>
                <div class="press-articles">

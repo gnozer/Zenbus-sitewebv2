@@ -43,7 +43,8 @@ pagination:
   permalink: '/page/:num/'
   per_page: 4
 
-#destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp 
+destination: /home/boris/eclipse-workspace/ZenbusShowCase/src/main/webapp 
+
 #destination: /home/simon/Documents/ZENBUS_DEV/ZB-SC-DEPLOYED/src/main/webapp
 keep_files: ['WEB-INF/appengine-web.xml', 'WEB-INF/web.xml', 'META-INF/MANIFEST.MF', 'about.html']
 
