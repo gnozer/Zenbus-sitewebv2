@@ -35,8 +35,11 @@ permalink: /team/
 			<div class="member-description you">
 				<p class="member-description-text">
 					{{ site.data["strings"].team.description_job }}
-					<a href="https://zenbus.fr/files/Customer_Success_FichePoste.pdf" target="_blank" class="you-link">{{ site.data["strings"].team.job1 }}</a>
-					<a href="https://zenbus.fr/files/Offre-dev-08-2018.pdf" target="_blank" class="you-link">{{ site.data["strings"].team.job2 }}</a>
+					{% assign jobs = site.data["jobs"] %}
+					{% for job in jobs %}
+					<a href="{{ job.jobs[0].url }}" target="_blank" class="you-link">{{ job.jobs[0].title }}</a>
+					
+					{% endfor %}
 				</p>
 			</div>
 		</div>
