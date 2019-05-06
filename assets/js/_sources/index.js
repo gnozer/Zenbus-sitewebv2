@@ -80,6 +80,7 @@ new Vue({
 		privateFormBehaviour: privateFormBehaviour,
 		updateMap: updateMap,
 		toggleMap: function(){
+			this.checkedFilter = -1;
 			this.isActiveMap = !this.isActiveMap;
 			this.displayUserPosition();
 			this.checkedFilter = -1;
