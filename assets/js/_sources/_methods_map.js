@@ -153,7 +153,6 @@ function searchedCities(){
 			return false;
 		}.bind(this));
 		
-		
 		return result.length > 0;
 		
 	}.bind(this));
