@@ -21,7 +21,7 @@ lang: fr
 {: style="text-align: center; width: 100%"}
 **Nos coups de coeur de l'UITP Summit 2019 Stockholm**
 
-<img style="float: right; height:600px; width:auto !important" src="/assets/img/blog/swiss.jpg">
+<img style="float: right; height:600px; width:auto !important" src="/assets/img/blog/swiss_16.jpg">
 
 {: style="color: #00bfa5;"}
 * **Swiss Innovation Lab**
@@ -32,7 +32,7 @@ Propose un service Hardware/Software pour relier les arrêts directement aux con
 
 Ce projet s’inscrit dans la numérisation de la profession, tout en répondant à un cas d’usage très concret avec des premiers pilotes en Suisse et en Suède. Accessoirement, nos services sont d’ores et déjà compatibles sur le même smartphone conducteur !
 
-<img style="float: right; height:360px; width:auto !important" src="/assets/img/blog/nxt.jpg">
+<img style="float: right; height:360px; width:auto !important" src="/assets/img/blog/nxt_16.jpg">
 
 {: style="color: #00bfa5;"}
 * **Le NXT**
@@ -43,7 +43,7 @@ Un concept car Scania de bus autonome électrique urbain prévu pour rouler en 2
 
 Pour le design !
 
-<img style="float: right; height:430px; width:auto !important" src="/assets/img/blog/cummins.jpg">
+<img style="float: right; height:430px; width:auto !important" src="/assets/img/blog/cummins_16.jpg">
 
 {: style="color: #00bfa5;"}
 * **Cummins**
@@ -54,7 +54,7 @@ Pour les fans de motorisation, très beau moteur pour bus hybrides !
 
 On ne se rend pas compte de l’extérieur, de la taille, de la complexité, et de la beauté de ce qui motorise certains de nos bus !
 
-<img style="float: right; height:350px; width:auto !important" src="/assets/img/blog/handheld.jpg">
+<img style="float: right; height:350px; width:auto !important" src="/assets/img/blog/handheld_16.jpg">
 
 {: style="color: #00bfa5;"}
 * **Handheld**
@@ -66,7 +66,7 @@ Terminaux durcis, type Samsung Xcover, intéressantes spécificités techniques 
 Beaucoup de nos clients utilisent des terminaux durcis (smartphone ou tablette), il s’agit là peut-être d’une alternative à explorer. 
 (Pour information, nous n’avons pas eu accès aux conditions de commercialisation de ces terminaux).
 
-<img style="float: right; height:350px; width:auto !important" src="/assets/img/blog/ilostandfound.jpg">
+<img style="float: right; height:350px; width:auto !important" src="/assets/img/blog/ilostandfound_16.jpg">
 
 {: style="color: #00bfa5;"}
 * **ILost and found**
@@ -77,7 +77,7 @@ Propose un outil de suivi des objets perdus pour les opérateurs de transports.
 
 Car nous sommes en contact direct avec des dizaines de milliers de voyageurs chaque mois, nous savons bien que ce sujet est récurrent !
 
-<img style="float: right; height:350px; width:auto !important" src="/assets/img/blog/itxpt.png">
+<img style="float: right; height:350px; width:auto !important" src="/assets/img/blog/itxpt_16.png">
 
 {: style="color: #00bfa5;"}
 * **Association ITxPT**
