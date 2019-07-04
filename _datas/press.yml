@@ -243,3 +243,23 @@
   press: "Bus & Car Connexion"
   link: http://www.busetcar.com/sight-seeing-a-paris-open-tour-choisit-zenbus-pour-son-info-en-temps-reel/
   image: busetcar.png
+- title: "Auray Bus. Le réseau s’adapte et s’étend"
+  published: 2019-06-26
+  press: "Le Télégramme"
+  link: https://www.letelegramme.fr/morbihan/auray/auray-bus-le-reseau-s-adapte-et-s-etend-26-06-2019-12322868.php
+  image: telegramme.jpg
+- title: "La Trinité-sur-Mer. Le Trinibus circulera à nouveau dès le 6 juillet"
+  published: 2019-07-03
+  press: "Ouest France"
+  link: https://www.ouest-france.fr/bretagne/la-trinite-sur-mer-56470/la-trinite-sur-mer-le-trinibus-circulera-nouveau-des-le-6-juillet-6427511
+  image: ouestfrance.png
+- title: "Carnac-La Trinité-sur-Mer. Des navettes gratuites cet été"
+  published: 2019-07-03
+  press: "Le Télégramme"
+  link: https://www.letelegramme.fr/morbihan/carnac/carnac-la-trinite-sur-mer-des-navettes-gratuites-cet-ete-03-07-2019-12329454.php
+  image: telegramme.jpg
+- title: "Auray Bus, le réseau s’adapte aux besoins"
+  published: 2019-07-03
+  press: "Communauté Auray Quiberon"
+  link: http://www.auray-quiberon.fr/actualites-108/auray-bus-le-reseau-sadapte-aux-besoins-n3175.html?cHash=a60a33456dd003e87fde272217f7dfa3
+  image: communauteaurayquiberon.jpg
