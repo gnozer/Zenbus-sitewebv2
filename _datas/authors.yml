@@ -58,7 +58,7 @@
   firstname: Abdelkader
   lastname: Bakouche
   arrival_date: 2016-01-15
-  role: Consultant Support & Business
+  role: Business Developer
   localization: Paris
   presentation: "Belka c'est notre pile électrique belge. Il fait partie de l'équipe commerciale et s'occupe notamment de prendre contacts auprès de clients. Toujours au téléphone et de caractère jovial, il aura toujours une anecdote à raconter. Quand il n'est pas figurant dans OSS117, il adore manger des crêpes et regarder le foot."
   linkedin: https://www.linkedin.com/in/abdelkader-bakouche-65421ba6/
@@ -196,17 +196,6 @@
   linkedin: https://www.linkedin.com/in/marie-stoffel-85569b68/
   photo: marie.jpg
   photo_fun: marie_fun.jpg
-- id: kevin
-  name: Kevin Terranova
-  firstname: Kevin
-  lastname: Terranova
-  arrival_date: 2018-09-03
-  role: Business Developer
-  localization: Paris
-  presentation: "Résolument commercial depuis sa prime jeunesse, il n'a peur de rien et en particulier de développer le chiffre d'affaires de Zenbus. Passionné par les animaux et les débats radiodiffusés, Kevin  pratique l'équitation depuis toujours."
-  linkedin: https://www.linkedin.com/in/kevin-terranova-0278b6b3/
-  photo: kevin.jpg
-  photo_fun: kevin_fun.jpg
 - id: simon
   name: Simon Vergnaud
   firstname: Simon
