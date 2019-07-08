@@ -59,7 +59,7 @@ lang: es
 											<!--<img src="/assets/img/town_POI.png" alt="" />-->
                                  <span>[%item.name%]</span>
 											<ul>
-												<li v-on:click="searchItemBehaviour(item)" v-if= "acc && acc.city && acc.pageTitle && (acc.city.toLowerCase().includes(search.toLowerCase()) || acc.pageTitle.toLowerCase().includes(search.toLowerCase()))" v-for="acc in item.namespaces" class="filters-search-results-item">
+												<li v-on:click="searchItemBehaviour(item)" v-if= "acc && acc.city && acc.pageTitle && (acc.city.withoutAccent().toLowerCase().includes(search.withoutAccent().toLowerCase()) || acc.pageTitle.withoutAccent().toLowerCase().includes(search.withoutAccent().toLowerCase()))" v-for="acc in item.namespaces" class="filters-search-results-item">
 													<img v-bind:src="acc.icon" alt="Logotipo de la red" class="account-img" />
                            				<span class="account-name">[%acc.pageTitle%]</span>
 												</li>
