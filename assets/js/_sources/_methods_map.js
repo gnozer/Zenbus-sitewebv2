@@ -139,16 +139,37 @@ function searchedDatas(){
     }.bind(this));
 }
 
+/** move from here ?**/
+String.prototype.withoutAccent = function(){
+    var accent = [
+        /[\300-\306]/g, /[\340-\346]/g, // A, a
+        /[\310-\313]/g, /[\350-\353]/g, // E, e
+        /[\314-\317]/g, /[\354-\357]/g, // I, i
+        /[\322-\330]/g, /[\362-\370]/g, // O, o
+        /[\331-\334]/g, /[\371-\374]/g, // U, u
+        /[\321]/g, /[\361]/g, // N, n
+        /[\307]/g, /[\347]/g, // C, c
+    ];
+    var noaccent = ['A','a','E','e','I','i','O','o','U','u','N','n','C','c'];
+     
+    var str = this;
+    for(var i = 0; i < accent.length; i++){
+        str = str.replace(accent[i], noaccent[i]);
+    }
+     
+    return str;
+}
+
 function searchedCities(){
 	return this.filteredCities.sort(compare).filter(function(city){
 		
-		if(city && city.name && city.name.toLowerCase().includes(this.search.toLowerCase())){
+		if(city && city.name && city.name.withoutAccent().toLowerCase().includes(this.search.withoutAccent().toLowerCase())){
 			return true;
 		}
 
 		var result = city.namespaces.filter(function(acc){
 			if(acc && acc.pageTitle){
-				return acc.pageTitle.toLowerCase().includes(this.search.toLowerCase()) ;
+				return acc.pageTitle.withoutAccent().toLowerCase().includes(this.search.withoutAccent().toLowerCase()) ;
 			}
 			return false;
 		}.bind(this));
