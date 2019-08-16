@@ -113,8 +113,8 @@
   firstname: Florian
   lastname: Liscoët
   arrival_date: 2018-07-01
-  role: Consultant Business Canada
-  localization: Montreal
+  role: Business Developer
+  localization: Nantes
   presentation: "Anciennement responsable d'études dans un réseau de transport interurbain, breton expatrié à Montréal, Florian est notre consultant business development au Canada et plus si affinité !"
   linkedin: https://www.linkedin.com/in/florian-lisco%C3%ABt-85327562/
   photo: florian.jpg
@@ -218,17 +218,6 @@
   linkedin: https://www.linkedin.com/in/oc%C3%A9ane-blot-1a3327a2/
   photo: oceane.jpg
   photo_fun: oceane_fun.jpg
-- id: julio
-  name: Julien Fosse
-  firstname: Julien
-  lastname: Fosse
-  arrival_date: 2018-10-17
-  role: Assistant Marketing & Communication
-  localization: Paris
-  presentation: "Julien est le benjamin de l'entreprise et a le malheur de posséder le même nom que notre boss ! C'est ainsi que Julio est né grâce à la créativité débordante des employés. Ils forment avec Marie nos Bonnie & Clyde du marketing !"
-  linkedin: https://www.linkedin.com/in/julien-fosse/
-  photo: julio.jpg
-  photo_fun: julio_fun.jpg
 - id: moustapha
   name: Moustapha Fofana
   firstname: Moustapha
