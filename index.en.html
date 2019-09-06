@@ -49,7 +49,7 @@ lang: en
                           
                           <label class="filters-search-label"><span v-if="activeFiltersLabel != ''">Except [%activeFiltersLabel%]</span></label>
                            
-                            <input type="search" class="filters-search-input" placeholder="Network search" v-on:focus="showSearchResults = true"  v-model="search">
+                            <input type="search" class="filters-search-input" placeholder="Network or city search" v-on:focus="showSearchResults = true"  v-model="search">
                         
 									
 									<ul id="searchResult" class="filters-search-results"> 
@@ -293,29 +293,29 @@ lang: en
       			
       			<div class="statistics-content">
       				<header class="statistics-content-main">
-      					<span class="statistics-content-main-title">[% numberWithSpaces(currentKms) %]</span>
-      					<span class="statistics-content-main-text">miles travelled since launching Zenbus</span>
+      					<span class="statistics-content-main-title">[%filteredAccounts.length%]</span>
+      					<span class="statistics-content-main-text">networks rolled out</span>
       				</header>
    					<ul class="statistics-content-others">
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">[%filteredAccounts.length%]</span>
-   							<span class="stat-description">networks rolled out</span>
+   							<span class="stat-metric"><small>+</small>4 million</span>
+   							<span class="stat-description">connections to the service since it opened</span>
    						</li>
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">7737</span>
-   							<span class="stat-description">bus stops reached</span>
+   							<span class="stat-metric"><small>+</small>200 000</span>
+   							<span class="stat-description">users</span>
    						</li>
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">-42<small>%</small></span>
-   							<span class="stat-description">missed appointments</span>
+   							<span class="stat-metric">57<small>%</small></span>
+   							<span class="stat-description">daily use</span>
    						</li>
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">12</span>
-   							<span class="stat-description">prevented stomach ulcers</span>
+   							<span class="stat-metric">[% numberWithSpaces(currentKms) %]</span>
+   							<span class="stat-description">miles travelled since launching Zenbus</span>
    						</li>
    					</ul>
       			</div>

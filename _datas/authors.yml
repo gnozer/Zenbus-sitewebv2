@@ -240,3 +240,14 @@
   linkedin: https://www.linkedin.com/in/j%C3%A9r%C3%B4me-journeau-19560327/
   photo: jerome.jpg
   photo_fun: jerome_fun.jpg
+- id: thomas
+  name: Thomas Cauneau
+  firstname: Thomas
+  lastname: Cauneau
+  arrival_date: 2019-03-18
+  role: Customer Success Manager
+  localization: Nantes
+  presentation: "Champion du monde intercommunal de gainage, Thomas est, comme beaucoup chez zenbus, handicapé patronymique. Ce qui ne l'empeche pas d'être un grand chef de projet, surtout du haut de ses 2m48."
+  linkedin: https://www.linkedin.com/in/thomas-cauneau-a368a4136/
+  photo: thomas.jpg
+  photo_fun: thomas_fun.jpg
