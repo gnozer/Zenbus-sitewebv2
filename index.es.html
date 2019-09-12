@@ -52,7 +52,7 @@ lang: es
                         <form v-on:submit.prevent="removeBehaviour" class="filters-search" v-bind:class="{'show-results': showSearchResults}">
                           
                           <label class="filters-search-label"><span v-if="activeFiltersLabel != ''">Excepto [%activeFiltersLabel%]</span></label>
-                            <input type="search" class="filters-search-input"  placeholder="Buscar una red" @focus="showSearchResults = true"  v-model="search">
+                            <input type="search" class="filters-search-input"  placeholder="Buscar una red, una ciudad" @focus="showSearchResults = true"  v-model="search">
                            <span class="filters-search-close" v-on:click="showSearchResults = false"></span>
 									<ul id="searchResult" class="filters-search-results">
                               <li v-for="item in searchedCities" >
@@ -210,7 +210,7 @@ lang: es
    								<ul class="persona-content-list">
    									<li class="persona-content-list-item">Visión en tiempo real</li>
    									<li class="persona-content-list-item">Información instantánea</li>
-   									<li class="persona-content-list-item">Coordinación facilitada</li>
+   									<li class="persona-content-list-item">Aplicación gratuita</li>
    								</ul>
    								<a href="" class="persona-content-link"></a>
    							</div>
@@ -293,29 +293,29 @@ lang: es
       			
       			<div class="statistics-content">
       				<header class="statistics-content-main">
-      					<span class="statistics-content-main-title">[% numberWithSpaces(currentKms) %]</span>
-      					<span class="statistics-content-main-text">kilómetros recorridos desde el lanzamiento de Zenbus</span>
+      					<span class="statistics-content-main-title">[%filteredAccounts.length%]</span>
+      					<span class="statistics-content-main-text">redes mostradas</span>
       				</header>
    					<ul class="statistics-content-others">
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">[%filteredAccounts.length%]</span>
-   							<span class="stat-description">redes mostradas</span>
+   							<span class="stat-metric"><small>+</small>4 millones</span>
+   							<span class="stat-description"> de conexiones al servicio desde su apertura</span>
    						</li>
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">7737</span>
-   							<span class="stat-description">paradas con servicio de transporte</span>
+   							<span class="stat-metric"><small>+</small>200 000</span>
+   							<span class="stat-description">usuarios</span>
    						</li>
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">-42<small>%</small></span>
-   							<span class="stat-description">problemas evitados</span>
+   							<span class="stat-metric">57<small>%</small></span>
+   							<span class="stat-description">de uso diario</span>
    						</li>
    						<li class="stat">
    							<img src="{{ site.baseurl }}/assets/img/stat_flag.png" alt="stat icon" class="stat-img">
-   							<span class="stat-metric">12</span>
-   							<span class="stat-description">citas perdidas</span>
+   							<span class="stat-metric">[% numberWithSpaces(currentKms) %]</span>
+   							<span class="stat-description">kilómetros recorridos desde el lanzamiento de Zenbus</span>
    						</li>
    					</ul>
       			</div>
