@@ -9,7 +9,6 @@ author: vincent
 lang: fr
 ---
 ## Quelques chiffres
-
 **Plus de 500 arrêts et 80 skibus** monitorés durant la dernière saison.<br>
 **Plus de 25 000 utilisateurs uniques rien qu’à Tignes** se sont connectés à Zenbus sur la saison 2018-2019&nbsp;!<br>
 **En cumulé, plus de 200 000 connexions sur Zenbus en stations** de ski lors de la dernière saison.
