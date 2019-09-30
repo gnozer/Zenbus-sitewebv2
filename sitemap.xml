@@ -2,9 +2,7 @@
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
 <url>
@@ -14,6 +12,11 @@
 </url>
 <url>
   <loc>https://zenbus.fr/transport-authorities/</loc>
+  <lastmod>2019-09-26T14:23:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zenbus.fr/operators/</loc>
   <lastmod>2019-09-26T14:23:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -73,9 +76,19 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://zenbus.fr/en/operators/</loc>
+  <lastmod>2019-09-26T14:23:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://zenbus.fr/es/transport-authorities/</loc>
   <lastmod>2019-09-26T14:23:39+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zenbus.fr/es/operators/</loc>
+  <lastmod>2019-09-26T14:23:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zenbus.fr/en/passengers/</loc>

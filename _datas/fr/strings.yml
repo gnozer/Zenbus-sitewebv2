@@ -151,6 +151,64 @@ ao:
       rgpd_error: "Pour soumettre le formulaire, vous devez cocher la case ci-dessus."
       success: "Votre message a bien été envoyé, nous vous répondrons dans les plus brefs délais."
 
+# ---------- OPERATORS -----------
+operators:
+  tile_title: "Zenbus pour les exploitants"
+  profit1:
+    title: "Boostez votre qualité de service"
+    text: "Différenciez-vous et proposez enfin un outil facile à déployer répondant pleinement aux besoins de vos clients, autorités organisatrices et voyageurs."
+  profit2:
+    title: "Supervisez, régulez et optimisez votre exploitation"
+    text: "Aidez vos superviseurs, vos conducteurs et vos analystes dans leurs missions grâce à nos données précises et nos interfaces intuitives pour un budget adapté à chaque contexte."
+  profit3:
+    title: "Aidez votre AOM dans l’ouverture des données"
+    text: "Accompagnez très simplement votre AOM à s’inscrire dans les standards et les exigences de la loi LOM sur l’ouverture des données statiques et dynamiques du réseau."
+  small_urban:
+    name: "Grands groupes"
+    title: "Nous accompagnons les leaders sur leurs enjeux locaux et mondiaux"
+    text: "Nous travaillons conjointement avec les sièges et les filiales. La facilité de mise en place de notre service, couplée à la réactivité de notre équipe client facilitent au quotidien les déploiements sur tous types de réseaux :  urbains de toutes tailles, interurbains, scolaires, réseaux privés d’entreprise, partout à travers le monde.<br><br>L’agilité de notre service le rend également pertinent pour des déploiements ponctuels (bus de substitution, situations perturbées, navettes saisonnières, événements,...) et permet ainsi d’accompagner les leaders du transports dans leurs enjeux de qualité de service et de réactivité."
+    text2: "Nos forces :<ul style=\"font-size:18px; line-height:1.5;padding-bottom:40px;padding-left:40px\"><li>- <strong>une vision globale</strong>, consolidée, de l'ensemble de leurs réseaux sur lesquels Zenbus est déployé. Les exploitations temps-réel, l'ensemble des données d'exploitation historisées et leurs statistiques associées ainsi que les données d'usage et d'enquête voyageurs.</li><li>- <strong>une présence locale</strong>, avec des interlocuteurs dédiés, afin d'adapter au mieux le déploiement de Zenbus, tant en terme de récupération de données temps-réel dans les véhicules, de modules fonctionnels déployés ou de stratégie de communication auprès des voyageurs.</li></ul>"
+  mid_urban:
+    name: "Indépendants"
+    title: "Quel que soit le contexte, nous sommes à vos côtés au quotidien"
+    text: "Zenbus est un service simple, performant  et agile pour optimiser votre exploitation, répondre aux exigences de vos AOM, apporter le meilleur de l’information voyageur à vos clients et plus globalement, vous aider à vous différencier.<br><br>Des interlocuteurs dédiés, afin d'adapter au mieux le déploiement de Zenbus, tant en terme de récupération de données temps-réel dans les véhicules, de modules fonctionnels déployés ou de stratégie de communication auprès des voyageurs.<br><br>En relations étroites avec les autorités organisatrices, nous sommes également un véritable partenaire local sur l’accompagnement des exploitants indépendants dans leur réponses à appel d’offre, notamment sur les attentes en terme d’information voyageur de leurs clients. Nos relations privilégiées avec la FNTV et Réunir sont à la fois une reconnaissance du secteur, la garantie d’un service éprouvé et des retours d’expérience à travers tout le territoire. "
+    text2: "Nos forces :<ul style=\"font-size:18px; line-height:1.5;padding-bottom:40px;padding-left:40px\"><li>- Facile et rapide à déployer</li><li>- Interlocuteur dédié</li><li>- Budget adapté à chaque contexte</li></ul>"
+  big_urban:
+    name: "Régies"
+    title: "Nous aidons les réseaux en exploitation directe sur tout le territoire"
+    text: "Déployé dans de nombreuses régies, EPIC, SPL, SEM, Zenbus est également présent chaque année aux journées AGIR.<br><br>Les équipes dédiées de Zenbus apportent un soutien précieux à ces exploitations, tant par le retour d’expérience accumulé sur plus de 170 déploiements, que par la capacité de Zenbus à apporter de l’innovation sur le réseau, pour les voyageurs, pour le personnel d’exploitation et pour les responsables Mobilité de la collectivité auxquels Zenbus fournit des informations temps-réel et des statistiques précieuses."
+    text2: "Nos forces :<ul style=\"font-size:18px; line-height:1.5;padding-bottom:40px;padding-left:40px\"><li>- Facile et rapide à déployer</li><li>- Interlocuteur dédié</li><li>- Budget adapté à chaque contexte</li></ul>"
+  see_others: "Voir toutes nos références sur la carte des réseaux"
+  contract:
+    title: "Comment bénéficier de Zenbus sur son réseau ?"
+    span1: "Contractualisez directement avec nous"
+    text1: "et utilisez notre référencement en centrale d’achat pour rendre cette démarche simple et rapide"
+    span2: "Mettez-nous en contact avec votre autorité organisatrice."
+    text2: "Il est très probable que nous nous connaissions déjà mais dans le cas contraire, nous serons heureux de tisser une nouvelle collaboration !"
+  estimate:
+    tile_title: "Contactez-nous"
+    tile_text: "Nous sommes à votre disposition pour réagir rapidement à vos sollicitations et répondre précisément à toute question technique ou financière. N’hésitez pas !"
+    button_call1: "Nous appeler (+33 9 87 36 12 46)"
+    button_call2: "Appelez-moi"
+    policy1: "En remplissant ce champ j’accepte que mon numéro de téléphone soit utilisé à des fins commerciales et vous prenez connaissance de notre <a href='/mentions.html#donnees' class='form-link'>politique de confidentialité</a>"
+    intertitle: "Ou écrivez-nous"
+    form:
+      label1: "Je suis Autorité Organisatrice de Mobilité pour le réseau de"
+      placeholder1: "ex: Paris, Lyon, Marseille, etc..."
+      label2: "Mes exploitants"
+      placeholder2: "ex: Exploitant_A, Exploitant_B, etc..."
+      label3: "Il n'y a pas d'exploitant"
+      label4: "Nom"
+      label5: "Prénom"
+      label6: "Email"
+      label7: "Téléphone"
+      placeholder3: "Idéalement, décrivez-nous votre réseau de transport (nombre de lignes, nombre de véhicules, grilles horaires/fréquence), vos enjeux principaux (optimiser l’expérience de vos voyageurs, mieux comprendre la réalisé, répondre aux exigences réglementaires de la LOM, ...) et votre calendrier."
+      submit: "Envoyer"
+      rgpd: "En soumettant ce formulaire, vous acceptez que les informations saisies soient utilisées pour répondre à votre demande."
+      contact_error: "Afin de vous répondre, une adresse email ou un numéro de téléphone est nécessaire."
+      rgpd_error: "Pour soumettre le formulaire, vous devez cocher la case ci-dessus."
+      success: "Votre message a bien été envoyé, nous vous répondrons dans les plus brefs délais."
+
 # ---------- PASSENGERS -----------
 passengers:
   tile_title: "Simple. Efficace. Gratuit."

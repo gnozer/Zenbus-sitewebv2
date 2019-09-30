@@ -3,114 +3,151 @@ layout: page
 title: operators
 permalink: /operators/
 ---
-<div class="content-container operators">
-	<section class="benefits">
+<div class="content-container ao">
+	<section class="profits">
 		<div class="header-tile">
 			<h2 class="header-tile-title">{{ site.data["strings"].operators.tile_title }}</h2>
-			<p class="header-tile-text">{{ site.data["strings"].operators.tile_text }}</p>
 		</div>
-		<ul class="benefits-list">
-			<li class="benefits-list-item">
-				<h3 class="benefits-list-item-title"></h3>
-				<p class="benefits-list-item-text"></p>
+		<ul class="profits-list">
+			<li class="profits-list-item">
+				<h3 class="profits-list-item-title">{{ site.data["strings"].operators.profit1.title }}</h3>
+				<p class="profits-list-item-text">{{ site.data["strings"].operators.profit1.text }}</p>
 			</li>
-			<li class="benefits-list-item">
-				<h3 class="benefits-list-item-title"></h3>
-				<p class="benefits-list-item-text"></p>
+			<li class="profits-list-item">
+				<h3 class="profits-list-item-title">{{ site.data["strings"].operators.profit2.title }}</h3>
+				<p class="profits-list-item-text">{{ site.data["strings"].operators.profit2.text }}</p>
 			</li>
-			<li class="benefits-list-item">
-				<h3 class="benefits-list-item-title"></h3>
-				<p class="benefits-list-item-text"></p>
+			<li class="profits-list-item">
+				<h3 class="profits-list-item-title">{{ site.data["strings"].operators.profit3.title }}</h3>
+				<p class="profits-list-item-text">{{ site.data["strings"].operators.profit3.text }}</p>
 			</li>
 		</ul>
-		<a href="{{ baseurl }}/products/" target="_blank" class="benefits-button"></a>
-		<div class="benefits-subtypes">
-			<div class="benefits-subtypes-tabs">
-				<button class="benefits-subtypes-tabs-tab"></button>
-				<button class="benefits-subtypes-tabs-tab"></button>
-				<button class="benefits-subtypes-tabs-tab"></button>
-				<button class="benefits-subtypes-tabs-tab"></button>
+<!--		<a href="{{ baseurl }}/products/" target="_blank" class="profits-button"></a>-->
+		<div class="profits-subtypes">
+			<div class="profits-subtypes-tabs">
+				<button class="profits-subtypes-tabs-tab active" onclick="openTab(event, 'smallUrban')">{{ site.data["strings"].operators.small_urban.name }}</button>
+				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'midUrban')">{{ site.data["strings"].operators.mid_urban.name }}</button>
+				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'bigUrban')">{{ site.data["strings"].operators.big_urban.name }}</button>
+				<button class="profits-subtypes-tabs-tab" onclick="openTab(event, 'scolarInter')">{{ site.data["strings"].operators.scolar_inter.name }}</button>
 			</div>
-			<div class="benefits-subtypes-content">
-				<h3 class="benefits-subtypes-content-title"></h3>
-				<ul class="benefits-subtypes-content-list">
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
+			<div class="profits-subtypes-content visible" id="smallUrban">
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].operators.small_urban.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].operators.small_urban.title }}</h3>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].operators.small_urban.text }}
+				</p>
+				<ul class="profits-subtypes-content-references">
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/transdev.png" alt="logo transdev" class="reference-img">
 					</li>
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/keolis.png" alt="logo keolis" class="reference-img">
 					</li>
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/ratp.png" alt="logo ratp" class="reference-img">
 					</li>
 				</ul>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].operators.small_urban.text2 }}
+				</p>
+				{% if site.active_lang == 'fr' %}
+				<a class="estimate-phone-button" href="/#map">{{ site.data["strings"].operators.see_others }}</a>
+				{% else %}
+				<a class="estimate-phone-button" href="/{{ site.active_lang }}/#map">{{ site.data["strings"].operators.see_others }}</a>
+				{% endif %}
 			</div>
-			<div class="benefits-subtypes-content">
-				<h3 class="benefits-subtypes-content-title"></h3>
-				<ul class="benefits-subtypes-content-list">
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
+			<div class="profits-subtypes-content" id="midUrban">
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].operators.mid_urban.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].operators.mid_urban.title }}</h3>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].operators.mid_urban.text }}
+				</p>
+				<ul class="profits-subtypes-content-references">
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/reunir.png" alt="logo reunir" class="reference-img">
 					</li>
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/savac.png" alt="logo savac" class="reference-img">
 					</li>
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/philibert.png" alt="logo philibert" class="reference-img">
+					</li>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/berthelet.png" alt="logo berthelet" class="reference-img">
+					</li>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/begreen.png" alt="logo begreen" class="reference-img">
 					</li>
 				</ul>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].operators.mid_urban.text2 }}
+				</p>
+				{% if site.active_lang == 'fr' %}
+				<a class="estimate-phone-button" href="/#map">{{ site.data["strings"].operators.see_others }}</a>
+				{% else %}
+				<a class="estimate-phone-button" href="/{{ site.active_lang }}/#map">{{ site.data["strings"].operators.see_others }}</a>
+				{% endif %}
 			</div>
-			<div class="benefits-subtypes-content">
-				<h3 class="benefits-subtypes-content-title"></h3>
-				<ul class="benefits-subtypes-content-list">
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
+			<div class="profits-subtypes-content" id="bigUrban">
+				<h2 class="profits-subtypes-content-tempname">{{ site.data["strings"].operators.big_urban.name }}</h2>
+				<h3 class="profits-subtypes-content-title">{{ site.data["strings"].operators.big_urban.title }}</h3>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].operators.big_urban.text }}
+				</p>
+				<ul class="profits-subtypes-content-references">
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/nantes.png" alt="logo nantes" class="reference-img">
 					</li>
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/annonay.png" alt="logo annonay" class="reference-img">
 					</li>
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/nice.png" alt="logo nice" class="reference-img">
+					</li>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/granville.png" alt="logo neva" class="reference-img">
+					</li>
+					<li class="profits-subtypes-content-references-item">
+							<img src="{{ baseurl }}/assets/img/logos/moselle-et-madon.png" alt="mosellemadon logo" class="reference-img">
 					</li>
 				</ul>
-			</div>
-			<div class="benefits-subtypes-content">
-				<h3 class="benefits-subtypes-content-title"></h3>
-				<ul class="benefits-subtypes-content-list">
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
-					</li>
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
-					</li>
-					<li class="benefits-subtypes-content-list-item">
-						<h4 class="benefit-title"></h4>
-						<p class="benefit-text"></p>
-					</li>
-				</ul>
+				<p class="profits-subtypes-content-text">
+					{{ site.data["strings"].operators.big_urban.text2 }}
+				</p>
+				{% if site.active_lang == 'fr' %}
+				<a class="estimate-phone-button" href="/#map">{{ site.data["strings"].operators.see_others }}</a>
+				{% else %}
+				<a class="estimate-phone-button" href="/{{ site.active_lang }}/#map">{{ site.data["strings"].operators.see_others }}</a>
+				{% endif %}
 			</div>
 		</div>
 	</section>
-	<section class="working">
+	<section class="contract">
 		<div class="header-tile">
-			<h2 class="header-tile-title">{{ site.data["strings"].operators.tile2_title }}</h2>
-			<p class="header-tile-text">{{ site.data["strings"].operators.tile2_text }}</p>
+			<h2 class="header-tile-title">{{ site.data["strings"].operators.contract.title }}</h2>
 		</div>
+		<ul class="contract-list">
+			<li class="contract-list-item">
+				<span class="contract-list-item-span">{{ site.data["strings"].operators.contract.span1 }}</span> {{ site.data["strings"].operators.contract.text1 }}
+			</li>
+			<li class="contract-list-item">
+				<span class="contract-list-item-span">{{ site.data["strings"].operators.contract.span2 }}</span> {{ site.data["strings"].operators.contract.text2 }}
+			</li>
+		</ul>
 	</section>
 	<section class="estimate">
 		<div class="header-tile">
-			<h2 class="header-tile-title">{{ site.data["strings"].operators.tile3_title }}</h2>
-			<p class="header-tile-text">{{ site.data["strings"].operators.tile3_text }}</p>
+			<h2 class="header-tile-title">{{ site.data["strings"].operators.estimate.tile_title }}</h2>
+			<p class="header-tile-text">{{ site.data["strings"].operators.estimate.tile_text }}</p>
+		</div>
+		<div class="estimate-phone">
+			<a href="tel:+33987361246" class="estimate-phone-button">{{ site.data["strings"].operators.estimate.button_call1 }}</a>
+			<form id="callMeForm" class="estimate-phone-form" novalidate>
+				<input id="inputPhone" type="text" class="estimate-phone-form-input" placeholder="+33 6 XX XX XX XX" name="phone_only" autocomplete="tel">
+				<input type="hidden" name="page_id" value="Autorité Organisatrice" id="inputPageId">
+				<button type="submit" id="phoneSubmit" class="form-submit" name="submit_phone_only">{{ site.data["strings"].operators.estimate.button_call2 }}</button>
+				<p class="estimate-phone-form-policy">{{ site.data["strings"].operators.estimate.policy1 }}</p>
+			</form>
 		</div>
 	</section>
 	<section class="faq">

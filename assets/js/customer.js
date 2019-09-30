@@ -118,19 +118,19 @@ function get(url){
 			sendPhoneToSheet(document.getElementById("inputPhone").value, document.getElementById("inputPageId").value);
 		});
 	
-		ESTIMATE_FORM = document.getElementById('estimateForm');
-		ESTIMATE_FORM.addEventListener("submit", function(evt){
-			evt.preventDefault();
-			
-			var network = document.getElementById('estimateInputNetwork').value,
-				 operators= document.getElementById('estimateCheckboxOperators').checked ? 'Pas d\'opérateurs' : document.getElementById('estimateInputOperators').value,
-				 email = document.getElementById('estimateInputEmail').value,
-				 phone = document.getElementById('estimateInputPhone').value,
-				 message = document.getElementById('estimateInputNetwork').value;
-			sendDatasToSheet(network, operators, email, phone, message);
-		});
+//		ESTIMATE_FORM = document.getElementById('estimateForm');
+//		ESTIMATE_FORM.addEventListener("submit", function(evt){
+//			evt.preventDefault();
+//			
+//			var network = document.getElementById('estimateInputNetwork').value,
+//				 operators= document.getElementById('estimateCheckboxOperators').checked ? 'Pas d\'opérateurs' : document.getElementById('estimateInputOperators').value,
+//				 email = document.getElementById('estimateInputEmail').value,
+//				 phone = document.getElementById('estimateInputPhone').value,
+//				 message = document.getElementById('estimateInputNetwork').value;
+//			sendDatasToSheet(network, operators, email, phone, message);
+//		});
 })();
 
-document.getElementById('estimateCheckboxOperators').onchange = function() {
-	document.getElementById('estimateInputOperators').disabled = this.checked;
-};
+//document.getElementById('estimateCheckboxOperators').onchange = function() {
+//	document.getElementById('estimateInputOperators').disabled = this.checked;
+//};
