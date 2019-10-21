@@ -293,3 +293,28 @@
   press: "Youtube"
   link: https://www.youtube.com/watch?v=6-UqNBuMooQ
   image: youtube.gif
+- title: "Mobi Plenesses : la solution pour les travailleurs sans permis"
+  published: 2019-09-20
+  press: "Vivreici"
+  link: http://www.vivreici.be/article/detail_les-dernieres-infos?id=324906
+  image: vivreici.png
+- title: "Auch. La Semaine de la mobilité invite les Auscitains à prendre le bus"
+  published: 2019-09-15
+  press: "La Dépêche.fr"
+  link: https://www.ladepeche.fr/2019/09/16/la-semaine-de-la-mobilite-invite-les-auscitains-a-prendre-le-bus,8416885.php
+  image: ladepeche.jpg
+- title: "Annonay - Transports : sept nouvelles communes desservies"
+  published: 2019-09-08
+  press: "L'Hebdo de l'Ardèche"
+  link: https://www.hebdo-ardeche.fr/actualite-8385-transports-sept-nouvelles-communes-desservies
+  image: hebdo-ardeche.jpeg
+- title: "Semaine de la mobilité : des idées pour faciliter les déplacements"
+  published: 2019-09-13
+  press: "Le républicain Lorrain"
+  link: https://www.republicain-lorrain.fr/edition-de-saint-avold-creutzwald/2019/09/13/des-idees-pour-faciliter-les-deplacements
+  image: republicain-lorrain.png
+- title: "Transports : nos astuces pour se repérer lundi Une présence sur le terrain pour guider les voyageurs"
+  published: 2019-08-31
+  press: "Nice-Matin"
+  link: https://www.nicematin.com/vie-locale/transports-nos-astuces-pour-se-reperer-lundi-une-presence-sur-le-terrain-pour-guider-les-voyageurs-408961
+  image: nicematin.jpg

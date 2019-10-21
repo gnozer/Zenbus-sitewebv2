@@ -115,7 +115,7 @@
   arrival_date: 2018-07-01
   role: Business Developer
   localization: Nantes
-  presentation: "Anciennement responsable d'études dans un réseau de transport interurbain, breton expatrié à Montréal, Florian est notre consultant business development au Canada et plus si affinité !"
+  presentation: "Après 2 ans passés au pays des caribous, Florian fait son retour à Nantes au sein de la bizteam. Mordu de musique électronique et de NBA, il jongle entre \"vinyl digging\" et vidéo-conférences avec nos amis canadiens."
   linkedin: https://www.linkedin.com/in/florian-lisco%C3%ABt-85327562/
   photo: florian.jpg
   photo_fun: florian_fun.jpg
@@ -240,3 +240,14 @@
   linkedin: https://www.linkedin.com/in/j%C3%A9r%C3%B4me-journeau-19560327/
   photo: jerome.jpg
   photo_fun: jerome_fun.jpg
+- id: thomas
+  name: Thomas Cauneau
+  firstname: Thomas
+  lastname: Cauneau
+  arrival_date: 2019-03-18
+  role: Customer Success Manager
+  localization: Nantes
+  presentation: "Champion du monde intercommunal de gainage, Thomas est, comme beaucoup chez zenbus, handicapé patronymique. Ce qui ne l'empeche pas d'être un grand chef de projet, surtout du haut de ses 2m48."
+  linkedin: https://www.linkedin.com/in/thomas-cauneau-a368a4136/
+  photo: thomas.jpg
+  photo_fun: thomas_fun.jpg
