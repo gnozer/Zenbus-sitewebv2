@@ -9,7 +9,11 @@
 		<div class="card-infos-author">
 			<p class="author-status">
 				<span class="author-status-prefix">{{ site.data["strings"].written_by }} </span>
+				{% if a.role != null %}
 				<span class="author-status-name">{{ a.name }} - {{ a.role }}</span>
+				{% else %}
+				<span class="author-status-name">{{ a.name }}</span>
+				{% endif %}
 				<span class="author-status-date">{{ site.data["strings"].the_date }} {{ include.date | date: "%d/%m/%Y" }}</span>
 			</p>
 		</div>

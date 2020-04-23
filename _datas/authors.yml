@@ -9,6 +9,7 @@
   linkedin: https://www.linkedin.com/in/julien-devade-980502/
   photo: julien.jpg
   photo_fun: julien_fun.jpg
+  currently: true
 - id: lionel
   name: Lionel Delourme
   firstname: Lionel
@@ -20,6 +21,7 @@
   linkedin: null
   photo: lionel.jpg
   photo_fun: lionel_fun.jpg
+  currently: true
 - id: olivier
   name: Olivier Deschaseaux
   firstname: Olivier
@@ -31,6 +33,7 @@
   linkedin: https://www.linkedin.com/in/olivier-deschaseaux-6a170931/
   photo: olivier.jpg
   photo_fun: olivier_fun.jpg
+  currently: true
 - id: ulric
   name: Ulric Le Grand
   firstname: Ulric
@@ -42,6 +45,7 @@
   linkedin: https://www.linkedin.com/in/ulric-le-grand-aa9a2b9/
   photo: ulric.jpg
   photo_fun: ulric_fun.jpg
+  currently: true
 - id: djenaba
   name: Djenaba Bah
   firstname: Djenaba
@@ -53,17 +57,19 @@
   linkedin: https://www.linkedin.com/in/djenaba-bah-3b4266121/
   photo: djenaba.jpg
   photo_fun: djenaba_fun.jpg
+  currently: true
 - id: abdelkader
   name: Abdelkader Bakouche
   firstname: Abdelkader
   lastname: Bakouche
   arrival_date: 2016-01-15
-  role: Business Developer
+  role: null
   localization: Paris
   presentation: "Belka c'est notre pile électrique belge. Il fait partie de l'équipe commerciale et s'occupe notamment de prendre contacts auprès de clients. Toujours au téléphone et de caractère jovial, il aura toujours une anecdote à raconter. Quand il n'est pas figurant dans OSS117, il adore manger des crêpes et regarder le foot."
   linkedin: https://www.linkedin.com/in/abdelkader-bakouche-65421ba6/
   photo: abdelkader.jpg
   photo_fun: abdelkader_fun.jpg
+  currently: false
 - id: quentin
   name: Quentin Deniaud
   firstname: Quentin
@@ -75,6 +81,7 @@
   linkedin: https://www.linkedin.com/in/quentin-deniaud-25797032/
   photo: quentin.jpg
   photo_fun: quentin_fun.jpg
+  currently: true
 - id: benoit
   name: Benoît Heslouin
   firstname: Benoît
@@ -86,6 +93,7 @@
   linkedin: null
   photo: benoit.jpg
   photo_fun: benoit_fun.jpg
+  currently: true
 - id: romain
   name: Romain Lebastard
   firstname: Romain
@@ -97,6 +105,7 @@
   linkedin: https://www.linkedin.com/in/romain-lebastard-32678742/
   photo: romain.jpg
   photo_fun: romain_fun.jpg
+  currently: true
 - id: maxence
   name: Maxence Lin
   firstname: Maxence
@@ -108,6 +117,7 @@
   linkedin: https://www.linkedin.com/in/lin-maxence-3b38aa7a/
   photo: maxence.jpg
   photo_fun: maxence_fun.jpg
+  currently: true
 - id: florian
   name: Florian Liscoët
   firstname: Florian
@@ -119,6 +129,7 @@
   linkedin: https://www.linkedin.com/in/florian-lisco%C3%ABt-85327562/
   photo: florian.jpg
   photo_fun: florian_fun.jpg
+  currently: true
 - id: victoria
   name: Victoria Marin
   firstname: Victoria
@@ -130,6 +141,7 @@
   linkedin: https://www.linkedin.com/in/victoria-marin-996574142/
   photo: victoria.jpg
   photo_fun: victoria_fun.jpg
+  currently: true
 - id: chantal
   name: Chantal Oberson Ausoni
   firstname: Chantal
@@ -141,6 +153,7 @@
   linkedin: https://www.linkedin.com/in/chantal-oberson-ausoni-852045113/
   photo: chantal.jpg
   photo_fun: chantal_fun.jpg
+  currently: true
 - id: corentin
   name: Corentin Philippe
   firstname: Corentin
@@ -152,17 +165,19 @@
   presentation: "Développeur génial et cycliste émérite, Corentin avale autant les kilomètres de code que de bitume. Féru de blagues sans queue ni tête, il est à l'origine de plus de 50% des posts absurdes sur Slack. Ne lui donnez pas à manger après 12h12 !"
   photo: corentin.jpg
   photo_fun: corentin_fun.jpg
+  currently: true
 - id: vincent
   name: Vincent Poulet
   firstname: Vincent
   lastname: Poulet
   arrival_date: 2017-10-02
-  role: Business Developer
+  role: null
   localization: Paris
   presentation: "Tout droit sorti de l'ENR, l'Ecole Nationale de Rotisserie, Vincent est le fruit de l'union illégitime entre Thomas N'Gijol et Fabrice Eboué. Heureusement plus doué dans le business development qu'en blagues, il est le pince-sans-rire de Zenbus."
   linkedin: https://www.linkedin.com/in/vincent-poulet-28ab066a/
   photo: vincent.jpg
   photo_fun: vincent_fun.jpg
+  currently: false
 - id: boris
   name: Boris Raimbault
   firstname: Boris
@@ -174,6 +189,7 @@
   linkedin: https://www.linkedin.com/in/boris-raimbault-77aaa175/
   photo: boris.jpg
   photo_fun: boris_fun.jpg
+  currently: true
 - id: christine
   name: Christine Salotti
   firstname: Christine
@@ -185,17 +201,19 @@
   linkedin: https://www.linkedin.com/in/christine-salotti-245955/
   photo: christine.jpg
   photo_fun: christine_fun.jpg
+  currently: true
 - id: marie
   name: Marie Stoffel
   firstname: Marie
   lastname: Stoffel
   arrival_date: 2018-06-22
-  role: Chargée de Marketing & Communication
+  role: null
   localization: Paris
   presentation: "Même dans les pires épreuves, Marie garde son éternel sourire. En charge du marketing et de la communication, c'est une grande fanatique de snowboard,  de poulet, des Red Hot et de tennis. Toujours à l'écoute, énergique (la légende raconte que c'est à cause de la caféine) et bienveillante."
   linkedin: https://www.linkedin.com/in/marie-stoffel-85569b68/
   photo: marie.jpg
   photo_fun: marie_fun.jpg
+  currently: false
 - id: simon
   name: Simon Vergnaud
   firstname: Simon
@@ -207,6 +225,7 @@
   linkedin: https://www.linkedin.com/in/simon-vergnaud/
   photo: simon.jpg
   photo_fun: simon_fun.jpg
+  currently: true
 - id: oceane
   name: Océane Blot-Barzic
   firstname: Océane
@@ -218,6 +237,7 @@
   linkedin: https://www.linkedin.com/in/oc%C3%A9ane-blot-1a3327a2/
   photo: oceane.jpg
   photo_fun: oceane_fun.jpg
+  currently: true
 - id: moustapha
   name: Moustapha Fofana
   firstname: Moustapha
@@ -229,6 +249,7 @@
   linkedin: https://www.linkedin.com/in/moustapha-fofana-9a1489a4/
   photo: moustapha.jpg
   photo_fun: moustapha_fun.jpg
+  currently: true
 - id: jerome
   name: Jérôme Journeau
   firstname: Jérôme
@@ -240,6 +261,7 @@
   linkedin: https://www.linkedin.com/in/j%C3%A9r%C3%B4me-journeau-19560327/
   photo: jerome.jpg
   photo_fun: jerome_fun.jpg
+  currently: true
 - id: thomas
   name: Thomas Cauneau
   firstname: Thomas
@@ -251,3 +273,4 @@
   linkedin: https://www.linkedin.com/in/thomas-cauneau-a368a4136/
   photo: thomas.jpg
   photo_fun: thomas_fun.jpg
+  currently: true
