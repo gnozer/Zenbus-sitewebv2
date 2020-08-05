@@ -11,6 +11,7 @@ permalink: /team/
 	<div class="team-members">
 		{% assign authors = site.data["authors"] | sort: 'arrival_date' %}
 		{% for author in authors %}
+		{% if author.currently %}
 		{% include components/polaroid.html
 					  firstname=author.firstname
 					  role=author.role
@@ -18,6 +19,7 @@ permalink: /team/
 					  photo_fun=author.photo_fun
 					  presentation=author.presentation
 					  linkedin=author.linkedin %}
+		{% endif %}
 		{% endfor %}
 		
 		<div class="team-members-member">
