@@ -3,8 +3,13 @@
   jobs: 
     - title: "Développeur Java (Paris)"
       url: https://zenbus.fr/files/Offre-dev-08-2018.pdf
-- id: sales
+- id: customer
+  resp: christine
+  jobs: 
+    - title: "Alternant Chef de projet Junior"
+      url: https://zenbus.fr/files/Fichedeposte-Alternance-Chefdeprojet-Junior.pdf
+- id: market
   resp: olivier
   jobs: 
-    - title: "Commercial Junior (Nantes)"
-      url: https://zenbus.fr/files/Fichedeposte-CommercialB2B.pdf
+    - title: "Alternant Communication/Marketing B2B/B2C"
+      url: https://zenbus.fr/files/Fichedeposte-Alternance-Comm-Marketing-B2B-B2C.pdf

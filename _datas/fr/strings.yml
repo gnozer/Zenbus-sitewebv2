@@ -93,7 +93,10 @@ job:
     team_text: "Tu es déterminé(e), sensible à la qualité de la relation client, autonome et tourné(e) vers l'action ? Nous t'attendons ! "
   customer:
     team_title: "Du côté des Chefs de projet..."
-    team_text: "Tu cherches ton stage de fin d'étude dans une équipe super Zen et tu veux découvrir le bonheur de la relation clients tout en voyageant virtuellement ?"
+    team_text: "Le produit et le client sont au coeur de tes préoccupations ? Tu veux découvrir le bonheur de la relation clients tout en voyageant virtuellement ?"
+  market:
+    team_title: "Du côté du market/com..."
+    team_text: "Tu as une forte capacité d’écoute et d’analyse, tu fais preuve de créativité et tu es surtout très à l’aise pour communiquer, à l’écrit et à l’oral ?"
 
 # ---------- AO -----------
 ao:
